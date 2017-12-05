@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "env",
+      "es2015"
+    ]
+  ],
+  "plugins": [
+    [
+      "babel-plugin-root-import",
+      {
+        "rootPathPrefix": "/",
+        "rootPathSuffix": "src/"
+      }
+    ],
+    ["transform-runtime",  {
+      "helpers": true,
+      "polyfill": true,
+      "regenerator": true,
+      "moduleName": "babel-runtime"
+    }]
+  ]
+}

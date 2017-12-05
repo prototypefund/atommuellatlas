@@ -1,0 +1,16 @@
+{
+    "logLevel": "debug",
+    "component": {
+    
+    },
+    "view": {
+        "nuclearWaste": {
+            "parentView": "",
+            "title": "Nuclear Waste"
+        },
+        "history": {
+            "parentView": "nuclearWaste",
+            "title": "History"
+        }
+    }
+}

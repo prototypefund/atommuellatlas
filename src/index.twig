@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html data-version="{{ htmlWebpackPlugin.options.version }}" lang="de">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="robots" content="nofollow">
+    <meta name="theme-color" content="#555555">
+    <title>{{ htmlWebpackPlugin.options.title }}</title>
+
+    {% block head %}{% endblock %}
+
+    {% for style in htmlWebpackPlugin.options.externalStyles %}
+        <link href="{{ style }}" rel="stylesheet">
+    {% endfor %}
+</head>
+<body>
+<content>
+    <header>
+        <nav></nav>
+    </header>
+    <main></main>
+    <footer></footer>
+</content>
+</body>
+</html>

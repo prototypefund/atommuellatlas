@@ -1,0 +1,17 @@
+@import "/core/util/style/normalize";
+@import "variables";
+
+
+body {
+  background-color: $bg-base;
+  
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  color: $txt-main;
+  
+  @media screen and (max-width: $mobile) {
+    background-color: $bg-shadow;
+  }
+}
+
