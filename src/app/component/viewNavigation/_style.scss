@@ -1,0 +1,78 @@
+@import "./../../../variables";
+
+.view-navigation {
+  width: 100%;
+  z-index: $above-prio;
+  position: relative;
+  bottom: 0;
+  color: $white;
+  
+  // TODO expanded inside welcome-screen
+  
+  // TODO expanded when hover?
+  
+  // TODO small breadcrumby toplist
+  
+  &-bar {
+    display: flex;
+    justify-content: space-evenly;
+    
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    
+    li {
+      flex: 0 0 160px;
+      margin: 0 10px;
+    }
+
+    &-item {
+      cursor: pointer;
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      * {
+        pointer-events: none;
+      }
+      
+      // circle above chapter-name
+      &-icon {
+        width: 75px;
+        height: 75px;
+        border: solid 1px $white;
+        border-radius: 50px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+                
+        span {
+          text-align: center;
+        }
+        
+        span:first-child {
+          margin-top: 16px;
+        }
+        
+        span:last-child {
+          margin-bottom: 10px;
+        }
+      }
+      
+      &-label {
+        margin: 10px;
+        font-weight: $font-bold;
+        letter-spacing: 1px;
+      }
+      
+      &-description {
+        
+      }
+    }
+  }
+}

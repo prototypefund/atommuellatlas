@@ -10,13 +10,12 @@ export default class ViewController {
         ViewController._currentView = null;
         ViewController._isTransitionRunning = false;
         
-        EventDispatcher.addEventListener(ViewEvent.LOAD, event => ViewController.loadView(event), 1);
+        EventDispatcher.addEventListener(ViewEvent.LOAD, event => ViewController.loadView(event));
         EventDispatcher.addEventListener(ViewEvent.UNLOAD, event => ViewController.hideCurrentView(() => this._removeCurrentView()));
     }
 
     static loadView(event) {
-
-
+        
         if (ViewController._isTransitionRunning) {
             return;
         }

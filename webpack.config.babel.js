@@ -39,6 +39,7 @@ export default (env) => {
         resolve: {
             alias: {
                 "content": path.resolve(__dirname, "static/content.json"),
+                "hero-img": path.resolve(__dirname, "static/assets/jakob-madsen-187927.jpg")
             }
         },
         plugins: [
@@ -135,6 +136,15 @@ export default (env) => {
                         ]
 
                     })
+                },
+                {
+                    test: /\.(png|jpg|gif)$/,
+                    use: [
+                        {
+                            loader: 'file-loader',
+                            options: {}
+                        }
+                    ]
                 }
             ]
         },

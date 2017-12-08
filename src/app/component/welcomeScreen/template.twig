@@ -1,0 +1,19 @@
+<div class="welcome-screen" style="background-image: url('{{ image.hero.src }}')">
+    <div class="welcome-screen-top">
+        <div class="welcome-screen-top-logo">
+            <img src="{{ image.logo.src }}" alt="{{ image.logo.alt  }}">
+        </div>
+
+        <div class="welcome-screen-top-title">
+            <h1>{{ data.title }}</h1>
+        </div>
+
+        <div class="welcome-screen-top-about">
+            <a>{{ data.about.label }}</a>
+        </div>
+    </div>
+    <div class="welcome-screen-bottom">
+        <p>{{ data.welcomeText }}</p>
+        <nav></nav>
+    </div>
+</div>

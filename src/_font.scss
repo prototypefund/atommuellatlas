@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500');
+
+
+html {
+  background-color: $bg-base;
+
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-normal;
+  color: $txt-main;
+
+  body {
+
+    h1 {
+      font-size: 3.4rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+    }
+
+    
+  }
+
+  // breakpoints above
+  @media screen and (min-width: $wMax) {
+
+  }
+
+  @media screen and (min-width: $w1080) {
+    font-size: 18px;
+  }
+
+  // breakpoints below
+  @media screen and (max-width: $wMobile) {
+    body {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  }
+}

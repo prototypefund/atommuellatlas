@@ -1,21 +1,33 @@
-// breakpoints
+// widths / breakpoints
+$wMax: 1366px;
 $w1080: 1080px;
-$mobile: 750px;
+$wMobileAbove: 751px;
+$wMobile: 750px;
+$w680: 680px;
+$w550: 550px;
+$w450: 450px;
 $w320: 320px;
 
+// z-index
+$global-prio: 999;
+$overlay-prio: 11;
+$overlay: 10;
+$above-prio: 2;
+$above: 1;
 
 // font
 $font-family: Roboto, sans-serif;
-$font-size: 14px;
-$font-weight: normal;
+$font-size: 16px;
+$font-normal: 300;
+$font-bold: 500;
 
 
 // colors
 $white: #fff;
 $black: #000;
+$black-shadow: rgba(0, 0, 0, 0.5);
 //    layout
 $bg-base: #fff;
 $bg-app: #fff;
-$bg-shadow: rgba(0, 0, 0, 0.5);
 //    font
 $txt-main: #000;

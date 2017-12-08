@@ -1,26 +1,32 @@
 import Log from 'loglevel';
+import ContentModel from '/app/model/ContentModel';
 
 export default class BaseComponent {
     constructor(template, style, data = {}) {
         this._template = template;
         this._style = style;
         this._data = data;
+        this._images = ContentModel.imageData;
 
         Log.debug(`:::: new ${this.constructor.name} Component ::::`);
-    }
-
-    render(visible = true) {
-        this._element = document.createElement("div");
-        this._element.innerHTML = this._template({data: this._data, style: this._style});
-        this._element = this._element.firstChild;
-        if(!visible) this._element.style.display = 'none';
     }
 
     appendTo(parent) {
         if (!this.element) this.render();
         parent.appendChild(this.element);
+        this.postRender();
+    }
+    
+    render() {
+        this._element = document.createElement("div");
+        this._element.innerHTML = this._template({data: this._data, image: this._images, style: this._style});
+        this._element = this._element.firstChild;
     }
 
+    postRender() {
+        // Add post-render processing
+    }
+    
     removeFromParent() {
         try {
             this.element.parentNode.removeChild(this.element);

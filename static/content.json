@@ -1,16 +1,53 @@
 {
     "logLevel": "debug",
+    "image": {
+        "hero": {
+            "src": "assets/images/jakob-madsen-187927.jpg",
+            "alt": "TODO"
+        },
+        "logo": {
+            "src": "assets/images/logo.png",
+            "alt": "Atommüll-atlas logo"
+        }
+    },
     "component": {
-    
+        "welcomeScreen": {
+            "about": {
+                "label": "about"
+            },
+            "title": "Atommüll Atlas",
+            "welcomeText": "Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum..."
+        },
+        "viewNavigation": {
+            "label": "Chapter",
+            "items": {}
+        }
     },
     "view": {
         "nuclearWaste": {
-            "parentView": "",
-            "title": "Nuclear Waste"
+            "prevView": "",
+            "title": "Atommüll",
+            "description": "This chapter is about the basics of nuclear waste ..."
         },
         "history": {
-            "parentView": "nuclearWaste",
-            "title": "History"
+            "prevView": "nuclearWaste",
+            "title": "Vergangenheit",
+            "description": "This chapter is about the basics of nuclear waste ..."
+        },
+        "search": {
+            "prevView": "history",
+            "title": "Suche",
+            "description": "This chapter is about the basics of nuclear waste ..."
+        },
+        "participation": {
+            "prevView": "search",
+            "title": "Beteiligung",
+            "description": "This chapter is about the basics of nuclear waste ..."
+        },
+        "future": {
+            "prevView": "participation",
+            "title": "Zukunft",
+            "description": "This chapter is about the basics of nuclear waste ..."
         }
     }
 }

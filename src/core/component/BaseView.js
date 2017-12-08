@@ -6,7 +6,7 @@ export default class BaseView extends BaseComponent {
     }
     
     render() {
-        super.render(false);
+        super.render();
     }
 
     show(callback) {

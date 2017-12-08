@@ -1,0 +1,16 @@
+<div class="view-navigation">
+    <ul class="view-navigation-bar">
+        {% for key, item in data.items %}
+            <li>
+                <a class="view-navigation-bar-item" data-target="{{ key }}">
+                    <span class="view-navigation-bar-item-icon">
+                        <span>{{ data.label }}</span>
+                        <span>{{ loop.index }}</span>
+                    </span>
+                    <span class="view-navigation-bar-item-label">{{ item.title }}</span>
+                    <span class="view-navigation-bar-item-description">{{ item.description }}</span>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
