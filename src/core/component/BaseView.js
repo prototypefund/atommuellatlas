@@ -1,8 +1,13 @@
 import BaseComponent from '/core/component/BaseComponent';
 
 export default class BaseView extends BaseComponent {
-    constructor(template, style, data) {
-        super(template, style, data)
+    constructor(id, template, style, data) {
+        super(template, style, data);
+        this._id = id;
+    }
+    
+    get id () {
+        return this._id;
     }
     
     render() {

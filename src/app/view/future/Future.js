@@ -8,7 +8,7 @@ import template from './template.twig';
 import style from './_style.scss';
 
 export default class Future extends BaseView {
-    constructor(data={}) {
-        super(template, style, data);
+    constructor(id, data={}) {
+        super(id, template, style, data);
     }
 }

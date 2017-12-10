@@ -21,6 +21,6 @@ export default class ViewFactory {
         let ViewClass = this.getViewByID(id);
         let data = this.getViewDataByID(id);
 
-        return new ViewClass(data);
+        return new ViewClass(id, data);
     }
 }

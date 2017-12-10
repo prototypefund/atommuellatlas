@@ -6,39 +6,39 @@
   position: relative;
   bottom: 0;
   color: $white;
-  
-  // TODO expanded inside welcome-screen
-  
-  // TODO expanded when hover?
-  
-  // TODO small breadcrumby toplist
+  user-select: none;
   
   &-bar {
     display: flex;
-    justify-content: space-evenly;
-    
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
+
+    max-width: $wMax;
+    width: calc(100% - 20px);
+    margin: 0;
+    padding: 0 10px;
     list-style-type: none;
-    
+
+    transition: transform 0.3s, width 0.5s;
+    // TODO fix bar max width on large screens when sticky! (maybe another div to contain nav-bar inside?)
+
     li {
-      flex: 0 0 160px;
-      margin: 0 10px;
+      flex: 0 1 auto;
+      margin: 0 6px;
     }
 
     &-item {
       cursor: pointer;
-      
+
       display: flex;
       flex-direction: column;
       align-items: center;
-      
+      text-align: center;
+
       * {
         pointer-events: none;
+        transition: border-color 0.3s, background-color 0.3s;
+        transition-timing-function: ease-in-out;
       }
-      
+
       // circle above chapter-name
       &-icon {
         width: 75px;
@@ -50,28 +50,133 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-                
+
         span {
           text-align: center;
         }
-        
+
         span:first-child {
           margin-top: 16px;
         }
-        
+
         span:last-child {
           margin-bottom: 10px;
         }
       }
-      
+
       &-label {
-        margin: 10px;
+        margin: 10px 0;
         font-weight: $font-bold;
         letter-spacing: 1px;
+        word-break: break-all;
       }
-      
+
       &-description {
+        color: $white;
+      }
+
+      &:hover {
+        span {
+          border-color: $hi-hover;
+        }
+      }
+
+      &.active, &:active {
+        .view-navigation-bar-item-icon {
+          border-color: $hi-active;
+          background-color: $hi-active;
+        }
+      }
+
+      &:active {
+        .view-navigation-bar-item-icon {
+          border-color: $hi-active;
+          background-color: $hi-active-temp;
+        }
+      }
+    }
+  }
+
+  // scroll state - static under header
+  &.collapsed {
+    color: $black;
+    overflow: hidden;
+    bottom: auto;
+    height: 38px;
+
+    .view-navigation-bar {
+      transform: translateY(-77px);
+      
+      li {
+      }
+
+      &-item {
+        &-icon {
+          border-color: transparent;
+          background-color: transparent;
+          color: transparent;
+        }
         
+        &-description {
+          //transition: width 0.3s ease-in-out;
+        }
+
+        &-label {
+          word-break: normal;
+          white-space: nowrap;
+        }
+
+        &:hover {
+          color: $hi-hover;
+        }
+
+        &.active, &:active {
+          color: $hi-active;
+        }
+      }
+    }
+
+    &.expanded {
+
+    }
+  }
+
+  // scroll state - sticky at window top
+  &.sticky {
+    transition: none;
+    transform: none;
+
+    position: fixed;
+    width: calc(100% - 40px); // padding/width derived from nav-parent element (not parent of this)
+    padding: 0 20px;
+    top: 0;
+    left: 0;
+    bottom: auto;
+
+    background-color: $white;
+    box-shadow: 0 2px 10px $hover-shadow;
+
+    .view-navigation-bar {
+      width: 750px;
+
+      li {
+      }
+
+      &-item {
+        &-icon {
+        }
+
+        &-label {
+        }
+
+        &-description {
+        }
+
+        &:hover {
+        }
+
+        &.active, &:active {
+        }
       }
     }
   }

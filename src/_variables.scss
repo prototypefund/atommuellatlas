@@ -25,9 +25,15 @@ $font-bold: 500;
 // colors
 $white: #fff;
 $black: #000;
+$white-shadow: rgba(255, 255, 255, 0.5);
 $black-shadow: rgba(0, 0, 0, 0.5);
+$hover-shadow: rgba(0, 0, 0, 0.2);
 //    layout
 $bg-base: #fff;
 $bg-app: #fff;
 //    font
 $txt-main: #000;
+//    highlight
+$hi-hover: #ff3131;
+$hi-active: #ff0000;
+$hi-active-temp: rgba(255, 0, 0, 0.15);

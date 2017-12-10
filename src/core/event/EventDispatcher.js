@@ -10,13 +10,18 @@ export default class EventDispatcher {
         if (EventDispatcher._listeners[type] === undefined) {
             EventDispatcher._listeners[type] = [];
         }
+        
+        let l = {
+            listener: listener,
+            priority: priority
+        };
 
-        if (EventDispatcher._listeners[type].indexOf(listener) === -1) {
-            EventDispatcher._listeners[type].push({listener: listener, priority: priority});
+        if (EventDispatcher._listeners[type].indexOf(l) === -1) {
+            EventDispatcher._listeners[type].push(l);
 
             // sort with desc prio
             EventDispatcher._listeners[type].sort((a, b) => {
-                return b.priority - a.priority
+                return b.priority - a.priority;
             });
         }
     }
@@ -36,7 +41,7 @@ export default class EventDispatcher {
 
     static dispatchEvent(type, id, params = {}) {
         if (EventDispatcher._listeners === null) return;
-
+        
         let listenerArray = EventDispatcher._listeners[type];
         if (listenerArray !== undefined) {
 

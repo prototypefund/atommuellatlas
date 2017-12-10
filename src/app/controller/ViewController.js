@@ -67,9 +67,9 @@ export default class ViewController {
 
     static _showViewCallback(viewId) {
         this._isTransitionRunning = false;
-        EventDispatcher.dispatchEvent(new ViewEvent(ViewEvent.CHANGED, viewId));
+        EventDispatcher.dispatchEvent(ViewEvent.CHANGED, viewId);
     }
-
+    
     static _removeCurrentView() {
         Log.debug('Remove current view:', this._currentView.constructor.name);
 
