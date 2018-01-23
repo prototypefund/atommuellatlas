@@ -17,6 +17,11 @@ export default class ContentModel {
         return ContentModel._content.component;
     }
     
+    static get overlayData() {
+        if (!ContentModel._content.overlay) throw new Error("Expected content.json format unmet: content.overlay");
+        return ContentModel._content.overlay;
+    }
+    
     static get viewData() {
         if (!ContentModel._content.view) throw new Error("Expected content.json format unmet: content.view");
         return ContentModel._content.view;

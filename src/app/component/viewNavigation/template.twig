@@ -1,7 +1,7 @@
 <div class="view-navigation">
     <ul class="view-navigation-bar">
         {% for key, item in data.items %}
-            <li>
+            <li style="order:{{ item.order }}">
                 <a class="view-navigation-bar-item" data-target="{{ key }}">
                     <span class="view-navigation-bar-item-icon">
                         <span>{{ data.label }}</span>

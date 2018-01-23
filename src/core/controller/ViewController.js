@@ -27,10 +27,26 @@ export default class ViewController {
         let id = event.id;
         let params = event.params;
         let view = ViewController._viewFactory.getViewInstance(id, params);
-
+        
+        
         if (!view) {
             Log.error('loadview - view does not exists');
             return;
+        }
+        
+        if (ViewController._currentView) {
+            // prevent animation for same id views (reload, but no transition)
+            ViewController._currentView.isAnimated = ViewController._currentView.id !== id; 
+            
+            // decide direction
+            let isTransitionForward = ViewController._currentView.order <= view.order;
+            
+            // apply directions
+            view.isTransitionForward = isTransitionForward;
+            ViewController._currentView.isTransitionForward = !isTransitionForward;
+        } else {
+            // prevent animation for initial view
+            view.isAnimated = false;
         }
 
         Log.debug('Load new view:', view.constructor.name);
@@ -45,7 +61,6 @@ export default class ViewController {
     }
 
     static hideCurrentView(callback) {
-
         if (ViewController._currentView) {
             Log.debug('Hide current view:', ViewController._currentView.constructor.name);
             ViewController._currentView.hide(() => callback());

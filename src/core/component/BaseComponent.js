@@ -1,4 +1,5 @@
 import Log from 'loglevel';
+import DomUtil from '/core/util/DomUtil';
 import ContentModel from '/app/model/ContentModel';
 
 export default class BaseComponent {
@@ -11,12 +12,13 @@ export default class BaseComponent {
         Log.debug(`:::: new ${this.constructor.name} Component ::::`);
     }
 
-    appendTo(parent) {
+    appendTo(parent, className) {
         if (!this.element) this.render();
         parent.appendChild(this.element);
+        if(className) DomUtil.addClass(this.element, className);
         this.postRender();
     }
-    
+
     render() {
         this._element = document.createElement("div");
         this._element.innerHTML = this._template({data: this._data, image: this._images, style: this._style});
@@ -26,12 +28,12 @@ export default class BaseComponent {
     postRender() {
         // Add post-render processing
     }
-    
+
     removeFromParent() {
         try {
             this.element.parentNode.removeChild(this.element);
         }
-        catch(e) {
+        catch (e) {
             Log.error("could not remove element", this.element);
         }
     }
@@ -51,22 +53,22 @@ export default class BaseComponent {
     get element() {
         return this._element;
     }
-    
+
     show(callback) {
         this.element.style.display = "";
         // TODO transition
-        
+
         if (callback) callback();
     }
-    
+
     hide(callback) {
         this.element.style.display = "none";
         // TODO transition
 
         if (callback) callback();
     }
-    
+
     destroy() {
-        
+
     }
 }

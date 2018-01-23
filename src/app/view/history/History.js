@@ -9,6 +9,8 @@ import style from './_style.scss';
 
 export default class History extends BaseView {
     constructor(id, data={}) {
+        data.image = Object.assign({}, data.image, {
+        });
         super(id, template, style, data);
     }
 }

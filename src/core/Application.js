@@ -3,7 +3,8 @@ import * as Log from 'loglevel';
 import EventDispatcher from '/core/event/EventDispatcher';
 import ViewEvent from '/core/event/ViewEvent';
 import ViewFactory from '/core/view/ViewFactory';
-import ViewController from '/app/controller/ViewController';
+import ViewController from '/core/controller/ViewController';
+import OverlayController from '/core/controller/OverlayController';
 import MainController from '/app/controller/MainController';
 import ContentModel from '/app/model/ContentModel';
     
@@ -13,6 +14,8 @@ export default class Application {
 
         Log.setLevel(ContentModel.logLevel);
         Log.debug("content:", ContentModel.content);
+
+        this._viewFactory = new ViewFactory();
     }
     
     initHeader(navContainer, introContainer) {
@@ -22,8 +25,13 @@ export default class Application {
     
     initView(viewContainer, viewMap) {
 
-        this._viewFactory = new ViewFactory(viewMap);
+        this._viewFactory.viewMap = viewMap;
         this._viewController = new ViewController(viewContainer, this._viewFactory);
+    }
+    
+    initOverlay(overlayContainer, overlayMap) {
+        this._viewFactory.overlayMap = overlayMap;
+        this._overlayController = new OverlayController(overlayContainer, this._viewFactory);
     }
     
     start(viewID) {

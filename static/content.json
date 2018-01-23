@@ -1,5 +1,5 @@
 {
-    "logLevel": "debug",
+    "logLevel": "warn",
     "image": {
         "hero": {
             "src": "assets/images/jakob-madsen-187927.jpg",
@@ -8,6 +8,16 @@
         "logo": {
             "src": "assets/images/logo.png",
             "alt": "Atommüll-atlas logo"
+        }
+    },
+    "overlay": {
+        "about": {
+            "h1": "About",
+            "p1": "Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum..."
+        },
+        "stuff": {
+            "h1": "Stuff",
+            "p1": "there was stuff..."
         }
     },
     "component": {
@@ -26,27 +36,147 @@
     "view": {
         "nuclearWaste": {
             "prevView": "",
+            "order": 0,
             "title": "Atommüll",
+            "leader": "Was ist eigentlich Atommüll? Warum ist er so gefährlich? Um diesen Fragen auf den Grund zu gehen fangen wir ganz klein an - mit dem Atom.",
             "description": "This chapter is about the basics of nuclear waste ...",
-            "text": "Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum..."
+            "buildingBlocksOfTheWorld": {
+                "h1": "Bausteine der Welt",
+                "p1": "Atome sind die kleinste Einheit und gleichzeitig die Bausteine chemischer Elemente wie z.B. Kohlenstoff - aus dem wir Menschen größtenteils bestehen. Sie sind so klein, dass man sie mit dem menschlichen Auge nicht erfassen kann. Erst wenn man 10 Millionen Atome nebeneinander aufreiht ergibt sich 1 Milimeter. Jedes Atom besteht aus einem winzigen Kern und einer im Vergleich riesigen Hülle. Man stelle sich den Atomkern als Kirschkern vor und die Hülle in Größe eines Kirchturms. Einige dieser Atomkerne sind instabil, das heißt sie können spontan oder im Zusammenstoß mit anderen Teilchen zerfallen und werden in andere Atomkerne (Elemente) umgewandelt. --FOOTER LINK 1--"
+            },
+            "radioactivity": {
+                "h1": "Radioaktivität",
+                "p1": "Dieser Zerfall der Atomkerne wird auch Radioaktivität genannt. Dabei wird Energie und Strahlung freigesetzt. Das passiert auch jeden Tag in unserer Umgebung, das heißt wir sind auch natürlicherweise Strahlung ausgesetzt. In Kernreaktoren - z.B. Atomkraftwerken - wird diese Kernumwandlung künstlich hervorgerufen.",
+                "p2": "Die Dosis machts! Auch die natürliche Strahlung kann für den Menschen nicht ungefährlich sein. Aber je höher die Dosis, desto größer das Risiko einer Schädigung. Die Strahlung kann in den Körper eindringen und Zellen verändern, wodurch zum Beispiel Krebs entstehen kann. Eine sehr hohe Strahlungs-Intensität (wie bei einem Unfall in einem Atomkraftwerk) kann innerhalb von wenigen Tagen zum Tod führen.",
+                "p3": "Das heißt, wir machen uns in den Atomkraftwerken die Eigenschaft der zerfallenden Atomkerne zunutze, da einerseits Strahlung aber auch Energie frei gesetzt wird. --FOOTER LINK 2--"
+            },
+            "halftime": {
+                "h1": "Halbzeit!",
+                "p1": "Radioaktive Elemente zerfallen unterschiedlich schnell. Bei einigen dauert es einige Milliarden Jahre bis die Hälfte aller Atomkerne umgewandelt wurden, bei anderen nur millionstel Sekunden. Diese Zeitspanne nennt man Halbwertszeit. Sie ist auch entscheidend in der Suche nach einem geeigneten Endlager für unseren Atommüll. Aber dazu später mehr. --FOOTER LINK 3--"
+            },
+            "nuclearEnergyUsage": {
+                "h1": "Atomenergie nutzen",
+                "p1": "---TODO--- (inc. video)"
+            },
+            "isItSustainable": {
+                "h1": "Ist das nicht total nachhaltig?",
+                "p1": "Auf den ersten Blick ist Atomenergie umweltfreundlich und vorteilhaft...kaum CO₂-Austoß, sehr leistungsstark und im Betrieb kostengünstig. Im Vergleich zu Öl ist Atomenergie sehr viel effizienter: aus einem Kilogramm Öl kann man zwölf Kilowattstunden (kWh) Strom erzeugen, während man aus einem Kilogramm Uran sogar 350.000 kWh bekommt. --FOOTER LINK 5--",
+                "p2": "Betrachtet man nicht nur den Traubhausgasausstoß während des Betriebs, sondern die gesamte Prozesskette vom Bau bis zur Entsorgung, dann ist auch ein Kernkraftwerk nicht CO₂-arm. Besonders der Abbau und die Aufbereitung des Uran-Erzes bzw. Urans sind energieintensiv. --FOOTER LINK 6--",
+                "p3": "Doch stehen diese Vorteile einem sehr großen Risiko gegenüber: die gesundheitsgefährdende Strahlung die vor allem im Falle eines Unfalls oder Terroranschlags in einem Atomkraftwerk frei wird und Auswirkungen auf die Umwelt in großem Radius haben kann (siehe den Fall von Tschernobyl).",
+                "p4": "Trotz dieser Bedenken und Risiken gibt es weltweit weiterhin zahlreiche aktive Atomkraftwerke und auch einige in Planung."
+            },
+            "nuclearWaste": {
+                "h1": "Atommüll",
+                "p1": "--TODO-- (inc. interactive maps active plants/interim storage locations)",
+                "p2": "In Deutschland gibt es momentan noch acht aktive Atomkraftwerke, die bis spätestens Ende 2022 abgeschaltet werden müssen. "
+            },
+            "plantDeconstruction": {
+                "h1": "Gar nicht so günstig…Herausforderung des Rückbaus",
+                "p1": "--TODO--"
+            }
         },
         "history": {
             "prevView": "nuclearWaste",
+            "order": 1,
             "title": "Vergangenheit",
-            "description": "This chapter is about the basics of nuclear waste ..."
+            "description": "This chapter is about the basics of nuclear waste ...",
+            "buildingBlocksOfTheWorld": {
+                "h1": "Bausteine der Welt",
+                "p1": "Atome sind die kleinste Einheit und gleichzeitig die Bausteine chemischer Elemente wie z.B. Kohlenstoff - aus dem wir Menschen größtenteils bestehen. Sie sind so klein, dass man sie mit dem menschlichen Auge nicht erfassen kann. Erst wenn man 10 Millionen Atome nebeneinander aufreiht ergibt sich 1 Milimeter. Jedes Atom besteht aus einem winzigen Kern und einer im Vergleich riesigen Hülle. Man stelle sich den Atomkern als Kirschkern vor und die Hülle in Größe eines Kirchturms. Einige dieser Atomkerne sind instabil, das heißt sie können spontan oder im Zusammenstoß mit anderen Teilchen zerfallen und werden in andere Atomkerne (Elemente) umgewandelt. --FOOTER LINK 1--"
+            },
+            "radioactivity": {
+                "h1": "Radioaktivität",
+                "p1": "Dieser Zerfall der Atomkerne wird auch Radioaktivität genannt. Dabei wird Energie und Strahlung freigesetzt. Das passiert auch jeden Tag in unserer Umgebung, das heißt wir sind auch natürlicherweise Strahlung ausgesetzt. In Kernreaktoren - z.B. Atomkraftwerken - wird diese Kernumwandlung künstlich hervorgerufen.",
+                "p2": "Die Dosis machts! Auch die natürliche Strahlung kann für den Menschen nicht ungefährlich sein. Aber je höher die Dosis, desto größer das Risiko einer Schädigung. Die Strahlung kann in den Körper eindringen und Zellen verändern, wodurch zum Beispiel Krebs entstehen kann. Eine sehr hohe Strahlungs-Intensität (wie bei einem Unfall in einem Atomkraftwerk) kann innerhalb von wenigen Tagen zum Tod führen.",
+                "p3": "Das heißt, wir machen uns in den Atomkraftwerken die Eigenschaft der zerfallenden Atomkerne zunutze, da einerseits Strahlung aber auch Energie frei gesetzt wird. --FOOTER LINK 2--"
+            },
+            "halftime": {
+                "h1": "Halbzeit!",
+                "p1": "Radioaktive Elemente zerfallen unterschiedlich schnell. Bei einigen dauert es einige Milliarden Jahre bis die Hälfte aller Atomkerne umgewandelt wurden, bei anderen nur millionstel Sekunden. Diese Zeitspanne nennt man Halbwertszeit. Sie ist auch entscheidend in der Suche nach einem geeigneten Endlager für unseren Atommüll. Aber dazu später mehr. --FOOTER LINK 3--"
+            },
+            "nuclearEnergyUsage": {
+                "h1": "Atomenergie nutzen",
+                "p1": "---TODO--- (inc. video)"
+            },
+            "isItSustainable": {
+                "h1": "Ist das nicht total nachhaltig?",
+                "p1": "Auf den ersten Blick ist Atomenergie umweltfreundlich und vorteilhaft...kaum CO₂-Austoß, sehr leistungsstark und im Betrieb kostengünstig. Im Vergleich zu Öl ist Atomenergie sehr viel effizienter: aus einem Kilogramm Öl kann man zwölf Kilowattstunden (kWh) Strom erzeugen, während man aus einem Kilogramm Uran sogar 350.000 kWh bekommt. --FOOTER LINK 5--",
+                "p2": "Betrachtet man nicht nur den Traubhausgasausstoß während des Betriebs, sondern die gesamte Prozesskette vom Bau bis zur Entsorgung, dann ist auch ein Kernkraftwerk nicht CO₂-arm. Besonders der Abbau und die Aufbereitung des Uran-Erzes bzw. Urans sind energieintensiv. --FOOTER LINK 6--",
+                "p3": "Doch stehen diese Vorteile einem sehr großen Risiko gegenüber: die gesundheitsgefährdende Strahlung die vor allem im Falle eines Unfalls oder Terroranschlags in einem Atomkraftwerk frei wird und Auswirkungen auf die Umwelt in großem Radius haben kann (siehe den Fall von Tschernobyl).",
+                "p4": "Trotz dieser Bedenken und Risiken gibt es weltweit weiterhin zahlreiche aktive Atomkraftwerke und auch einige in Planung."
+            },
+            "nuclearWaste": {
+                "h1": "Atommüll",
+                "p1": "--TODO-- (inc. interactive maps active plants/interim storage locations)",
+                "p2": "In Deutschland gibt es momentan noch acht aktive Atomkraftwerke, die bis spätestens Ende 2022 abgeschaltet werden müssen. "
+            },
+            "plantDeconstruction": {
+                "h1": "Gar nicht so günstig…Herausforderung des Rückbaus",
+                "p1": "--TODO--"
+            }
         },
         "search": {
             "prevView": "history",
-            "title": "Suche",
-            "description": "This chapter is about the basics of nuclear waste ..."
+            "order": 2,
+            "title": "Endlagersuche",
+            "leader": "Die Suche nach einem Endlager für hochradioaktive Abfälle wird lange dauern. Erst 2031 soll es soweit sein. Dann steht die nicht minder komplexe Aufgabe des Endlagerbaus und der Einlagerung der hoch radioaktiven Abfälle an. Erst um 2100 rechnen Experten mit dem Verschluss des Endlagers. Anschließend sollen die Abfälle in dem Endlagerbergwerk sicher für die gigantische Zeit von einer Million Jahre gelagert werden. Zwar verlaufen die Zerfallsprozesse exponentiell, dennoch braucht es lange,  (unterfüttern/visualisieren) bis die Strahlung so stark abgeklungen ist, dass keine Gefahr mehr für Mensch und Umwelt besteht, da einige Radionuklide lange Halbwertszeiten aufweisen. Das erklärt, wieso der Gesetzgeber sicherstellen möchte, dass für einen sehr langen Zeitraum die sehr stark strahlenden Elemente nicht in die Biosphäre gelangen können.",
+            "description": "This chapter is about the basics of nuclear waste ...",
+            "whatIsStoredWhere": {
+                "h1": "Was wird wo gelagert?",
+                "p1": "Im geplanten Endlager werden ausschließlich stark radioaktive Abfälle eingelagert. Sie entstehen vorwiegend bei der Produktion von Atomstrom und der Wiederaufbereitung von verbrauchten Brennelementen. Wichtig ist zu wissen, dass die Abfälle nur einen geringen Anteil am Gesamtvolumen aller radioaktiven Abfälle ausmachen. Allerdings sind sie wegen ihrer hohen Aktivität für den überwiegenden Anteil der Strahlung verantwortlich. Die in rund 1900 Behältern einzulagernden hochradioaktiven Abfallstoffe haben ein Volumen von 30.000 Kubikmetern. Demgegenüber ist das Volumen der schwach- bis mittelradioaktiven Abfälle zwanzigfach größer und entspricht ca. 600.000 Kubikmetern. Dennoch sind die hochradiokativen Abfälle für knapp 99 % der gesamten Radioaktivität verantwortlich.",
+                "p2": "Für schwach- und mittelradioaktive Abfallstoffe - auch Abfälle mit vernachlässigbarer Wärmeentwicklung genannt - wurde atomrechtlich bereits ein Endlager beschlossen, das sich gerade im Bau befindet: Schacht Konrad. Es wurde als Standort ausgewählt, da es einerseits für ein Eisenerzbergwerk unüblich trocken ist. Andererseits ist die Einlagerung in Feldern in einer Tiefe von rund 800 bis 1000 Metern Tiefe möglich. Schützend oberhalb des Wirtsgesteins liegt eine breite Schicht aus sehr undurchlässigem Tongestein.",
+                "p3": "Es handelt sich um ein stillgelegtes Eisenerzbergwerk niedersächsischen Salzgitter, das gegenwärtig zu einem Endlager umgebaut und soll 2022 fertiggestellt werden. Allerdings ist ungewiss, ob der Termin eingehalten werden kann.",
+                "p4": "Bereits in der Vergangenheit wurden Abfälle mit vernachlässigbarer Wärmeentwicklung unter der Erde eingelagert. Dies geschah während der deutschen Teilung sowohl in West- wie auch in Ostdeutschland. Bereits 1971 wurde damit begonnen, schwach- und mittelradioaktive Abfälle in einem ehemaligen Salz- und Kalibergwerk im sachsen-anhaltinischen Morsleben einzulagern. Aufgrund von Sicherheitsbedenken wurde das Einbringen von Abfällen 1998 endgültig beendet. Die Kammern werden nun verschlossen und die ca. 357.000 Kubikmeter radioaktive Abfälle mit vernachlässigbarer Wärmentwicklungeingelagerte Abfälle sollen in der Schachtanlage verbleiben. Wie auch das westdeutsche Endlager Asse II ist Morsleben stark durch jahrzehntelangen Kali- und Steinsalzabbau geprägt. Des Weiteren betonten Kritiker des Standortes bereits seit den späten 60er Jahren die Gefahr, das eintretendes Wasser die Stabilität des Bergwerks beeinträchtigen könnte bis hin zu dem bestehenden Risiko eines vollständigen Einsturzes des Schachts mit der Folge einer Freisetzung der radioaktiven Strahlung an der Oberfläche.",
+                "p5": "Informationen Morsleben",
+                "p6": "<a>https://www.bgr.bund.de/DE/Themen/Endlagerung/Standorte/Morsleben/morsleben_node.html Informationen Asse</a>"
+            },
+            "searchProcess": {
+                "h1": "Ablauf der deutschen Endlagersuche",
+                "p1": "In einem komplexen und langwierigen Verfahren wird anhand vieler Kriterien nach dem Standort mit der bestmöglichen Sicherheit gesucht. Er soll das Risiko für die nachfolgenden Generationen möglichst gering halten. Um unerwartete Entwicklungen auch nachträglich noch berücksichtigen zu können, wurden besondere Anforderungen an das Endlager gestellt. Neben der Gefahr durch die hohe radioaktive Strahlung ist auch die starke Wärmeentwicklung, die bei den Zerfallsprozessen entsteht, eine Herausforderung.",
+                "p2": "Kriterien/Anforderungen",
+                "p3": "- Reversibilität",
+                "p4": "- Rückholbarkeit",
+                "p5": "In einem komplexen und langwierigen Verfahren wird anhand vieler Kriterien nach dem Standort mit der bestmöglichen Sicherheit gesucht. Er soll das Risiko für die nachfolgenden Generationen möglichst gering halten. Um unerwartete Entwicklungen auch nachträglich noch berücksichtigen zu können, wurden besondere Anforderungen an das Endlager gestellt. Neben der Gefahr durch die hohe radioaktive Strahlung ist auch die starke Wärmeentwicklung, die bei den Zerfallsprozessen entsteht, eine Herausforderung.",
+                "h2": "1. Phase: Ermittlung von Teilgebieten",
+                "p6": "Am Anfang des Auswahlverfahrens steht eine „weiße Landkarte“. Darunter wird verstanden, dass grundsätzlich alle Regionen in Deutschland als möglicher Standort für das Endlager infrage kommen. In einem vergleichenden Verfahren werden mittels diverser Kriterien schrittweise Teilgebiete aus dem Verfahren genommen, bis nur noch ein Standort mit der bestmöglichen Sicherheit verbleibt. In der ersten Phase werden dazu vorliegende geographische Daten verwendet, um grundsätzlich geeignete Teilgebiete auszuwählen und einer näheren Prüfung zu unterziehen. Ausschlusskriterien ermöglichen es frühzeitig, ungeeignete Regionen aus dem weiteren Verfahren zu entfernen. Außerdem finden erste Sicherheitsuntersuchungen statt.  Die verfahrensdurchführende Bundesgesellschaft für Endlagerung (BGE) veröffentlicht am Ende einen Zwischenbericht. Er enthält Empfehlungen für die nachfolgend detaillierter zu untersuchenden Teilgebiete und entsprechende Erkundungsprogramme. Dieser wird vom Bundesamt für kerntechnische Entsorgung (der Genehmigungs- und Aufsichtsbehörde) geprüft und anschließend dem Umweltministerium zugeleitet. Die Bundesregierung informiert Bundestag und Bundesrat, die dann mit einem Bundesgesetz den weiteren Fortgang des Verfahrens beschließen können. Es regelt auch den Umgang mit Regionen bei denen die bisher vorliegenden Daten nicht ausreichen, um eine Einschätzung vorzunehmen[DM11]",
+                "h3": "2. Phase: Übertägige Erkundung",
+                "p7": "Die in der ersten Phase für geeignet befundenen Teilgebiete werden nun genauer untersucht. Dazu finden überall übertägige Erkundungen statt. Diese Untersuchungen bilden die Grundlage, um im nächsten Schritt besonders geeignete Teilgebiete auch untertägig zu erkunden und noch präzisere Informationen zur Geeignetheit der einzelnen Gebiete zu erhalten. Außerdem werden weitere Sicherheitsuntersuchungen durchgeführt und sogenannte sozioökonomische Potenzialanalysen durchgeführt. Darunter wird verstanden....",
+                "p8": "Am Ende dieser Phase erstellt die BGE erneut einen Bericht. Er enthält Vorschläge für näher zu erkundende Gebiete. Sie bezieht dazu erneut die vorgeschriebenen Kriterien mit ein und erstellt Erkundungsprogramme sowie Prüfkriterien für die untertägige Erkundung. Sie werden wieder vom BfE geprüft und anschließend dem Umweltministerium zugeleitet. Die Bundesregierung informiert erneut Bundestag und Bundesrat. Die Legislative kann dann per Bundesgesetz die in der dritten Phase näher zu erkundenden Gebiete beschließen.",
+                "h4": "3. Phase: Untertägige Erkundung",
+                "p9": "Die verbliebenen mindestens zwei Gebiete werden nun untertägig erkundet und auf Ihre Sicherheit hin untersucht. Wieder finden die etablierten Kriterien und Anforderungen Anwendung. Die BGE macht schließlich einen Vorschlag, wo das Endlager errichtet werden soll und übermittelt ihn an das BfE. Die Aufsichtsbehörde führt nun eine Umweltverträglichkeitsprüfung durch.",
+                "p10": "Wenn es keine rechtlichen Beanstandungen gibt, übermittelt das BfE den Standortvorschlag an das Umweltministerium. Die Bundesregierung legt ihn anschließend Bundestag und Bundesrat als Gesetzentwurf vor. Der demokratisch legitimierte Gesetzgeber trifft schließlich die Entscheidung über den Endlagerstandort.",
+                "h5": "Ergebnis: Auswahl des Standorts mit der bestmöglichen Sicherheit"
+            },
+            "whereStandsWhat": {
+                "h1": "Wo steht was:",
+                "p1": "<a>http://multimedia.gsb.bund.de/BFE/animation/endlagerausstellung/karte_entstehung.html</a>"
+            },
+            "finalDisposalDispute": {
+                "h1": "Der Streit um die richtige Form der Endlagerung",
+                "p1": "Gesetzlich wurde festgelegt, dass die Einlagerung unter der Erde erfolgen soll. Dieses Vorgehen ist nicht unumstritten. Etliche andere Formen der mehr oder weniger nachhaltigen Entsorgung standen zur Disposition:",
+                "p2": "- Verklappung: <a>http://www-pub.iaea.org/MTCD/publications/PDF/te_1105_prn.pdf</a>",
+                "p3": "- Weltall",
+                "p4": "- Transutation...",
+                "p5": "Eine wichtige Einschränkung ist dabei, dass die in Deutschland entstandenen Abfälle national endgelagert werden sollen."
+            },
+            "disposalCosts": {
+                "h1": "Ohne Moos nichts Los - Kosten der Endlagerung",
+                "p1": ""
+            },
+            "nationalPlateView": {
+                "h1": "Der Blick über den nationalen Tellerrand",
+                "p1": ""
+            }
         },
         "participation": {
             "prevView": "search",
+            "order": 3,
             "title": "Beteiligung",
             "description": "This chapter is about the basics of nuclear waste ..."
         },
         "future": {
             "prevView": "participation",
+            "order": 4,
             "title": "Zukunft",
             "description": "This chapter is about the basics of nuclear waste ..."
         }

@@ -12,11 +12,13 @@ $w320: 320px;
 $global-prio: 999;
 $overlay-prio: 11;
 $overlay: 10;
+$cover: 9;
 $above-prio: 2;
 $above: 1;
 
 // font
 $font-family: Roboto, sans-serif;
+$font-text: Georgia, sans-serif;
 $font-size: 16px;
 $font-normal: 300;
 $font-bold: 500;
@@ -29,6 +31,8 @@ $white-shadow: rgba(255, 255, 255, 0.5);
 $black-shadow: rgba(0, 0, 0, 0.5);
 $hover-shadow: rgba(0, 0, 0, 0.2);
 //    layout
+$bg-overlay: #fff;
+$bg-cover: rgba(0, 0, 0, 0.51);
 $bg-base: #fff;
 $bg-app: #fff;
 //    font

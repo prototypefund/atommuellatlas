@@ -11,12 +11,16 @@ import Search from '/app/view/search/Search';
 import Participation from '/app/view/participation/Participation';
 import Future from '/app/view/future/Future';
 
+// overlays
+import About from '/app/overlay/about/about';
+
 
 new class App extends Application {
     constructor() {
         super(content);
 
         const introContainer = document.querySelector(".introduction");
+        const overlayContainer = document.querySelector(".overlay");
         const viewContainer = document.querySelector("main");
         const viewMap = { // match keys to content.view[key]
             "nuclearWaste": NuclearWaste,
@@ -25,11 +29,16 @@ new class App extends Application {
             "participation": Participation,
             "future": Future
         };
+        
+        const overlayMap = {
+            "about": About  
+        };
 
-        if (!viewContainer || !viewMap) throw new Error("Main Initialization error");
+        if (!viewContainer || !introContainer || !overlayContainer) throw new Error("Initialization container-element missing");
 
         this.initHeader(introContainer);
         this.initView(viewContainer, viewMap);
+        this.initOverlay(overlayContainer, overlayMap);
 
 
         this.start("nuclearWaste");

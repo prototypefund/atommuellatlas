@@ -1,0 +1,25 @@
+@import "/../../variables";
+
+.view {
+  //position: absolute;
+  //top: 0;
+  
+  //transition: none !important;
+  
+  &.hidden {
+    opacity: 0;
+  }
+  
+  &-transition {
+    transition: transform 0.5s !important;
+    transition-timing-function: ease-in-out;
+
+    &-to-right {
+      transform: translateX(calc(100% + 200px));
+    }
+
+    &-to-left {
+      transform: translateX(calc(-100% - 200px));
+    }
+  }
+}
