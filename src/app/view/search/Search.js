@@ -1,8 +1,12 @@
 import * as Log from 'loglevel';
+import {TweenLite} from 'gsap';
 import BaseView from '/core/component/BaseView';
+import DomUtil from '/core/util/DomUtil';
+import ContentModel from '/app/model/ContentModel';
 import EventDispatcher from '/core/event/EventDispatcher';
 import ViewEvent from '/core/event/ViewEvent';
-
+import LayerMap from '/app/component/layerMap/LayerMap';
+import StickyController from '/app/controller/StickyController';
 
 import template from './template.twig';
 import style from './_style.scss';
@@ -17,5 +21,22 @@ export default class Search extends BaseView {
             wasteProcess: imageWasteProcess
         });
         super(id, template, style, data);
+    }
+    
+    postRender() {
+        super.postRender();
+        
+        this.layerMapContainer = this.element.querySelector(".map-container");
+        this.layerMap = new LayerMap(ContentModel.componentData.layerMap);
+        this.layerMap.appendTo(this.layerMapContainer);
+        
+        this.stickyController = new StickyController(this.layerMap.element);
+    }
+    
+    destroy() {
+        super.destroy();
+        
+        this.stickyController.destroy();
+        this.layerMap.destroy();
     }
 }

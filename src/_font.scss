@@ -13,18 +13,17 @@ html {
 
     h1 {
       font-size: 3.4rem;
-      margin: 100px 0 50px;
-      padding: 70px 0 0;
+      padding: 170px 0 50px;
     }
 
     h2 {
       font-size: 2rem;
-      margin: 140px 0 30px;
+      padding: 140px 0 30px;
     }
 
     h3, h4, h5 {
       font-size: 1.4rem;
-      margin: 50px 0 30px;
+      padding: 50px 0 30px;
     }
 
     p {
@@ -39,12 +38,12 @@ html {
   }
 
   // breakpoints above
-  @media screen and (min-width: $wMax) {
-
-  }
-
   @media screen and (min-width: $w1080) {
-    font-size: 18px;
+    font-size: 1.1rem;
+  }
+  
+  @media screen and (min-width: $wMax) {
+    font-size: 1.2rem;
   }
 
   // breakpoints below

@@ -5,7 +5,7 @@ import OverlayEvent from '/core/event/OverlayEvent';
 import template from './template.twig';
 import style from './_style.scss';
 
-import iconInfo from '/static/icons/question.svg';
+import iconInfo from './../../../../static/assets/icons/question.svg';
 
 export default class OverlayButton extends BaseComponent {
     constructor(data) {
@@ -28,6 +28,8 @@ export default class OverlayButton extends BaseComponent {
     }
     
     destroy() {
+        super.destroy();
+        
         this.element.removeEventListener("click", this.clickHandler);
     }
 }

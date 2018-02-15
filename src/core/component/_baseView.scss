@@ -6,10 +6,6 @@
   
   //transition: none !important;
   
-  &.hidden {
-    opacity: 0;
-  }
-  
   &-transition {
     transition: transform 0.5s !important;
     transition-timing-function: ease-in-out;

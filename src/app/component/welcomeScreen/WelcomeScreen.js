@@ -29,4 +29,10 @@ export default class WelcomeScreen extends BaseComponent {
     _onAbout() {
         EventDispatcher.dispatchEvent(OverlayEvent.OPEN, "about");
     }
+    
+    destroy() {
+        super.destroy();
+        
+        this.aboutBtn.removeEventListener("click", this.aboutHandler);
+    }
 }

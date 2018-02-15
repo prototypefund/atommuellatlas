@@ -1,5 +1,32 @@
 @import "./../../../variables";
 
 .info-button {
+  width: 100%;
+  cursor: pointer;
+  user-select: none;
   
+  > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &-icon {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 4px 0;
+  }
+
+  &-label {
+    font-size: 0.8rem;
+  }
+  
+  &:hover {
+    color: $hi-hover;
+    fill: $hi-hover;
+  }
+  
+  &:active {
+    color: $txt-main;
+    fill: $black;
+  }
 }

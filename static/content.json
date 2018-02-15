@@ -15,8 +15,8 @@
             "h1": "About",
             "p1": "Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum..."
         },
-        "stuff": {
-            "h1": "Stuff",
+        "c1p3": {
+            "h1": "c1p3",
             "p1": "there was stuff..."
         }
     },
@@ -31,6 +31,42 @@
         "viewNavigation": {
             "label": "Chapter",
             "items": {}
+        },
+        "overlayButton": {
+            "c1p3": {
+                "label": "c1p3 here"
+            }
+        },
+        "layerMap": {
+            "tippy": {
+                "attribute": "title",
+                "options": {
+                    "placement": "top",
+                    "duration": 0
+                }
+            },
+            "layers": [
+                {
+                    "id": "clay",
+                    "label": "Clay"
+                },
+                {
+                    "id": "granite",
+                    "label": "Granite"
+                },
+                {
+                    "id": "rocksalt",
+                    "label": "Rocksalt"
+                },
+                {
+                    "id": "rocksalt-jurassic",
+                    "label": "Rocksalt Jurassic"
+                },
+                {
+                    "id": "rocksalt-keuper",
+                    "label": "Rocksalt Keuper"
+                }
+            ]
         }
     },
     "view": {
@@ -73,6 +109,8 @@
             "plantDeconstruction": {
                 "h1": "Gar nicht so günstig…Herausforderung des Rückbaus",
                 "p1": "--TODO--"
+            },
+            "components": {
             }
         },
         "history": {
@@ -80,39 +118,194 @@
             "order": 1,
             "title": "Vergangenheit",
             "description": "This chapter is about the basics of nuclear waste ...",
-            "buildingBlocksOfTheWorld": {
-                "h1": "Bausteine der Welt",
-                "p1": "Atome sind die kleinste Einheit und gleichzeitig die Bausteine chemischer Elemente wie z.B. Kohlenstoff - aus dem wir Menschen größtenteils bestehen. Sie sind so klein, dass man sie mit dem menschlichen Auge nicht erfassen kann. Erst wenn man 10 Millionen Atome nebeneinander aufreiht ergibt sich 1 Milimeter. Jedes Atom besteht aus einem winzigen Kern und einer im Vergleich riesigen Hülle. Man stelle sich den Atomkern als Kirschkern vor und die Hülle in Größe eines Kirchturms. Einige dieser Atomkerne sind instabil, das heißt sie können spontan oder im Zusammenstoß mit anderen Teilchen zerfallen und werden in andere Atomkerne (Elemente) umgewandelt. --FOOTER LINK 1--"
+            "startingpoint": {
+                "h1": "1890 - Die Anfänge",
+                "p1": "Die ersten Experimente zur Radioaktivität wurden um 1890 durchgeführt, wobei Antoine Henri Becquerel 1896 die Radioaktivität entdeckte. Nach ihm ist heute noch die Einheit der Aktivität einer radioaktiven Substanz benannt: Ein Becquerel entspricht einem radioaktiven Zerfall pro Sekunde."
             },
-            "radioactivity": {
-                "h1": "Radioaktivität",
-                "p1": "Dieser Zerfall der Atomkerne wird auch Radioaktivität genannt. Dabei wird Energie und Strahlung freigesetzt. Das passiert auch jeden Tag in unserer Umgebung, das heißt wir sind auch natürlicherweise Strahlung ausgesetzt. In Kernreaktoren - z.B. Atomkraftwerken - wird diese Kernumwandlung künstlich hervorgerufen.",
-                "p2": "Die Dosis machts! Auch die natürliche Strahlung kann für den Menschen nicht ungefährlich sein. Aber je höher die Dosis, desto größer das Risiko einer Schädigung. Die Strahlung kann in den Körper eindringen und Zellen verändern, wodurch zum Beispiel Krebs entstehen kann. Eine sehr hohe Strahlungs-Intensität (wie bei einem Unfall in einem Atomkraftwerk) kann innerhalb von wenigen Tagen zum Tod führen.",
-                "p3": "Das heißt, wir machen uns in den Atomkraftwerken die Eigenschaft der zerfallenden Atomkerne zunutze, da einerseits Strahlung aber auch Energie frei gesetzt wird. --FOOTER LINK 2--"
+            "thecuries": {
+                "p1": "Das Ehepaar Curie forschte zu Kernreaktionen."  
             },
-            "halftime": {
-                "h1": "Halbzeit!",
-                "p1": "Radioaktive Elemente zerfallen unterschiedlich schnell. Bei einigen dauert es einige Milliarden Jahre bis die Hälfte aller Atomkerne umgewandelt wurden, bei anderen nur millionstel Sekunden. Diese Zeitspanne nennt man Halbwertszeit. Sie ist auch entscheidend in der Suche nach einem geeigneten Endlager für unseren Atommüll. Aber dazu später mehr. --FOOTER LINK 3--"
+            "atommodel": {
+                "h1": "1920 - Atommodell",
+                "p1": "Ernest Rutherford, der unter anderem die Radioaktivität in verschiedene Strahlentypen unterschied, hat auch erkannt, dass die Atome aus schweren Kernen bestehen und einer vergleichsweise großen, leichten Hülle - das Rutherfordsche Atommodell."
             },
-            "nuclearEnergyUsage": {
-                "h1": "Atomenergie nutzen",
-                "p1": "---TODO--- (inc. video)"
+            "chainreaction": {
+                "h1": "1930er - eine Kettenreaction",
+                "p1": "Auf Grundlage der Forschung von Marie und Pierre Curie sowie Henri Becquerel haben mehrere Wissenschaftler weiter mit radioaktiven Substanzen geforscht. Mit der Entdeckung der induzierten Kernspaltung von Uran gelang Otto Hahn und Fritz Straßmann 1938 ein Meilenstein in der Forschung der Radioaktivität.",
+                "p2": "Marie Curies Tochter Irène und ihr Mann Frédéric haben daraufhin nachgewiesen, dass eine Kettenreaktion der Kernspaltung möglich ist. Diese nachgewiesene Kettenreaktion machte erstmals deutlich, wie Kernspaltung praktisch nutzbar ist."
             },
-            "isItSustainable": {
-                "h1": "Ist das nicht total nachhaltig?",
-                "p1": "Auf den ersten Blick ist Atomenergie umweltfreundlich und vorteilhaft...kaum CO₂-Austoß, sehr leistungsstark und im Betrieb kostengünstig. Im Vergleich zu Öl ist Atomenergie sehr viel effizienter: aus einem Kilogramm Öl kann man zwölf Kilowattstunden (kWh) Strom erzeugen, während man aus einem Kilogramm Uran sogar 350.000 kWh bekommt. --FOOTER LINK 5--",
-                "p2": "Betrachtet man nicht nur den Traubhausgasausstoß während des Betriebs, sondern die gesamte Prozesskette vom Bau bis zur Entsorgung, dann ist auch ein Kernkraftwerk nicht CO₂-arm. Besonders der Abbau und die Aufbereitung des Uran-Erzes bzw. Urans sind energieintensiv. --FOOTER LINK 6--",
-                "p3": "Doch stehen diese Vorteile einem sehr großen Risiko gegenüber: die gesundheitsgefährdende Strahlung die vor allem im Falle eines Unfalls oder Terroranschlags in einem Atomkraftwerk frei wird und Auswirkungen auf die Umwelt in großem Radius haben kann (siehe den Fall von Tschernobyl).",
-                "p4": "Trotz dieser Bedenken und Risiken gibt es weltweit weiterhin zahlreiche aktive Atomkraftwerke und auch einige in Planung."
+            "firstreactor": {
+                "h1": "1942 - Erster Kernreaktor",
+                "p1": "Während des zweiten Weltkrieges wurden die neu gewonnenen Erkenntnisse verstärkt  in der militärischen Forschung genutzt. Im Jahr 1942 gelang die erste kontrollierte nukleare Kettenreaktion. Sie fand unter der Leitung vom Physiker Enrico Fermi im weltweit ersten Kernreaktor Chicago Pile One statt, der unter dem Football-Stadion der Universität Chicago erbaut wurde."
             },
-            "nuclearWaste": {
-                "h1": "Atommüll",
-                "p1": "--TODO-- (inc. interactive maps active plants/interim storage locations)",
-                "p2": "In Deutschland gibt es momentan noch acht aktive Atomkraftwerke, die bis spätestens Ende 2022 abgeschaltet werden müssen. "
+            "startnuclearpower": {
+                "h1": "1951 - Beginn des Atomstroms",
+                "p1": "Das erste Mal wurde aus Kernenergie elektrischer Strom gewonnen, der im US-amerikanischen Forschungsreaktor vier Glühlampen zum Leuchten brachte."
             },
-            "plantDeconstruction": {
-                "h1": "Gar nicht so günstig…Herausforderung des Rückbaus",
-                "p1": "--TODO--"
+            "firstreactorgermany": {
+                "h1": "1957 - das “Atomei”: Deutschlands erster Atomreaktor",
+                "p1": "Deutschland nimmt seinen ersten Kernreaktor 1957 in Garching bei München in Betrieb. Der Forschungsreaktor wird wegen seiner eiförmigen Kuppel auch Atomei genannt.",
+                "p2": "Drei Jahre später - 1960 - tritt das Deutsche Atomgesetz in Kraft. Es regelt den Bau und Betrieb von Kernkraftwerken. Die spätere Entsorgung des radioaktiven Abfalls wird allerdings nicht geregelt."
+            },
+            "asseandmorsleben": {
+                "h1": "1967 - 1971 - Asse & Morsleben",
+                "p1": "Nur wenige Jahre später werden erste Versuche für eine Einlagerung radioaktiver Abfälle durchgeführt. Dazu wurde das ehemalige niedersächsische Salzbergwerk Asse bei Braunschweig umfunktioniert um schwach- und mittelradioaktive Abfälle einzulagern."
+            },
+            "atomicage": {
+                "h1": "1973 - “Atomzeitalter” und Anti-Atomkraft-Bewegung",
+                "p1": "Das Atomzeitalter beschreibt eine geschichtliche Epoche, welche durch die erstmalige Nutzung von Kernspaltung zu zivilen und militärischen Zwecken gekennzeichnet ist.",
+                "p2": "Besonders nach der ersten Ölkrise 1973 - als Preise für Erdöl in die Höhe gehen und die Abhängigkeit von erdölfördernden Ländern deutlich spürbar wird - werden vermehrt Kernkraftwerke geplant und gebaut."
+            },
+            "antiatomkraft": {
+                "p1": "Zeitgleich wird die Kritik an der zivilen Nutzung der Kernenergie immer stärker und es bildet sich eine Protestbewegung, die in Deutschland erstmals mit dem Protest gegen den Bau des Kernkraftwerks Wyhl auch in den Medien laut wird."
+            },
+            "neindanke": {
+                "p1": "Die Anti-Atomkraft-Bewegung ist eine der Bewegungen aus denen später die Partei Bündis 90/Die Grünen hervorgegangen ist."
+            },
+            "gorleben": {
+                "h1": "seit 1977 - Gorleben als Anti-Beispiel",
+                "p1": "Am 22. Februar 1977 kam es zu einer folgenschweren Entscheidung: Der niedersächsische Ministerpräsident Ernst Albrecht bestimmt, dass in Gorleben ein nationales Endlager für hochradioaktiven Atommüll und eine Wiederaufbereitungsanlage errichtet werden soll. Im Jahr 1979 beginnen die Erkundungen des Salzstocks Gorleben als Endlager für hochradioaktive Abfälle.",
+                "p2": "Der Protest ließ nicht lange auf sich warten: Verschiedenste Demonstrationen, das Hüttendorf “Republik Freies Wendland” und zahlreiche andere Protestformen richteten sich zunächst gegen das Entsorgungszentrum, gegen die Erkundung des Salzstocks Gorleben und später auch gegen die Lagerung von Castor Behältern.",
+                "p3": "Dennoch wurde 1995 das oberirdische Zwischenlager in Betrieb genommen und bis 2011 wurden unter starkem Polizeiaufgebot begleitet von großen Demonstrationen insgesamt 13 Castortransporte nach Gorleben durchgeführt."
+            },
+            "oceanprotest": {
+                "h1": "1982 - Protestaktion gegen Verklappung im Meer",
+                "p1": "1982 macht die damals noch junge Umweltorganisation Greenpeace mittels Schlauchbooteinsätzen auf die Entsorgung von radioaktivem Müll im Meer aufmerksam. Durch die Dokumentation dieses Verfahrens wuchs die internationale Aufmerksamkeit und die Verklappung im Meer endete schließlich offiziell im Jahr 1993.",
+                "p2": "Dennoch bemängeln diverse Umweltorganisationen, dass auch noch heute durch Entsorgungsrohre radioaktiver Müll von Atomkraftwerken ins Meer gelangt."
+            },
+            "tschernobyl": {
+                "h1": "1986 - Tschernobyl",
+                "p1": "Am 26. April 1986 ereignet sich die Katastrophe von Tschernobyl (damals UdSSR, heute Ukraine). Bei einer Kernschmelze  und Explosionen im Atomkraftwerk werden große Mengen radioaktives Material frei, das sich als Wolke auch über Westeuropa verbreitet und dort mit dem Regen aus der Atmosphäre gewaschen wird. Bis heute ist dieses Material in einigen Lebensmitteln (zum Beispiel Pilzen) zu finden und zeigt seine gesundheitsschädlichen Folgen in Form von Strahlungskrankheiten, insbesondere bei der lokalen Bevölkerung.",
+                "p2": "Dieser Super-GAU [LINK→ Exkurs Super-GAU] facht die Kritik an der Kernenergie in Europa weiter an. Nur fünf Wochen nach dem Unfall gründet die Deutsche Bundesregierung das Umweltministerium (Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit - kurz BMUB) um sich zukünftig intensiver mit umweltpolitischen Themen auseinander zu setzen."
+            },
+            "highpoint": {
+                "h1": "1990er - Höhepunkte",
+                "p1": "In den 1990er Jahren hat die Atomenergie den höchsten Anteil am gesamten Strommix in der Geschichte der nuklearen Energie in Deutschland. Der Anteil liegt bei ungefähr 28%."
+            },
+            "stepdown": {
+                "h1": "2000-2002 - Ein Atomaustieg",
+                "p1": "Unter der rot-grünen Regierung mit Bundeskanzler Schröder (SPD) wird mit den Energieversogungsunternehmen ein “Atomkonsens” vereinbart, der einen Atomausstieg innerhalb von ca. 10 Jahren beschließt.",
+                "h2": "2010 - ...oder doch nicht?",
+                "p2": "Die Bundesregierung mit Angela Merkel (CDU) als Kanzlerin beschließt zugunsten der Atomwirtschaft die Laufzeiten der Kernkraftwerke um durchschnittlich 12 Jahre zu verlängern.",
+                "p3": "Oktober: Die Erkundung des Endlagerstandortes Gorleben wird wieder aufgenommen."
+            },
+            "fukushima": {
+                "h1": "2011 - Fukushima, der Ausstieg und die Wende",
+                "p1": "Ein weiterer katastrophaler Unfall ereignete sich 2011 im japanischen Fukushima. In Folge eines Erdbebens und darauf folgenden Tsunamis kommt es in Teilen des Atomkraftwerkes zur Kernschmelze und Explosionen bei der radioaktives Material frei wird.",
+                "p2": "In Deutschland führt die Katastrohpe dazu, dass die kurz zuvor (2010) beschlossene Laufzeitverlängerung für die bestehenden deutschen Atomkraftwerke zurückgenommen wird und alle Atommeiler überprüft werden. In der Folge werden acht nicht wieder hochgefahren. Die verbliebenen xxx sollen schnellstmöglich abgeschaltet werden. Das letzte Kraftwerk wird daher am 31.12.2022 heruntergefahren. Der Atomausstieg ist beschlossen.",
+                "p3": "Zukünftig soll der Energiebedarf vor allem mit erneuerbaren Energien gedeckt werden."
+            },
+            "thesearch": {
+                "h1": "Seit 2014 - Der Beginn einer langen Suche - die Endlagersuche",
+                "p1": "Im April 2014 wurde die Endlagerkommission basierend auf §3 des Standortauswahlgesetzesvom Deutschen Bundestag und Bundesrat eingesetzt. Auf der Grundlage ihrer Empfehlungen wurde das Standortauswahlgesetz über die Jahre immer wieder novelliert.",
+                "p2": "(Nachdem der Beschluss gefasst wurde aus der Kernkraft auszusteigen, wurde 2015 das Standortauswahlgesetzt erstmals erneuert, welches die Suche nach einem geeigneten Endlager für den radioaktiven Abfall regelt. Dieses Gesetz sieht zunächst vor, eine Expertenkommission einzusetzen, die das Standortauswahlgesetz (StandAG) untersucht. Anschließend gibt es einen Gesetzesbeschluss, welcher das vorher bestehende StandAG erneuert. Danach kann das Endlagersuchverfahren beginnen. Im Jahr 2017 wurde…)"
+            },
+            "components": {
+                "fullScreenImage": {
+                    "gradient": "linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 100%);",
+                    "images": {
+                        "startingpoint": {
+                            "src": "assets/images/Becquerel_in_the_lab.jpg",
+                            "alt": "Titel: Becquerel bei einem Magnet-Experiment",
+                            "source": "Quelle: Public Domain/Wikimedia Common"
+                        },
+                        "thecuries": {
+                            "src": "assets/images/Pierre_and_Marie_Curie.jpg",
+                            "alt": "Titel: Pierre und Marie Curie in ihrem Labor in Paris, 1904",
+                            "source": "Quelle: Public Domain/Wikimedia Commons"
+                        },
+                        "atommodel": {
+                            "src": "assets/images/Ernest_Rutherfords_laboratory.jpg",
+                            "alt": "Titel: Labor von Ernest Rutherford, 1926",
+                            "source": "Quelle: Science Museum London/  CC-BY-SA-2.0 /Wikimedia Commons"
+                        },
+                        "chainreaction": {
+                            "src": "assets/images/Bunsentagung_1932_Munster_cropped.png",
+                            "alt": "Titel: Bunsentagung in Münster 1932 u.a. mit Ernest Rutherford, Lise Meitner und Otto Hahn",
+                            "source": "Quelle: Public Domain/Wikimedia Commons"
+                        },
+                        "firstreactor": {
+                            "src": "assets/images/ChicagoPile1-2.jpg",
+                            "alt": "Titel: Chicago Pile One, Zeichnung, 1946",
+                            "source": "Quelle: Public Domain/Wikimedia Commons"
+                        },
+                        "startnuclearpower": {
+                            "src": "assets/images/First_four_nuclear_lit_bulbs.jpeg",
+                            "alt": "Titel: Die erste Nutzung von Strom aus Atomenergie lässt vier Glühbirnen leuchten, Idaho/USA,1951",
+                            "source": "Quelle: Public Domain/Wikimedia Commons"
+                        },
+                        "firstreactorgermany": {
+                            "src": "assets/images/Atomei.jpg",
+                            "alt": "Titel: Forschungsreaktor München I oder das “Atomei” - Deutschlands erster Atomreaktor",
+                            "source": "Quelle: High Contrast /  CC-BY-3.0-DE / Wikimedia Commons"
+                        },
+                        "asseandmorsleben": {
+                            "src": "assets/images/kuhlbecken_atomkraftwerk.jpg",
+                            "alt": "TODO",
+                            "source": "TODO"
+                        },
+                        "atomicage": {
+                            "src": "assets/images/Grohnde.jpg",
+                            "alt": "Titel: Atomkraftwerk in Niedersachsen",
+                            "source": "Quelle: Elisabeth Belik / CC-BY-SA-3.0 / Wikimedia Commons"
+                        },
+                        "antiatomkraft": {
+                            "src": "assets/images/Demo_gegen_Kernenergie_1975_cropped.png",
+                            "alt": "Titel: Anti-Atomkraft-Demo in Bonn, 1975",
+                            "source": "Quelle: Ulrich Wienke / CC BY-SA 3.0 de / Bundesarchiv"
+                        },
+                        "neindanke": {
+                            "src": "assets/images/Atomkraft_Nej_Tak.jpg",
+                            "alt": "Titel: “Atomkraft? Nein Danke” Bekanntes Anti-Atomkraft-Logo, entworfen in Dänemark,1975",
+                            "source": "Quelle: Wikimedia Commons"
+                        },
+                        "gorleben-1": {
+                            "src": "assets/images/WendlandAntiNuclearProtest13.jpg",
+                            "alt": "TODO",
+                            "source": "TODO"
+                        },
+                        "gorleben-2": {
+                            "src": "assets/images/WendlandAntiNuclearProtest13.jpg",
+                            "alt": "TODO",
+                            "source": "TODO"
+                        },
+                        "gorleben-3": {
+                            "src": "assets/images/Anti-Castor-Demonstration_Gorleben.jpg",
+                            "alt": "Anti-Castor-Demonstration bei Gorleben am 6. November 2010",
+                            "source": "Quelle: Bündnis 90/Die Grünen Nordrhein-Westfalen / CC BY-SA 2.0 / Wikimedia Commons"
+                        },
+                        "oceanprotest": {
+                            "src": "assets/images/Demo_gegen_Kernenergie_1975_cropped.png",
+                            "alt": "Titel: Juni 1982, Greenpeace-Aktion gegen Schiffe die nuklear Abfall aus Großbritannien, Belgien und der Schweiz im Atlantik entsorgen wollen",
+                            "source": "Quelle: © Pierre Gleizes / Greenpeace"
+                        },
+                        "tschernobyl-1": {
+                            "src": "assets/images/tschernobyl2.jpg",
+                            "alt": "Titel: Kontrollraum des Kernkraftwerks Tschernobyl nach der Katastrophe",
+                            "source": "Quelle: BBC World Service / CC BY-NC 2.0 / flickr.com"
+                        },
+                        "tschernobyl-2": {
+                            "src": "assets/images/Tschernobyl_2013.jpg",
+                            "alt": "Titel: Erster “Sakrophag” über dem Unfallort zur Abschirmung der Radioaktivität",
+                            "source": "Quelle: © Arne Müseler / arne-mueseler.de / CC-BY-SA-3.0"
+                        },
+                        "highpoint": {
+                            "src": "assets/images/Grohnde.jpg",
+                            "alt": "Titel: Wie sieht die Stromerzeugung der Zukunft aus?",
+                            "source": "Quelle: Alex Jones on Unsplash"
+                        },
+                        "stepdown": {
+                            "src": "assets/images/Demo_gegen_Kernenergie_1975_cropped.png",
+                            "alt": "Titel: Wie sieht die Stromerzeugung der Zukunft aus?",
+                            "source": "Quelle: Alex Jones on Unsplash"
+                        },
+                        "fukushima": {
+                            "src": "assets/images/ChicagoPile1-2.jpg",
+                            "alt": "Titel: IAEA Experten im Kernkraftwerk Fukushima Daiichi",
+                            "source": "Quelle: IAEA Imagebank / CC-BY-SA-2.0 / Wikimedia Commons"
+                        }
+                    }
+                }
             }
         },
         "search": {
@@ -172,12 +365,14 @@
             "prevView": "search",
             "order": 3,
             "title": "Beteiligung",
+            "leader": "",
             "description": "This chapter is about the basics of nuclear waste ..."
         },
         "future": {
             "prevView": "participation",
             "order": 4,
             "title": "Zukunft",
+            "leader": "",
             "description": "This chapter is about the basics of nuclear waste ..."
         }
     }

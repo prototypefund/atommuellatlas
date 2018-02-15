@@ -4,7 +4,6 @@ import BaseComponent from '/core/component/BaseComponent';
 import style from '/core/component/_baseView.scss';
 
 const CLASS_VIEW = "view";
-const CLASS_HIDDEN = "hidden";
 const CLASS_TRANSITION_ENABLED = "view-transition";
 const CLASS_TRANSITION_RIGHT = "view-transition-to-right";
 const CLASS_TRANSITION_LEFT = "view-transition-to-left";

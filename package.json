@@ -36,6 +36,7 @@
     "postcss": "^6.0.14",
     "postcss-loader": "^2.0.9",
     "sass-loader": "^6.0.6",
+    "svg-inline-loader": "^0.8.0",
     "twig": "^1.10.5",
     "twig-loader": "^0.3.1",
     "webpack": "^3.9.1",
@@ -45,6 +46,7 @@
     "babel-polyfill": "^6.26.0",
     "babel-runtime": "^6.26.0",
     "gsap": "^1.20.3",
-    "loglevel": "^1.6.0"
+    "loglevel": "^1.6.0",
+    "tippy.js": "^2.2.0"
   }
 }

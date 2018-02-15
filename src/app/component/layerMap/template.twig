@@ -1,0 +1,18 @@
+<div class="layer-map">
+    <div class="layer-map-bg">
+        {{ data.icon.map }}
+    </div>
+    {% for layer in data.icon.layers %}
+        <div class="layer">
+            {{ layer }}
+        </div>
+    {% endfor %}
+    <ul class="legend">
+        {% for layer in data.layers %}
+            <li class="legend-item {{ layer.id }}" {{ data.overlayAttribute }}="{{ layer.id }}">
+                <span class="legend-item-box"></span>
+                <span class="legend-item-label">{{ layer.label }}</span>
+            </li>
+        {% endfor %}    
+    </ul>
+</div>

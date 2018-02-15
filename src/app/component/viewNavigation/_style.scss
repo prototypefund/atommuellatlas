@@ -143,6 +143,7 @@
 
   // scroll state - sticky at window top
   &.sticky {
+    color: $black;
     transition: none;
     transform: none;
 

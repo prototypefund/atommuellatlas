@@ -9,45 +9,100 @@ const CLASS = { // apply style per component to these classes
 
 export default class DomUtil {
 
-    static addClass(element, className) {
-        element.classList.add(className);
+    static hasAttribute(elementOrElements, attribute, value) {
+        let result = false;
+        if (DomUtil._isMany(elementOrElements)) {
+            for (let element of elementOrElements) {
+                if (DomUtil._hasAttr(element, attribute, value)) result = true; // if anyone has it, result is true
+            }
+        } else {
+            result = DomUtil._hasAttr(elementOrElements, attribute, value);
+        }
+        return result;
     }
 
-    static removeClass(element, className) {
-        element.classList.remove(className);
-    }
-
-    static hasClass(element, className) {
-        return element.classList.contains(className);
-    }
-
-
-    // presets (intention is to add to single, and remove on multiple)
-    static setActive(element, elementsToReset = []) {
-        DomUtil._addStateClass(element, elementsToReset, CLASS.active);
-    }
-
-    static setHover(element, elementsToReset = []) {
-        DomUtil._addStateClass(element, elementsToReset, CLASS.hover);
-    }
-
-    static setHidden(element, elementsToReset = []) {
-        DomUtil._addStateClass(element, elementsToReset, CLASS.hidden);
+    static setAttribute(elementOrElements, attribute, value) {
+        if (DomUtil._isMany(elementOrElements)) {
+            for (let element of elementOrElements) element.setAttribute(attribute, value);
+        } else {
+            elementOrElements.setAttribute(attribute, value);
+        }
     }
     
-    static setCollapsed(element, elementsToReset = []) {
-        DomUtil._addStateClass(element, elementsToReset, CLASS.collapse);
+    static removeAttribute(elementOrElements, attribute) {
+        if (DomUtil._isMany(elementOrElements)) {
+            for (let element of elementOrElements) element.removeAttribute(attribute);
+        } else {
+            elementOrElements.removeAttribute(attribute);
+        }
     }
     
-    static setExpanded(element, elementsToReset = []) {
-        DomUtil._addStateClass(element, elementsToReset, CLASS.expand);
+    static getAttribute(element, attribute) {
+        return element.getAttribute(attribute);
     }
 
-    static setSticky(element, elementsToReset = []) {
-        DomUtil._addStateClass(element, elementsToReset, CLASS.sticky);
+    static get scrollOffset() {
+        return {
+            left: (window.pageXOffset || document.scrollLeft || 0) - (document.clientLeft || 0),
+            top: (window.pageYOffset || document.scrollTop || 0) - (document.clientTop || 0)
+        }
     }
-    
-    
+
+    static addClass(elementOrElements, className) {
+        if (DomUtil._isMany(elementOrElements)) {
+            for (let element of elementOrElements) element.classList.add(className);
+        } else {
+            elementOrElements.classList.add(className);
+        }
+    }
+
+    static removeClass(elementOrElements, className) {
+        if (DomUtil._isMany(elementOrElements)) {
+            for (let element of elementOrElements) element.classList.remove(className);
+        } else {
+            elementOrElements.classList.remove(className);
+        }
+    }
+
+    static hasClass(elementOrElements, className) {
+        let result = false;
+        if (DomUtil._isMany(elementOrElements)) {
+            for (let element of elementOrElements) {
+                if (element.classList.contains(className)) result = true; // if anyone has it, result is true
+            }
+        } else {
+            result = elementOrElements.classList.contains(className);
+        }
+        return result;
+    }
+
+
+    // presets (intention is to add to single/many, and remove on multiple)
+    static setActive(elementOrElements, elementsToReset = []) {
+        DomUtil._addStateClass(elementOrElements, elementsToReset, CLASS.active);
+    }
+
+    static setHover(elementOrElements, elementsToReset = []) {
+        DomUtil._addStateClass(elementOrElements, elementsToReset, CLASS.hover);
+    }
+
+    static setHidden(elementOrElements, elementsToReset = []) {
+        DomUtil._addStateClass(elementOrElements, elementsToReset, CLASS.hidden);
+    }
+
+    static setCollapsed(elementOrElements, elementsToReset = []) {
+        DomUtil._addStateClass(elementOrElements, elementsToReset, CLASS.collapse);
+    }
+
+    static setExpanded(elementOrElements, elementsToReset = []) {
+        DomUtil._addStateClass(elementOrElements, elementsToReset, CLASS.expand);
+    }
+
+    static setSticky(elementOrElements, elementsToReset = []) {
+        DomUtil._addStateClass(elementOrElements, elementsToReset, CLASS.sticky);
+    }
+
+
     static removeActive(elementOrElements) {
         DomUtil._removeStateClass(elementOrElements, CLASS.active);
     }
@@ -99,13 +154,20 @@ export default class DomUtil {
 
 
     // preset helpers
-    static _addStateClass(element, elementsToReset, className) {
-        DomUtil._multiClassReset(element, elementsToReset, className);
-        DomUtil.addClass(element, className);
+    static _addStateClass(elementOrElements, elementsToReset, className) {
+        if (DomUtil._isMany(elementOrElements)) {
+            for (let element of elementOrElements) {
+                DomUtil._multiClassReset(null, elementsToReset, className); // can still reset, just not without exempted element
+                DomUtil.addClass(element, className);
+            }
+        } else {
+            DomUtil._multiClassReset(elementOrElements, elementsToReset, className);
+            DomUtil.addClass(elementOrElements, className);
+        }
     }
-    
+
     static _removeStateClass(elementOrElements, className) {
-        if (Array.isArray(elementOrElements)) {
+        if (DomUtil._isMany(elementOrElements)) {
             DomUtil._multiClassReset(null, elementOrElements, className)
         } else {
             DomUtil.removeClass(elementOrElements, className);
@@ -118,6 +180,18 @@ export default class DomUtil {
             if (elements[i] !== exceptionElement) {
                 DomUtil.removeClass(elements[i], className);
             }
+        }
+    }
+
+    static _isMany(elementOrElements) {
+        return Array.isArray(elementOrElements) || elementOrElements instanceof NodeList;
+    }
+
+    static _hasAttr(element, attribute, value) {
+        if (value) {
+            return element.getAttribute(attribute) === value;
+        } else {
+            return element.hasAttribute(attribute)
         }
     }
 }

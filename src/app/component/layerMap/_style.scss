@@ -1,0 +1,145 @@
+@import "./../../../variables";
+
+.layer-map {
+  position: relative;
+
+  &-bg {
+    svg {
+      z-index: $underlay;
+
+      path {
+        fill: $map;
+
+        stroke: $map;
+        stroke-width: 1;
+      }
+    }
+
+    &.borders {
+      svg {
+        path {
+          stroke: $map-border;
+        }
+      }
+    }
+  }
+
+  .area-layer, .legend-item {
+    fill-opacity: 0;
+    stroke-opacity: 0;
+
+    transition: transform, opacity, fill, fill-opacity;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.8s;
+
+    transform: translate(0, -50px) scale(1.2);
+
+    // fill should overwrite .collapsed if .hover is present, otherwise not. 
+    &.granite, &.granite.hover {
+      color: $map-granite;
+      border-color: $map-granite;
+      fill: $map-granite;
+    }
+
+    &.clay, &.clay.hover {
+      color: $map-clay;
+      border-color: $map-clay;
+      fill: $map-clay;
+    }
+
+    &.rocksalt, &.rocksalt.hover {
+      color: $map-rocksalt;
+      border-color: $map-rocksalt;
+      fill: $map-rocksalt;
+    }
+
+    &.rocksalt-jurassic, &.rocksalt-jurassic.hover {
+      color: $map-rocksalt-jurassic;
+      border-color: $map-rocksalt-jurassic;
+      fill: $map-rocksalt-jurassic;
+    }
+
+    &.rocksalt-keuper, &.rocksalt-keuper.hover {
+      color: $map-rocksalt-keuper;
+      border-color: $map-rocksalt-keuper;
+      fill: $map-rocksalt-keuper;
+    }
+
+    // transition states
+    &.active {
+      pointer-events: all; // allow tooltips
+
+      opacity: 1;
+      fill-opacity: 1;
+      transform: translate(0, 0);
+    }
+
+    &.collapsed {
+      fill: $map-layer;
+    }
+
+    &.hover {
+      transition-duration: 0s;
+    }
+  }
+
+  .layer {
+    pointer-events: none;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    svg {
+      position: relative;
+      overflow: visible;
+      z-index: $mapLayer;
+
+      &.hover {
+        z-index: $mapLayerPrio;
+      }
+
+      .area-layer {
+        *:focus {
+          outline: none;
+        }
+        // graphics has other means to highlight focus
+      }
+    }
+  }
+
+  .legend {
+    position: static;
+
+    list-style-type: none;
+
+    &-item {
+      pointer-events: all;
+      cursor: pointer;
+
+      width: 100%;
+      display: inline-flex;
+      align-items: center;
+
+      opacity: 0;
+      transform: translate(-2rem, 0);
+
+      > * {
+        pointer-events: none;
+        display: inline-block;
+      }
+
+      &-box {
+        position: relative;
+        top: -0.05rem;
+        border: 0.5rem solid;
+        margin-right: 0.2rem;
+      }
+
+      &-label {
+      }
+    }
+  }
+}

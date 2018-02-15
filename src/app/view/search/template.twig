@@ -2,17 +2,26 @@
     
     <h1>{{ data.title }}</h1>
     <p>{{ data.leader }}</p>
+    
+    <div class="map-area">
+        <div class="map-area-left">
+            <div class="map-container"></div>
+        </div>
+        <div class="map-area-right">
+            <h2>{{ data.whatIsStoredWhere.h1 }}</h2>
+            <p class="map-marker clay">{{ data.whatIsStoredWhere.p1 }}</p>
+            <p class="map-marker granite">{{ data.whatIsStoredWhere.p2 }}</p>
+            <div class="media media-inline"><img src="{{ data.image.well }}"></div>
+            <p>{{ data.whatIsStoredWhere.p3 }}</p>
+            <div class="media media-inline"><video controls src="http://multimedia.gsb.bund.de/BFS/KONRAD/Vom_Erzlager_zum_Endlager_deu.webm" type="video/webm"></video></div>
+            <p class="map-marker rocksalt">{{ data.whatIsStoredWhere.p4 }}</p>
+            <p class="map-marker rocksalt-jurassic">{{ data.whatIsStoredWhere.p5 }}</p>
+            <p class="map-marker rocksalt-keuper">{{ data.whatIsStoredWhere.p6 }}</p>
+            <div class="media media-inline"><iframe width="100%" height="350px" src="https://www.youtube.com/embed/ZmTaiElVfBg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
 
-    <h2>{{ data.whatIsStoredWhere.h1 }}</h2>
-    <p>{{ data.whatIsStoredWhere.p1 }}</p>
-    <p>{{ data.whatIsStoredWhere.p2 }}</p>
-    <div class="media media-inline"><img src="{{ data.image.well }}"></div>
-    <p>{{ data.whatIsStoredWhere.p3 }}</p>
-    <div class="media media-inline"><video controls src="http://multimedia.gsb.bund.de/BFS/KONRAD/Vom_Erzlager_zum_Endlager_deu.webm" type="video/webm"></video></div>
-    <p>{{ data.whatIsStoredWhere.p4 }}</p>
-    <p>{{ data.whatIsStoredWhere.p5 }}</p>
-    <p>{{ data.whatIsStoredWhere.p6 }}</p>
-    <div class="media media-inline"><iframe width="100%" height="350px" src="https://www.youtube.com/embed/ZmTaiElVfBg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
+        </div>
+    </div>
+    
     
     <h2>{{ data.searchProcess.h1 }}</h2>
     <p>{{ data.searchProcess.p1 }}</p>

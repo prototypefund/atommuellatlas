@@ -12,7 +12,7 @@ import Participation from '/app/view/participation/Participation';
 import Future from '/app/view/future/Future';
 
 // overlays
-import About from '/app/overlay/about/about';
+import About from '/app/overlay/about/About';
 
 
 new class App extends Application {
@@ -31,12 +31,13 @@ new class App extends Application {
         };
         
         const overlayMap = {
-            "about": About  
+            "about": About,
+            "c1p3": About
         };
 
         if (!viewContainer || !introContainer || !overlayContainer) throw new Error("Initialization container-element missing");
 
-        this.initHeader(introContainer);
+        this.initStatic(introContainer);
         this.initView(viewContainer, viewMap);
         this.initOverlay(overlayContainer, overlayMap);
 

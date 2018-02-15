@@ -20,6 +20,8 @@ export default class ViewNavigation extends BaseComponent {
     }
 
     postRender() {
+        super.postRender();
+        
         this._navBar = this.element.querySelector(".view-navigation-bar");
         this._navItems = this.element.querySelectorAll(".view-navigation-bar-item");
         this._navItemLabels = this.element.querySelectorAll(".view-navigation-bar-item-label");
@@ -119,6 +121,8 @@ export default class ViewNavigation extends BaseComponent {
     }
 
     destroy() {
+        super.destroy();
+        
         for (let item of this._navItems) {
             item.removeEventListener("click", this.navItemHandler);
         }

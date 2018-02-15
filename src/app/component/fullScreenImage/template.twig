@@ -1,0 +1,11 @@
+<div class="full-screen-image">
+    
+    <div class="full-screen-image-gradient hidden" style="background: {{ data.gradient }}"></div>
+    
+    <div class="full-screen-image-container">
+        {% for key, image in data.images %}
+            <img class="full-screen-image hidden {{ key }}" src="" style="background-image:url({{ image.src }});" alt="{{ image.alt }}">
+        {% endfor %}
+    </div>
+
+</div>

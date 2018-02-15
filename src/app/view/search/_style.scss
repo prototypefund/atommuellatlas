@@ -1,4 +1,30 @@
 @import "./../../../variables";
 
 section.search {
+  
+  .map-area {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: nowrap;
+    
+    &-left {
+      margin: 20em 1em 0 0;
+      flex: 0 0 50%;
+      
+      .map-container {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .sticky {
+        position: fixed;
+        top: 0;
+      }
+    }
+    
+    &-right {
+      flex: 0 0 50%;
+    }
+  }
 }

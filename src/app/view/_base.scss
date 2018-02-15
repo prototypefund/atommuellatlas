@@ -7,8 +7,6 @@ body main section {
   max-width: $max-width;
   margin: 0 auto;
   
-  
-  
   img, video {
     width: 100%;
   }
@@ -18,7 +16,19 @@ body main section {
     margin: 2em 0;
     
     &-inline {
-      
+      width: 100%;
+    }
+  }
+  
+  .extra-info {
+    position: absolute;
+
+    &.right {
+      right: 0;
+    }
+
+    &.left {
+      left: 0;
     }
   }
 }

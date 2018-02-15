@@ -38,6 +38,7 @@ export default (env) => {
         },
         resolve: {
             alias: {
+                "assets": path.resolve(__dirname, "static/assets"),
                 "content": path.resolve(__dirname, "static/content.json"),
                 "hero-img": path.resolve(__dirname, "static/assets/jakob-madsen-187927.jpg")
             }
@@ -136,6 +137,10 @@ export default (env) => {
                         ]
 
                     })
+                },
+                {
+                    test: /\.svg$/,
+                    loader: 'svg-inline-loader'
                 },
                 {
                     test: /\.(png|jpg|gif)$/,

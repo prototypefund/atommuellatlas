@@ -18,9 +18,9 @@ export default class Application {
         this._viewFactory = new ViewFactory();
     }
     
-    initHeader(navContainer, introContainer) {
+    initStatic(navContainer) {
         
-        this._mainController = new MainController(navContainer, introContainer);
+        this._mainController = new MainController(navContainer);
     }
     
     initView(viewContainer, viewMap) {
@@ -30,6 +30,7 @@ export default class Application {
     }
     
     initOverlay(overlayContainer, overlayMap) {
+        
         this._viewFactory.overlayMap = overlayMap;
         this._overlayController = new OverlayController(overlayContainer, this._viewFactory);
     }

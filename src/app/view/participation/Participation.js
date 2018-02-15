@@ -11,4 +11,12 @@ export default class Participation extends BaseView {
     constructor(id, data={}) {
         super(id, template, style, data);
     }
+    
+    postRender() {
+        super.postRender();
+    }
+    
+    destroy() {
+        super.destroy();
+    }
 }
