@@ -4,10 +4,31 @@
 
 // static content styling
 body {
+  //TODO remove beta-banner
+  .beta-banner {
+    pointer-events: none;
+    opacity: 0.5;
+    
+    z-index: $global-prio;
+    width: 200px;
+    background: $red;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: $white;
+
+    top: 25px;
+    right: -50px;
+    transform: rotate(45deg);
+  }
+  
   overflow-x: hidden;
   width: 100%;
   height: 100%;
 
+  transition: background-color 0.5s ease-in-out;
+  
   > * {
     display: block;
     position: relative;
@@ -27,8 +48,28 @@ body {
     opacity: 0;
     pointer-events: none;
   }
-  
+
   * {
     transition: opacity 0.15s ease-in-out;
   }
+
+  .app-bg {
+    z-index: $appBackground;
+    background-color: $bg-base;
+
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    &.inverse {
+      background-color: $black;
+    }
+  }
+}
+
+.scroll-lock {
+  overflow: hidden !important;
 }

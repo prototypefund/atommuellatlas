@@ -14,9 +14,11 @@ export default class ViewNavigation extends BaseComponent {
         super(template, style, data);
         this._transitionDuration = 0.5;
 
-        this.navItemHandler = this._onViewNavigation.bind(this);
+        this._navItemHandler = this._onViewNavigation.bind(this);
+        this._resizeHandler = this._onResize.bind(this);
 
         EventDispatcher.addEventListener(ViewEvent.LOAD, event => this.selectNavItem(event.id));
+        window.addEventListener("resize", this._resizeHandler);
     }
 
     postRender() {
@@ -27,7 +29,7 @@ export default class ViewNavigation extends BaseComponent {
         this._navItemLabels = this.element.querySelectorAll(".view-navigation-bar-item-label");
 
         for (let item of this._navItems) {
-            item.addEventListener("click", this.navItemHandler);
+            item.addEventListener("click", this._navItemHandler);
         }
     }
 
@@ -41,6 +43,12 @@ export default class ViewNavigation extends BaseComponent {
         }
 
         Log.error(`Invalid nav item target: ${id}`);
+    }
+    
+    _onResize() {
+        console.log("NAV RESIZE")
+        
+        
     }
 
     _onViewNavigation(event) {
@@ -124,7 +132,8 @@ export default class ViewNavigation extends BaseComponent {
         super.destroy();
         
         for (let item of this._navItems) {
-            item.removeEventListener("click", this.navItemHandler);
+            item.removeEventListener("click", this._navItemHandler);
         }
+        window.removeEventListener("resize", this._resizeHandler);
     }
 }

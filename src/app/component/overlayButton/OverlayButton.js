@@ -24,7 +24,7 @@ export default class OverlayButton extends BaseComponent {
     _onClick(event) {
         event.stopPropagation();
         
-        EventDispatcher.dispatchEvent(OverlayEvent.OPEN, "c1p3")
+        EventDispatcher.dispatchEvent(OverlayEvent.OPEN, this.data.overlay)
     }
     
     destroy() {

@@ -1,0 +1,18 @@
+<section class="overlay-dark" {% if data.backgroundImage %}style="background-image: url({{ data.backgroundImage }})"{% endif %}>
+    {% if data.image %}
+        <div class="image" title="{{ data.h1 }}">
+            <img src="{{ data.image.src }}" title="{{ data.image.title }}">
+            <p>{{ data.image.title }}</p>
+            <p>
+                <span>{{ data.image.label1 }} </span>
+                <a target="_blank" href="{{ data.image.href1 }}">{{ data.image.link1 }}</a>
+                {% if data.image.href2 %}/<a target="_blank" href="{{ data.image.href2 }}">{{ data.image.link2 }}</a>{% endif %}
+                <span> {{ data.image.label2 }}</span>
+            </p>
+        </div>
+    {% endif %}
+    {% if data.h1 %}<h1>{{ data.h1 }}</h1>{% endif %}
+    <p>{{ data.p1 }}</p>
+    {% if data.p2 %}<p>{{ data.p2 }}</p>{% endif %}
+    {% if data.link %}<a target="_blank" href="{{ data.link }}">{{ data.label }}</a>{% endif %}
+</section>

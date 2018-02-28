@@ -1,0 +1,14 @@
+<svg class="nuclear_hazard" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595.28 595.28">
+    <title>Symbol für Radioaktivität</title>
+    <defs>
+        <style>
+            .nuclear-hazard-1,.nuclear-hazard-3{fill:#f9e100;}.nuclear-hazard-1{stroke:#232323;stroke-width:14.17px;}.nuclear-hazard-1,.nuclear-hazard-4{stroke-miterlimit:10;}.nuclear-hazard-2,.nuclear-hazard-4{fill:#232323;}.nuclear-hazard-4{stroke:#f9e100;stroke-width:11.34px;}
+        </style>
+    </defs>
+    <polygon class="nuclear-hazard-1" points="297.57 38.15 21.14 516.93 573.99 516.93 297.57 38.15"/>
+    <circle class="nuclear-hazard-2" cx="297.66" cy="357.24" r="132.51"/>
+    <polygon class="nuclear-hazard-3" points="297.65 357.22 214.09 212.49 381.22 212.49 297.65 357.22"/>
+    <polygon class="nuclear-hazard-3" points="214.09 501.99 130.53 357.26 297.65 357.26 214.09 501.99"/>
+    <polygon class="nuclear-hazard-3" points="381.2 501.96 297.64 357.23 464.76 357.23 381.2 501.96"/>
+    <circle class="nuclear-hazard-4" cx="297.71" cy="357.38" r="31.24"/>
+</svg>

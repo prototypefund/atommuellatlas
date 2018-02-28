@@ -1,0 +1,21 @@
+@import "./../../../variables";
+
+section.overlay-dark {
+  
+  &, .background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .image {
+    margin-bottom: 30px;  
+    
+    img {
+      max-width: 100%;
+      width: auto;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}

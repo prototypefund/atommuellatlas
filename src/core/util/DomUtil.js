@@ -4,7 +4,8 @@ const CLASS = { // apply style per component to these classes
     hidden: "hidden",
     expand: "expand",
     collapse: "collapsed",
-    sticky: "sticky"
+    sticky: "sticky",
+    scrollLock: "scroll-lock"
 };
 
 export default class DomUtil {
@@ -102,6 +103,10 @@ export default class DomUtil {
         DomUtil._addStateClass(elementOrElements, elementsToReset, CLASS.sticky);
     }
 
+    static setScrollLock(elementOrElements, elementsToReset = []) {
+        DomUtil._addStateClass(elementOrElements, elementsToReset, CLASS.scrollLock);
+    }
+
 
     static removeActive(elementOrElements) {
         DomUtil._removeStateClass(elementOrElements, CLASS.active);
@@ -127,6 +132,10 @@ export default class DomUtil {
         DomUtil._removeStateClass(elementOrElements, CLASS.sticky);
     }
 
+    static removeScrollLock(elementOrElements) {
+        DomUtil._removeStateClass(elementOrElements, CLASS.scrollLock);
+    }
+
 
     static isActive(element) {
         return DomUtil.hasClass(element, CLASS.active);
@@ -150,6 +159,10 @@ export default class DomUtil {
 
     static isSticky(element) {
         return DomUtil.hasClass(element, CLASS.sticky);
+    }
+
+    static isScrollLock(element) {
+        return DomUtil.hasClass(element, CLASS.scrollLock);
     }
 
 

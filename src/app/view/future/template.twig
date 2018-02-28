@@ -1,3 +1,36 @@
 <section class="future">
     <h1>{{ data.title }}</h1>
+    <p>{{ data.leader }}</p>
+
+    <p>{{ data.future.p1 }}</p>
+    <p>{{ data.future.p2 }}</p>
+    <p>{{ data.future.p3 }}</p>
+    <div class="media media-inline">
+        {{ data.icon.timeline }}
+        <p>{{ data.future.timeline.title }}</p>
+        <p>
+            <span>{{ data.future.timeline.label1 }} </span>
+            <a title="{{ data.future.timeline.href1 }}" href="{{ data.future.timeline.href1 }}">{{ data.future.timeline.link1 }}</a>
+            <span> {{ data.future.timeline.label2 }}</span>
+        </p>
+    </div>
+    <p>{{ data.future.p4 }}</p>
+
+    <h2>{{ data.warning.h1 }}</h2>
+    <p>{{ data.warning.p1 }}</p>
+    <p>{{ data.warning.p2 }}</p>
+    <p>{{ data.warning.p3 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.warning.hazard.src }}" alt="{{ data.warning.hazard.title }}">
+        <p>{{ data.warning.hazard.title }}</p>
+        <p>
+            <span>{{ data.warning.hazard.label1 }} </span>
+            <a title="{{ data.warning.hazard.href1 }}" href="{{ data.warning.hazard.href1 }}">{{ data.warning.hazard.link1 }}</a>
+            <span> {{ data.warning.hazard.label2 }}</span>
+        </p>
+    </div>
+    <p>{{ data.future.p4 }}</p>
+
+    <h2>{{ data.whatCanIDO.h1 }}</h2>
+    <p>{{ data.whatCanIDO.p1 }}</p>
 </section>

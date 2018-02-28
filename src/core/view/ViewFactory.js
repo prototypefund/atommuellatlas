@@ -45,8 +45,8 @@ export default class ViewFactory {
     }
     
     getOverlayInstance (id) {
-        let overlayClass = this.getOverlayByID(id);
         let data = this.getOverlayDataByID(id);
+        let overlayClass = this.getOverlayByID(data.overlay || id);
 
         return new overlayClass(id, data);
     }

@@ -1,3 +1,48 @@
 <section class="participation">
-    <h1>{{ data.title }}</h1>
+    <h1>{{ data.participate.h1 }}</h1>
+
+    <p>{{ data.participate.p1 }}</p>
+    <p>{{ data.participate.p2 }}</p>
+    <p>{{ data.participate.p3 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.participate.simpsons.src }}" alt="{{ data.participate.simpsons.title }}">
+        <p>{{ data.participate.simpsons.title }}</p>
+        <p>
+            <span>{{ data.participate.simpsons.label1 }} </span>
+            <a title="{{ data.participate.simpsons.href1 }}" href="{{ data.participate.simpsons.href1 }}">{{ data.participate.simpsons.link1 }}</a>
+            /
+            <a title="{{ data.participate.simpsons.href2 }}" href="{{ data.participate.simpsons.href2 }}">{{ data.participate.simpsons.link2 }}</a>
+            <span> {{ data.participate.simpsons.label2 }}</span>
+        </p>
+    </div>
+    <p>{{ data.participate.p4 }}</p>
+    <p>{{ data.participate.p5 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.participate.gorleben.src }}" alt="{{ data.participate.gorleben.title }}">
+        <p>{{ data.participate.gorleben.title }}</p>
+        <p>
+            <span>{{ data.participate.gorleben.label1 }} </span>
+            <a title="{{ data.participate.gorleben.href1 }}" href="{{ data.participate.gorleben.href1 }}">{{ data.participate.gorleben.link1 }}</a>
+            <span> {{ data.participate.gorleben.label2 }}</span>
+        </p>
+    </div>
+    <p>{{ data.participate.p6 }}</p>
+    <p>{{ data.participate.p7 }}</p>
+
+    <h2>{{ data.whoDoesWhat.h1 }}</h2>
+    <p>{{ data.whoDoesWhat.p1 }}</p>
+    <p>{{ data.whoDoesWhat.p2 }}</p>
+    <p>{{ data.whoDoesWhat.p3 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.whoDoesWhat.actors.src }}" alt="{{ data.whoDoesWhat.actors.title }}">
+        <p>{{ data.whoDoesWhat.actors.title }}</p>
+        <p>
+            <span>{{ data.whoDoesWhat.actors.label1 }} </span>
+        </p>
+    </div>
+    <p>{{ data.whoDoesWhat.p4 }}</p>
+    <p>{{ data.whoDoesWhat.p5 }}</p>
+    <p>{{ data.whoDoesWhat.p6 }}</p>
+    
+    <div class="next-chapter"></div>
 </section>

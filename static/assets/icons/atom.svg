@@ -1,0 +1,34 @@
+<svg class="atom" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365.26 450.2">
+    <title>Atommodell nach Rutherford</title>
+    <defs>
+        <style>
+            .atom-n{fill:#444545;}.atom-p{fill:#f9e100;}.atom-3{fill:none;stroke:#232323;stroke-miterlimit:10;stroke-width:1.7px;}.atom-e{fill:#70cbd4;}.atom-5{font-size:12px;fill:#231f20;font-family:OpenSans,
+            Open Sans;}
+        </style>
+    </defs>
+    <circle class="atom-n" cx="190.05" cy="193.05" r="11.84"/>
+    <circle class="atom-n" cx="183.34" cy="187.69" r="11.84"/>
+    <circle class="atom-n" cx="167.71" cy="212.71" r="11.84"/>
+    <circle class="atom-p" cx="170.39" cy="189.92" r="11.84"/>
+    <circle class="atom-n" cx="188.71" cy="219.86" r="11.84"/>
+    <circle class="atom-p" cx="194.23" cy="205.03" r="11.84"/>
+    <circle class="atom-p" cx="170.1" cy="222.45" r="11.84"/>
+    <circle class="atom-n" cx="182.16" cy="197.68" r="11.84"/>
+    <circle class="atom-n" cx="164.37" cy="202.65" r="11.84"/>
+    <circle class="atom-p" cx="181.35" cy="211.58" r="11.84"/>
+    <circle class="atom-p legend" cx="278.61" cy="363.17" r="11.84"/>
+    <ellipse class="atom-3" cx="178.88" cy="205.47" rx="58.27" ry="201.15"/>
+    <ellipse class="atom-3" cx="178.97" cy="205.46" rx="201.15" ry="58.27"
+             transform="translate(-83.03 130.62) rotate(-33)"/>
+    <ellipse class="atom-3" cx="178.94" cy="205.96" rx="58.27" ry="201.15"
+             transform="translate(-91.25 243.86) rotate(-57)"/>
+    <circle class="atom-e" cx="72.64" cy="91.49" r="11.84"/>
+    <circle class="atom-e" cx="27.01" cy="262.99" r="11.84"/>
+    <circle class="atom-e" cx="234.71" cy="272.43" r="11.84"/>
+    <circle class="atom-e" cx="331.47" cy="152.06" r="11.84"/>
+    <text class="atom-5" transform="translate(295.61 367.47)">Proton</text>
+    <circle class="atom-n legend" cx="278.61" cy="397.17" r="11.84"/>
+    <text class="atom-5" transform="translate(295.61 401.47)">Neutron</text>
+    <circle class="atom-e legend" cx="278.61" cy="430.17" r="11.84"/>
+    <text class="atom-5" transform="translate(295.61 434.47)">Elektron</text>
+</svg>

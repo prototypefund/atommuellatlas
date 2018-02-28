@@ -1,38 +1,144 @@
 <section class="nuclear-waste">
-    
+
     <h1>{{ data.title }}</h1>
     <p>{{ data.leader }}</p>
-    
-    
-    
+
+
     <h2>{{ data.buildingBlocksOfTheWorld.h1 }}</h2>
     <p>{{ data.buildingBlocksOfTheWorld.p1 }}</p>
-    
+    <div class="media media-inline">
+        {{ data.icon.atom }}
+        <p>{{ data.buildingBlocksOfTheWorld.atom.title }}</p>
+        <p>
+            <span>{{ data.buildingBlocksOfTheWorld.atom.label1 }} </span>
+            <a title="{{ data.buildingBlocksOfTheWorld.atom.href1 }}" href="{{ data.buildingBlocksOfTheWorld.atom.href1 }}">{{ data.buildingBlocksOfTheWorld.atom.link1 }}</a>
+            /
+            <a title="{{ data.buildingBlocksOfTheWorld.atom.href2 }}" href="{{ data.buildingBlocksOfTheWorld.atom.href2 }}">{{ data.buildingBlocksOfTheWorld.atom.link2 }}</a>
+            <span> {{ data.buildingBlocksOfTheWorld.atom.label2 }}</span>
+        </p>
+    </div>
+
     <h2>{{ data.radioactivity.h1 }}</h2>
     <p>{{ data.radioactivity.p1 }}</p>
     <p>{{ data.radioactivity.p2 }}</p>
+    <div class="media media-inline">
+        <video controls poster="transparent" style="background-image: url('{{ data.radioactivity.video.poster }}')"
+               src="{{ data.radioactivity.video.src }}"></video>
+        <p>{{ data.radioactivity.video.title }}</p>
+        <p>
+            <span>{{ data.radioactivity.video.label }} </span>
+            <a title="{{ data.radioactivity.video.href }}" href="{{ data.radioactivity.video.href }}">{{ data.radioactivity.video.link }}</a>
+        </p>
+    </div>
     <p>{{ data.radioactivity.p3 }}</p>
-    
-    <div class="extra-info right p3"></div>
+    <div class="media media-inline">
+        {{ data.icon.nuclear_hazard }}
+        <p>{{ data.radioactivity.hazard.title }}</p>
+        <p>
+            <span>{{ data.radioactivity.hazard.label1 }} </span>
+            <a title="{{ data.radioactivity.hazard.href1 }}" href="{{ data.radioactivity.hazard.href1 }}">{{ data.radioactivity.hazard.link1 }}</a>
+            /
+            <a title="{{ data.radioactivity.hazard.href2 }}" href="{{ data.radioactivity.hazard.href2 }}">{{ data.radioactivity.hazard.link2 }}</a>
+            <span> {{ data.radioactivity.hazard.label2 }}</span>
+        </p>
+    </div>
+
+    <div class="extra-info right" data-overlay-button="isitreallygreen"></div>
 
     <h2>{{ data.halftime.h1 }}</h2>
     <p>{{ data.halftime.p1 }}</p>
 
     <h2>{{ data.nuclearEnergyUsage.h1 }}</h2>
     <p>{{ data.nuclearEnergyUsage.p1 }}</p>
+    <p>{{ data.nuclearEnergyUsage.p2 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.nuclearEnergyUsage.rods.src }}" alt="{{ data.nuclearEnergyUsage.rods.title }}">
+        <p>{{ data.nuclearEnergyUsage.rods.title }}</p>
+        <p>
+            <span>{{ data.nuclearEnergyUsage.rods.label1 }} </span>
+            <a title="{{ data.nuclearEnergyUsage.rods.href1 }}" href="{{ data.nuclearEnergyUsage.rods.href1 }}">{{ data.nuclearEnergyUsage.rods.link1 }}</a>
+            /
+            <a title="{{ data.nuclearEnergyUsage.rods.href2 }}" href="{{ data.nuclearEnergyUsage.rods.href2 }}">{{ data.nuclearEnergyUsage.rods.link2 }}</a>
+            <span> {{ data.nuclearEnergyUsage.rods.label2 }}</span>
+        </p>
+    </div>
+    <p>{{ data.nuclearEnergyUsage.p3 }}</p>
+    <div class="media media-inline enlarge">
+        {{ data.icon.nuclear_reactor }}
+        <p>{{ data.nuclearEnergyUsage.reactor.title }}</p>
+        <p>
+            <span>{{ data.nuclearEnergyUsage.reactor.label1 }} </span>
+            <a title="{{ data.nuclearEnergyUsage.reactor.href1 }}" href="{{ data.nuclearEnergyUsage.reactor.href1 }}">{{ data.nuclearEnergyUsage.reactor.link1 }}</a>
+            <a title="{{ data.nuclearEnergyUsage.reactor.href2 }}" href="{{ data.nuclearEnergyUsage.reactor.href2 }}">{{ data.nuclearEnergyUsage.reactor.link2 }}</a>
+            <span> {{ data.nuclearEnergyUsage.reactor.label2 }}</span>
+        </p>
+    </div>
+    <p>{{ data.nuclearEnergyUsage.p4 }}</p>
+    <div class="extra-info right" data-link-button="nuclearenergy"></div>
+    <div class="media media-inline">
+        <img src="{{ data.nuclearEnergyUsage.plant.src }}" alt="{{ data.nuclearEnergyUsage.plant.title }}">
+        <p>{{ data.nuclearEnergyUsage.plant.title }}</p>
+        <p>
+            <span>{{ data.nuclearEnergyUsage.plant.label1 }} </span>
+            <a title="{{ data.nuclearEnergyUsage.plant.href1 }}" href="{{ data.nuclearEnergyUsage.plant.href1 }}">{{ data.nuclearEnergyUsage.plant.link1 }}</a>
+            /
+            <a title="{{ data.nuclearEnergyUsage.plant.href2 }}" href="{{ data.nuclearEnergyUsage.plant.href2 }}">{{ data.nuclearEnergyUsage.plant.link2 }}</a>
+            <span> {{ data.nuclearEnergyUsage.plant.label2 }}</span>
+        </p>
+    </div>
+    <p>{{ data.nuclearEnergyUsage.p5 }}</p>
+    <div class="extra-info right" data-overlay-button="subvention"></div>
+    <div class="media media-inline">
+        <img src="{{ data.nuclearEnergyUsage.coolingwater.src }}"
+             alt="{{ data.nuclearEnergyUsage.coolingwater.title }}">
+        <p>{{ data.nuclearEnergyUsage.coolingwater.title }}</p>
+        <p>
+            <span>{{ data.nuclearEnergyUsage.coolingwater.label1 }} </span>
+            <a title="{{ data.nuclearEnergyUsage.coolingwater.href1 }}" href="{{ data.nuclearEnergyUsage.coolingwater.href1 }}">{{ data.nuclearEnergyUsage.coolingwater.link1 }}</a>
+            /
+            <a title="{{ data.nuclearEnergyUsage.coolingwater.href2 }}" href="{{ data.nuclearEnergyUsage.coolingwater.href2 }}">{{ data.nuclearEnergyUsage.coolingwater.link2 }}</a>
+            <span> {{ data.nuclearEnergyUsage.coolingwater.label2 }}</span>
+        </p>
+    </div>
+
 
     <h2>{{ data.isItSustainable.h1 }}</h2>
     <p>{{ data.isItSustainable.p1 }}</p>
     <p>{{ data.isItSustainable.p2 }}</p>
+    <div class="extra-info right" data-overlay-button="uraniummine"></div>
     <p>{{ data.isItSustainable.p3 }}</p>
     <p>{{ data.isItSustainable.p4 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.isItSustainable.nuclearworld.src }}" alt="{{ data.isItSustainable.nuclearworld.title }}">
+        <p>{{ data.isItSustainable.nuclearworld.title }}</p>
+        <p>
+            <span>{{ data.isItSustainable.nuclearworld.label1 }} </span>
+            <a title="{{ data.isItSustainable.nuclearworld.href1 }}" href="{{ data.isItSustainable.nuclearworld.href1 }}">{{ data.isItSustainable.nuclearworld.link1 }}</a>
+            /
+            <a title="{{ data.isItSustainable.nuclearworld.href2 }}" href="{{ data.isItSustainable.nuclearworld.href2 }}">{{ data.isItSustainable.nuclearworld.link2 }}</a>
+            <span> {{ data.isItSustainable.nuclearworld.label2 }}</span>
+        </p>
+    </div>
 
     <h2>{{ data.nuclearWaste.h1 }}</h2>
     <p>{{ data.nuclearWaste.p1 }}</p>
-    <p>{{ data.nuclearWaste.p2 }}</p>
+    <p>
+        <span>{{ data.nuclearWaste.p2_1 }} </span>
+        <a title="{{ data.nuclearWaste.viewjump1.ariaLabel }}" class="view-link" aria-label="{{ data.nuclearWaste.viewjump1.ariaLabel }}" data-view="{{ data.nuclearWaste.viewjump1.target }}">{{ data.nuclearWaste.viewjump1.label }}</a>
+        <span>{{ data.nuclearWaste.p2_2 }} </span>
+        <a title="{{ data.nuclearWaste.viewjump2.ariaLabel }}" class="view-link" aria-label="{{ data.nuclearWaste.viewjump2.ariaLabel }}" data-view="{{ data.nuclearWaste.viewjump2.target }}">{{ data.nuclearWaste.viewjump2.label }}</a>
+    </p>
+    <div class="media media-inline">
+        <img src="{{ data.nuclearWaste.plantmap.src }}" alt="{{ data.nuclearWaste.plantmap.title }}">
+        <p>{{ data.nuclearWaste.plantmap.title }}</p>
+        <p>
+            <span>{{ data.nuclearWaste.plantmap.label1 }} </span>
+            <a title="{{ data.nuclearWaste.plantmap.href1 }}" href="{{ data.nuclearWaste.plantmap.href1 }}">{{ data.nuclearWaste.plantmap.link1 }}</a>
+            <span> {{ data.nuclearWaste.plantmap.label2 }}</span>
+        </p>
+    </div>
 
-    <h2>{{ data.plantDeconstruction.h1 }}</h2>
-    <p>{{ data.plantDeconstruction.p1 }}</p>
     
-    
+    <h2 class="ending">{{ data.ending.h1 }}</h2>
+    <div class="next-chapter"></div>
 </section>

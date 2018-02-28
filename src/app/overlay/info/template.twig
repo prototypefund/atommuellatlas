@@ -1,0 +1,31 @@
+<section class="overlay-info">
+    {% if data.h1 %}<h1>{{ data.h1 }}</h1>{% endif %}
+
+    {% for section in data.sections %}
+        {% if section.h1 %}<h2>{{ section.h1 }}</h2>{% endif %}
+
+        {% if section.paragraphs %}
+            {% for p in section.paragraphs %}
+                <p>{{ p }}</p>
+            {% endfor %}
+        {% endif %}
+
+        {% if section.images %}
+            {% for img in section.images %}
+                <div class="image" title="{{ img.title }}">
+                    <img src="{{ img.src }}" alt="{{ img.title }}">
+                    <p>{{ img.title }}</p>
+                    <p>
+                        <span>{{ img.label1 }} </span>
+                        <a target="_blank" href="{{ img.href1 }}">{{ img.link1 }}</a>
+                        {% if img.href2 %}
+                            /
+                            <a target="_blank" href="{{ img.href2 }}">{{ img.link2 }}</a>
+                        {% endif %}
+                        <span> {{ img.label2 }}</span>
+                    </p>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</section>

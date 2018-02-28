@@ -20,6 +20,7 @@ $mapLayerPrio: 1;
 $mapLayer: 0;
 $underlayAbove: -1;
 $underlay: -2;
+$appBackground: -3;
 
 // font
 $font-family: Roboto, sans-serif;
@@ -34,11 +35,14 @@ $white: #fff;
 $black: #000000;
 $grey: #e4e4e4;
 $white-shadow: rgba(255, 255, 255, 0.5);
+$blacker-shadow: rgba(0, 0, 0, 0.6);
 $black-shadow: rgba(0, 0, 0, 0.5);
 $hover-shadow: rgba(0, 0, 0, 0.2);
 $green: #179860;
-$yellow: #ffed00;
+$yellow: #fff200;
+$orange: #ff9f00;
 $red: #ff3131;
+$blue: #2e5eff;
 //    layout
 $bg-overlay: #fff;
 $bg-cover: rgba(0, 0, 0, 0.51);

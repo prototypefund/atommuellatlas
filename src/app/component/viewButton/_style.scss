@@ -1,0 +1,23 @@
+@import "./../../../variables";
+
+.view-button {
+  display: block;
+  
+  
+  > * {
+    pointer-events: none;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  
+  &-icon {
+    margin: 0 0.4rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  &-label {
+    font-size: 1.2rem;
+  }
+}

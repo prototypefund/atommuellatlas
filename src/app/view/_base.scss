@@ -9,26 +9,83 @@ body main section {
   
   img, video {
     width: 100%;
+    height: auto;
+
+    background-size: 100% auto;
+    background-position: center center;
   }
   
   .media {
     width: $max-width;
-    margin: 2em 0;
+    margin: 3em 0 4em;
     
     &-inline {
       width: 100%;
+      font-size: 0.8em;
+      
+      &-untitled {
+        margin-bottom: 3em;
+      }
+      
+      > * {
+        margin: 0;
+      }
+
+      svg, img, video {
+        margin-bottom: 0.5em;
+      }
+      
+      &.enlarge {
+        margin-top: 4em;
+        margin-bottom: 6em;
+        
+        svg, img, video {
+          // TODO does not work fully on mobile, or desktop
+          //width: calc(100vw - 30%);
+          //transform: translateX(calc(290px - 50vw + 15%));
+          height: auto;
+          
+          margin-bottom: 1em;
+          
+          text {
+            font-size: 0.9em;
+          }
+        }
+      }
     }
   }
   
   .extra-info {
-    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 0.1rem 0;
 
+    &.right, &.left {
+      > * {
+        // TODO needs mobile fix
+        position: absolute;
+        top: -6rem;
+        width: 6rem;
+      }
+    }
+      
     &.right {
-      right: 0;
+      > * {
+        left: 106%;  
+      }
     }
 
     &.left {
-      left: 0;
+      > * {
+        right: 106%;
+      }
     }
+  }
+
+  .next-chapter {
+    text-align: right;
+    padding-top: 4rem;
   }
 }

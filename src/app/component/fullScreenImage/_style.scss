@@ -18,8 +18,95 @@
 
     transition: opacity 0.4s linear;
   }
+  
+  .attribution {
+    > * {
+      position: fixed;
+    }
+    
+    &-button {
+      top: 4.5rem;
+      left: 2.2rem;
+      
+      width: 1.4rem;
+      height: 1.4rem;
+    }
+    
+    &-info {
+      transition: opacity 0.2s ease-in-out;
+      
+      z-index: $above;
+      
+      max-width: calc(100vw - 8rem);
+      
+      top: 3.5rem;
+      left: 4.2rem;
+      
+      padding: 1rem;
+      border-radius: 1rem;
+      background-color: $white;
+      
+      
+      p {
+        color: $black;
+        text-shadow: none;
+        margin: 0;
+      }
+    }
+  }
 
   &-gradient {
     z-index: $underlayAbove;
+    opacity: 0;
+  }
+}
+
+[data-marker] {
+  
+  h1, h2, h3, p {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 2rem;
+  }
+  
+  
+  &.sticky {
+    // assumed to be single wrapper as immediate child
+    > * {
+      z-index: $default;
+      
+      transition: opacity 1s;
+      transition-delay: 1s;
+      opacity: 1;
+      position: fixed;
+    }
+    
+    &.top > * {
+      top: 15%;
+    }
+    
+    &.bottom > *{
+      bottom: 15%;
+    }
+    
+    &.left > * {
+      left: 10%;
+    }
+    
+    &.right > * {
+      right: 10%;
+    }
+  }
+
+  &.collapsed {
+    > * {
+      z-index: 0;
+      transition: opacity 0s;
+      transition-delay: 0s;
+      opacity: 0;
+    }
   }
 }

@@ -2,6 +2,7 @@
     "logLevel": "warn",
     "image": {
         "hero": {
+            "src1": "assets/icons/logo.svg",
             "src": "assets/images/jakob-madsen-187927.jpg",
             "alt": "TODO"
         },
@@ -11,13 +12,208 @@
         }
     },
     "overlay": {
-        "about": {
-            "h1": "About",
-            "p1": "Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum..."
+        "impressum": {
+            "overlay": "info",
+            "h1": "Impressum",
+            "sections": [
+                {
+                    "h1": "Angaben gemäß § 5 TMG:",
+                    "paragraphs": [
+                        "Schröder Eliasson Sommer GbR",
+                        "Wiesenstieg 3",
+                        "22303 Hamburg"
+                    ]
+                },
+                {
+                    "h1": "Vertreten durch:",
+                    "paragraphs": [
+                        "Solveig Schröder"
+                    ]
+                },
+                {
+                    "h1": "Kontakt:",
+                    "paragraphs": [
+                        "E-Mail: info@codeforhamburg.org",
+                        "Telefon: +49 30 202384280",
+                        "Fax: +49 30 202384289"
+                    ]
+                },
+                {
+                    "h1": "Streitschlichtung",
+                    "paragraphs": [
+                        "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+                    ]
+                },
+                {
+                    "h1": "Haftung für Inhalte",
+                    "paragraphs": [
+                        "Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.",
+                        "Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen."
+                    ]
+                },
+                {
+                    "h1": "Haftung für Links",
+                    "paragraphs": [
+                        "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.",
+                        "Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen."
+                    ]
+                },
+                {
+                    "h1": "Urheberrecht",
+                    "paragraphs": [
+                        "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.",
+                        "Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.",
+                        "Quelle: <a title=\"http://www.e-recht24.de\" target=\"_blank\" href=\"http://www.e-recht24.de\">www.e-recht24.de</a>"
+                    ]
+                }
+            ]
         },
-        "c1p3": {
-            "h1": "c1p3",
-            "p1": "there was stuff..."
+        "about": {
+            "overlay": "basic ",
+            "h1": "About",
+            "p1": "Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...",
+            "p2": "",
+            "p3": ""
+        },
+        "isitreallygreen": {
+            "overlay": "basic",
+            "p1": "In der Popkultur, zum Beispiel bei der beliebten US-Zeichentrick-Familie aus Springfield, wird Radioaktivität gerne in leuchtendem Neongrün dargestellt. Dabei leuchten radioaktive Teilchen meistens gar nicht von selbst. Und wenn, dann eher bläulich oder rötlich. Woher kommt dann dieser Mythos?",
+            "p2": "In den 1920er und 1930er Jahren war es in den USA in Mode, Uhren mit grün leuchtendem Zeiger oder Ziffernblatt zu tragen. Die Erfindung der US Radium Corporation war die selbstleuchtende Farbe “Undark”, in der radioaktives Radium mit Zinksulfid und Phosphor gemischt wurde. Durch die Reaktion der Materialien kam das grüne Leuchten zustande. Die Undark-Farbe war aber auch berühmt für den schlechten Schutz der Arbeiterinnen, die durch den ständigen Kontakt mit dem radioaktiven Material erkrankten. Die schwer erkrankten Frauen wurden als “Radium Girls” bekannt.",
+            "p3": "Die Vorstellung von grün-leuchtender Radioaktivität hat sich bis heute gehalten und wird gerne in Filmen und Comics verwendet.",
+            "image": {
+                "bottom": true,
+                "src": "assets/images/Undark_advertisement_1921.jpg",
+                "title": "“Undark”-Leuchtfarbe Werbeposter, 1921",
+                "href1": "https://commons.wikimedia.org/wiki/File:Undark_(Radium_Girls)_advertisement,_1921.jpg",
+                "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+                "link1": "Unbekannt",
+                "link2": "CC0",
+                "label1": "Quelle:",
+                "label2": "/ Wikimedia Commons"
+            }
+        },
+        "subvention": {
+            "overlay": "basic",
+            "p1": "Eine Studie des Forum ökologisch-soziale Marktwirtschaft ermittelte, dass die Atomenergie in Deutschland von 1970-2014 mit ca. 219 Milliarden Euro staatlich gefördert wurde. Die Summe setzt sich aus 80,9 Milliarden an Finanzhilfen (Forschung, Sanierung & Stilllegung alter Meiler), 46,4 Milliarden Steuervergünstigungen durch die Energiesteuer, 12,5 Milliarden Euro durch Vorteile im Emissionshandel und 78,9 Milliarden Euro durch die Steuerfreiheit von Rückstellungen für den Rückbau und Stilllegung der Atomkraftwerke zusammen. Dabei stellte eine Studie des Umweltbundesamt (UBA) heraus, dass Atomenergie ohne staatliche Subventionierung nicht konkurrenzfähig (gewesen) wäre."
+        },
+        "uraniummine": {
+            "overlay": "basic",
+            "p1": "Uran kann auf verschiedene Weise abgebaut werden. Hier in Namibia wird es im Tagebau gefördert. Mit Hilfe von Sprengungen wird das erzhaltige Gestein zerkleinert und später zu Pulver zermahlen. Daraus wird eine pulverförmige Uranverbindung gewonnen, das sogenannte “Yellow Cake”. Hieraus werden später zum Beispiel die Brennstäbe für Kernreaktoren hergestellt.",
+            "p2": "Wer mehr wissen möchte… der Film Yellow Cake von Joachim Tschirner beleuchtet die schmutzigen Geheimnisse der Uranbergbaus ",
+            "link2": {
+                "link": "(kostenlos anschauen).",
+                "href": "https://filmsfortheearth.org/de/filme/yellow-cake"
+            },
+            "image": {
+                "src": "assets/images/roessing-mine.jpg",
+                "title": "Rössing-Mine in Namibia",
+                "href1": "https://commons.wikimedia.org/wiki/File:Arandis_Mine_quer.jpg",
+                "href2": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+                "link1": "Ikiwaner",
+                "link2": "GFDL 1.2",
+                "label1": "Quelle:",
+                "label2": "/ Wikimedia Commons"
+            }
+        },
+        "thecuries": {
+            "overlay": "dark",
+            "p1": "Marie Curie, geboren 1867, gewann als erste Frau aller Zeiten gleich zweimal den Nobelpreis. 1903 erhielt sie ihn zusammen mit ihrem Mann Pierre und ihrem Doktorvater Becquerel in Physik; und 1911 dann alleine in Chemie. Die ausgehende Strahlung der von ihr entdeckten Elemente Radium und Polonium taufte sie kurzerhand Radioaktivität. Bis zu ihrem Tod forschte sie zu radioaktive Substanzen, lehrte als erste Frau an der renommierten Pariser Sorbonne Universität und entwickelte zusammen mit ihrer Tochter Irène Joliot-Curie eine mobile Röntgenstation für den ersten Weltkrieg. Am 4. Juli 1934 starb sie schließlich an Leukämie, als Folge ihres langjährigen Kontakts mit hochradioaktiven Substanzen."
+        },
+        "firstreactor": {
+            "overlay": "dark",
+            "image": {
+                "src": "assets/images/Atomic_cloud_over_Nagasaki.jpeg",
+                "title": "",
+                "href1": "",
+                "href2": "",
+                "link1": "",
+                "link2": "",
+                "label1": "",
+                "label2": ""
+            },
+            "p1": "Im selben Jahr (1942) wurde das Forschungslaboratorium Los Alamos unter der Leitung von Robert Oppenheimer gegründet. Das erklärte Ziel: Entwicklung und Bau der Atombombe. Am 16. Juli 1945 kam es schließlich im Trinity Test zur ersten Zündung der heute weltbekannten Atombombe. Nur 21 Tage später, am 6. August 1945, wurde die erste Atombombe über Hiroshima (Japan) und drei Tage später eine weitere über Nagasaki abgeworfen. Zusammen forderten sie 126.000 Menschenleben auf der Stelle und weitere 90.000 Tote in den nächsten Tagen, Wochen und Jahren durch die Strahlenkrankheit."
+        },
+        "asseandmorsleben-1": {
+            "overlay": "dark",
+            "h1": "Asse",
+            "p1": "Das ehemalige Salzbergwerk Asse (oder auch Asse II genannt) wurde in den 1960er und 70er Jahren großtechnisch als Forschungsbergwerk für die Endlagerung radioaktiver Abfallstoffe erprobt. Trotz erheblicher Bedenken, dass die Schachtanlage durch Risse in der Decke allmählich von Grundwasser durchdrungen werden könnte, wurden insgesamt 125.787 Abfallgebinde (vorwiegend Metallfässer) deponiert. Bei dieser Einlagerung schwacher- und mittelradioaktiver Abfallstoffe wurde komplett auf eine mögliche Rückholbarkeit der Abfälle und eine vorherige Bürgerbeteiligung bei der Endlagersuche verzichtet. Dies war möglich, da der Schacht unter Bergbaurecht und nicht unter Atomrecht betrieben wurde. Nach einem Skandal um austretende kontaminierte Salzlauge im Jahr 2008 wurde die Anlage endgültig unter Atomrecht gestellt und befindet sich aktuell im Stilllegungsverfahren. Unter anderem wird ein Plan zur Bergung der Abfälle erarbeitet."
+        },
+        "asseandmorsleben-1-external": {
+            "overlay": "dark",
+            "image": {
+                "src": "assets/images/asse_BGE.jpg",
+                "title": "",
+                "href1": "",
+                "href2": "",
+                "link1": "",
+                "link2": "",
+                "label1": "",
+                "label2": ""
+            },
+            "link": "https://www.bge.de/fileadmin/user_upload/Anwendungen/Multimedia_UEbersicht_Schachtanlagen/index.html#Bergwerk/Asse2",
+            "label": "Interaktive Untergrundkarte vom Bergwerk Asse"
+        },
+        "asseandmorsleben-2": {
+            "overlay": "dark",
+            "h1": "Morsleben",
+            "p1": "Das Endlager für radioaktive Abfälle (ERA) Morsleben wurde ursprünglich von der DDR betrieben und von der Bundesrepublik bis 1998 weiter genutzt. Wasserzutritte, die schon während des ehemaligen Bergbaus beobachtet wurden, Sicherheitsmängel bezüglich der Standfestigkeit und Lagerung der Abfälle und mögliche Szenarien der Kontamination führten zu einer Klage verschiedenster Umweltorganisationen im Jahr 1998. 1999 beendete das Bundesamt für Strahlenschutz (BfS) unter anderem wegen eines Beschlusses des Oberverwaltungsgerichts die Lagerung in Morsleben endgültig. Die verbleibenden 37.000 Kubikmeter Atommüll und weitere 80.000 Kubikmeter kontaminierte Salze sollen laut aktuellem Stand im Lager Morsleben verbleiben und durch eine Hinzugabe von vier Millionen Liter Salzbeton besser geschützt werden. Kritisiert wird an diesem Verfahren vor allem, dass radioaktive Abfälle, die nur zwischengelagert werden sollten, weiterhin in Morsleben bleiben und die endgültige Sicherheitslage nicht geklärt ist."
+        },
+        "asseandmorsleben-2-external": {
+            "overlay": "dark",
+            "image": {
+                "src": "assets/images/asse_BGE.jpg",
+                "title": "",
+                "href1": "",
+                "href2": "",
+                "link1": "",
+                "link2": "",
+                "label1": "",
+                "label2": ""
+            },
+            "link": "https://www.bge.de/fileadmin/user_upload/Anwendungen/Multimedia_UEbersicht_Schachtanlagen/index.html#Bergwerk/Morsleben2",
+            "label": "Interaktive Untergrundkarte vom Bergwerk Morsleben"
+        },
+        "gorleben-1": {
+            "overlay": "dark",
+            "p1": "Dabei argumentierten die Demonstranten immer wieder, dass die damalige Standortsuche sich nur auf Niedersachsen und das Wirtsgestein Salz beschränkte und keine vergleichenden geologischen Untersuchungen unternommen wurden. Auch heute noch wird unter Wissenschaftlern die geologische Eignung Gorlebens als Standort diskutiert. Zahlreiche Berichte weisen darauf hin, dass die damalige Wahl des Standortes vorwiegend politisch motiviert war."
+        },
+        "gorleben-2": {
+            "p1": "Der Protest aus Sicht eines Journalisten",
+            "link": {
+                "label": "Der Protest aus Sicht eines Journalisten",
+                "href": "http://www.bpb.de/gesellschaft/medien/lokaljournalismus/151506/praxis-wenn-der-castor-kommt"
+            }
+        },
+        "tschernobyl-1": {
+            "overlay": "dark",
+            "p1": "Bis heute gilt dieses Ereignis als bisher schwerster Unfall in der Geschichte der Kernenergie.",
+            "p2": "Bei der Simulation eines vollständigen Stromausfalles in Block 4 des Kernkraftwerkes Tschernobyl kam es im April 1986 zu einem sogenannten Super-GAU [LINK → Exkurs Super-GAU].  Die bewusste Missachtung zahlreicher Sicherheitsvorschriften und auch der baulichen Beschaffenheit des Kernreaktors führten zu einer Kernschmelze und mehreren Explosionen. Bis der Brand vollständig unter Kontrolle gebracht werden konnte, vergingen insgesamt 10 Tage. Während dieser Zeit wurden große Mengen an radioaktivem Material in die Atmosphäre geschleudert. Dieses Material verseuchte weite Teile Russlands, Weißrusslands und der Ukraine. Auch Skandinavien und Mitteleuropa waren vom Fallout betroffen."
+        },
+        "tschernobyl-2": {
+            "overlay": "dark",
+            "p1": "Unter dem Begriff Fallout versteht man einen radioaktiven Niederschlag, welcher nach einer Kernwaffenexplosion oder einem Kernreaktorunfall entstehen kann. Dabei entweichen strahlende Partikel in die Atmosphäre, verteilen sich mit dem Wind und fallen schließlich zu Boden. Wenn die Partikel mit Regenwolken zusammentreffen und es zu einem radioaktiven Regenfall kommt, spricht man dagegen von einem sogenannten Washout."
+        },
+        "tschernobyl-3": {
+            "overlay": "dark",
+            "p1": "Der Begriff GAU (Größter Anzunehmender Unfall) bezeichnet ursprünglich einen Auslegungsstörfall in einem Kernkraftwerk, für dessen Beherrschung die Sicherheitssysteme noch ausgelegt sein müssen. Ein Super-GAU ist gemäß seines lateinischen Wortursprunges ein übertroffener GAU: also ein auslegungsüberschreitender Störfall. Die Folgen können verheerend sein."
+        },
+        "fukushima-1": {
+            "overlay": "dark",
+            "image": {
+                "src": "assets/images/fukushima-atommuell-gp0strdek.jpg",
+                "title": "",
+                "href1": "",
+                "href2": "",
+                "link1": "",
+                "link2": "",
+                "label1": "",
+                "label2": ""
+            },
+            "p1": "Fast 7 Jahre nach der Reaktorkatastrophe in Fukushima stapeln sich in der japanischen Region heute unzählige schwarze Plastiksäcke mit radioaktivem Abfall. Um das Gebiet zu dekontaminieren wurde massenweise Boden abgetragen, der irgendwo untergebracht werden musste. Insgesamt lagern 8,4 Millionen Kubikmeter (60 Millionen volle Badewannen) kontaminierter Müll in über 140.000 mehr als provisorischen Atomlagern: Im Wald, auf Wiesen, an Straßenrändern. Die japanische Regierung ist bestrebt der internationalen Staatengemeinschaft den Schein von Kontrolle und Normalität wiederzubeleben und will die Wiederbesiedlung vorantreiben. Die betroffenen Anwohner leiden; die UN prüft aktuell, ob es sich bei der Wiederansiedlung um ein Verbrechen gegen die UN-Menschenrechtsprinzipien handelt."
+        },
+        "fukushima-2": {
+            "overlay": "dark",
+            "p1": "Als Erneuerbare Energien werden Energieträger bezeichnet, die praktisch unerschöpflich zur Verfügung stehen. Demgegenüber stehen die endlichen fossilen Energiequellen wie z. B. Kohle oder Erdöl. Bei der Umwandlung in sekundäre Energieträger (Wärme, Elektrizität) erzeugen regenerative Energien kaum CO2. Beispiele für erneuerbare Energien sind Sonnenenergie, Windenergie oder Wasserkraft."
         }
     },
     "component": {
@@ -26,15 +222,97 @@
                 "label": "about"
             },
             "title": "Atommüll Atlas",
-            "welcomeText": "Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum..."
+            "welcomeText": "Bald wird das letzte deutsche Atomkraftwerk abgeschaltet. Was bleibt ist die Frage: Wo verbuddeln wir unseren Atommüll sicher für eine Million Jahre? Mit dem Atomausstieg beginnt die große Herausforderung, einen sicheren Standort für die Atommüll-Lagerung zu finden. Wie es dazu kam und wie das Ganze funktioniert erfahrt ihr hier…"
         },
         "viewNavigation": {
-            "label": "Chapter",
+            "label": "Kapitel",
             "items": {}
         },
+        "footer": {
+            "p1": "Dieses Projekt ist durch den Prototypefund des Bundesministeriums für Bildung und Forschung gefördert.",
+            "prototype": {
+                "label": "Zum Prototypefund",
+                "href": "https://prototypefund.de"
+            },
+            "bmbf": {
+                "label": "Zum Bundesministeriums für Bildung und Forschung",
+                "href": "https://www.bmbf.de/"
+            },
+            "impressum": {
+                "label": "Impressum",
+                "overlay": "impressum"
+            }
+        },
+        "linkButton": {
+            "nuclearenergy": {
+                "label": "Atomenergie: So funktioniert sie (WDR)",
+                "href": "http://www.planet-wissen.de/technik/atomkraft/grundlagen_der_atomkraft/index.html"
+            }
+        },
         "overlayButton": {
-            "c1p3": {
-                "label": "c1p3 here"
+            "isitreallygreen": {
+                "overlay": "isitreallygreen",
+                "label": "Leuchtet Radioaktivität eigentlich grün?"
+            },
+            "subvention": {
+                "overlay": "subvention",
+                "label": "Subventionen"
+            },
+            "uraniummine": {
+                "overlay": "uraniummine",
+                "label": "Uranbergbau"
+            },
+            "thecuries": {
+                "overlay": "thecuries",
+                "label": "Marie Curie als Frau in der Wissenschaft"
+            },
+            "firstreactor": {
+                "overlay": "firstreactor",
+                "label": "Die Atombombe"
+            },
+            "asseandmorsleben-1": {
+                "overlay": "asseandmorsleben-1",
+                "label": "Asse"
+            },
+            "asseandmorsleben-1-external": {
+                "overlay": "asseandmorsleben-1-external",
+                "label": "Interaktive Untergrundkarte vom Bergwerk Asse"
+            },
+            "asseandmorsleben-2": {
+                "overlay": "asseandmorsleben-2",
+                "label": "Morsleben"
+            },
+            "asseandmorsleben-2-external": {
+                "overlay": "asseandmorsleben-2-external",
+                "label": "Interaktive Untergrundkarte vom Bergwerk Morsleben"
+            },
+            "gorleben-1": {
+                "overlay": "gorleben-1",
+                "label": "Gorleben - eine politische Entscheidung"
+            },
+            "gorleben-2": {
+                "overlay": "gorleben-3",
+                "label": "Der Protest aus Sicht eines Journalisten"
+            },
+            "tschernobyl-1": {
+                "overlay": "tschernobyl-1",
+                "label": "Tschernobyl"
+            },
+            "tschernobyl-2": {
+                "overlay": "tschernobyl-2",
+                "label": "Fallout"
+            },
+            "tschernobyl-3": {
+                "overlay": "tschernobyl-2",
+                "label": "Super-GAU"
+            },
+            "fukushima-1": {
+                "overlay": "fukushima-1",
+                "label": "Erneuerbare Energien"
+            },
+            "fukushima-2": {
+                "overlay": "fukushima-2",
+                "label": "Fukushimas atomarer Abfall (Greenpeace Report, 2017) "
             }
         },
         "layerMap": {
@@ -75,68 +353,165 @@
             "order": 0,
             "title": "Atommüll",
             "leader": "Was ist eigentlich Atommüll? Warum ist er so gefährlich? Um diesen Fragen auf den Grund zu gehen fangen wir ganz klein an - mit dem Atom.",
-            "description": "This chapter is about the basics of nuclear waste ...",
+            "description": "Was ist eigentlich Atommüll?",
             "buildingBlocksOfTheWorld": {
                 "h1": "Bausteine der Welt",
-                "p1": "Atome sind die kleinste Einheit und gleichzeitig die Bausteine chemischer Elemente wie z.B. Kohlenstoff - aus dem wir Menschen größtenteils bestehen. Sie sind so klein, dass man sie mit dem menschlichen Auge nicht erfassen kann. Erst wenn man 10 Millionen Atome nebeneinander aufreiht ergibt sich 1 Milimeter. Jedes Atom besteht aus einem winzigen Kern und einer im Vergleich riesigen Hülle. Man stelle sich den Atomkern als Kirschkern vor und die Hülle in Größe eines Kirchturms. Einige dieser Atomkerne sind instabil, das heißt sie können spontan oder im Zusammenstoß mit anderen Teilchen zerfallen und werden in andere Atomkerne (Elemente) umgewandelt. --FOOTER LINK 1--"
+                "p1": "Atome sind eine kleine Einheit unserer Materie und gleichzeitig die Bausteine chemischer Elemente wie z.B. Kohlenstoff. Sie sind so klein, dass man sie mit dem menschlichen Auge nicht erfassen kann. Erst wenn man etwa 10 Millionen Atome nebeneinander aufreiht, ergibt sich 1 Millimeter. Jedes Atom besteht aus einem winzigen Atomkern und einer vergleichsweise riesigen Hülle.",
+                "atom": {
+                    "title": "Atommodell nach Rutherford",
+                    "label1": "Quelle: Eigene Darstellung nach",
+                    "label2": "/ Wikimedia Commons",
+                    "link1": "Jcymc90",
+                    "link2": "CC-BY-SA-4.0",
+                    "href1": "https://commons.wikimedia.org/wiki/File:Atomo_de_Rutherford_con_neutrones.png",
+                    "href2": "https://creativecommons.org/licenses/by-sa/4.0/deed.de"
+                }
             },
             "radioactivity": {
                 "h1": "Radioaktivität",
-                "p1": "Dieser Zerfall der Atomkerne wird auch Radioaktivität genannt. Dabei wird Energie und Strahlung freigesetzt. Das passiert auch jeden Tag in unserer Umgebung, das heißt wir sind auch natürlicherweise Strahlung ausgesetzt. In Kernreaktoren - z.B. Atomkraftwerken - wird diese Kernumwandlung künstlich hervorgerufen.",
-                "p2": "Die Dosis machts! Auch die natürliche Strahlung kann für den Menschen nicht ungefährlich sein. Aber je höher die Dosis, desto größer das Risiko einer Schädigung. Die Strahlung kann in den Körper eindringen und Zellen verändern, wodurch zum Beispiel Krebs entstehen kann. Eine sehr hohe Strahlungs-Intensität (wie bei einem Unfall in einem Atomkraftwerk) kann innerhalb von wenigen Tagen zum Tod führen.",
-                "p3": "Das heißt, wir machen uns in den Atomkraftwerken die Eigenschaft der zerfallenden Atomkerne zunutze, da einerseits Strahlung aber auch Energie frei gesetzt wird. --FOOTER LINK 2--"
+                "p1": "Einige dieser Atomkerne sind instabil, das heißt sie können spontan oder im Zusammenstoß mit anderen Teilchen zerfallen und werden in andere Atomkerne umgewandelt. Dabei wird Energie und Strahlung freigesetzt, dies nennt man <b>Radioaktivität</b>.",
+                "p2": "Das passiert auch jeden Tag in unserer Umgebung, das heißt wir sind auch natürlicherweise immer Strahlung ausgesetzt. In den Kernreaktoren von Atomkraftwerken wird die Kernumwandlung künstlich hervorgerufen und Kernspaltung genannt.",
+                "video": {
+                    "src": "http://multimedia.gsb.bund.de/BFS/BFS/Video/ion/17_radioaktivitaet.mp4",
+                    "poster": "assets/images/video-radioaktivitaet-poster.jpg",
+                    "title": "“Radioaktivität”",
+                    "label": "Quelle:",
+                    "link": "Bundesamt für Strahlenschutz, 2009",
+                    "href": "http://www.bfs.de/SharedDocs/Videos/BfS/DE/ion-radioaktivitaet.html"
+                },
+                "hazard": {
+                    "title": "Symbol für Radioaktivität",
+                    "label1": "Quelle: Eigene Darstellung nach",
+                    "label2": "/ Wikimedia Commons",
+                    "link1": "Carry Bass",
+                    "link2": "CC0",
+                    "href1": "https://de.wikipedia.org/wiki/Datei:Radioactive.svg",
+                    "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+                },
+                "p3": "Die Dosis macht’s! Das bedeutet, dass Strahlung nicht grundsätzlich für den Menschen bedrohlich ist. Doch je höher die Dosis (also Strahlungsmenge), desto größer das Risiko einer Schädigung. Die Strahlung kann in den Körper eindringen und Zellen verändern, wodurch zum Beispiel Krebs entstehen kann. Eine sehr hohe Strahlungs-Intensität, das heißt, große Mengen an Strahlung, wie bei einem Unfall in einem Atomkraftwerk, kann innerhalb von wenigen Tagen zum Tod führen."
             },
             "halftime": {
                 "h1": "Halbzeit!",
-                "p1": "Radioaktive Elemente zerfallen unterschiedlich schnell. Bei einigen dauert es einige Milliarden Jahre bis die Hälfte aller Atomkerne umgewandelt wurden, bei anderen nur millionstel Sekunden. Diese Zeitspanne nennt man Halbwertszeit. Sie ist auch entscheidend in der Suche nach einem geeigneten Endlager für unseren Atommüll. Aber dazu später mehr. --FOOTER LINK 3--"
+                "p1": "Radioaktive Elemente zerfallen unterschiedlich schnell. Bei einigen dauert es einige Milliarden Jahre bis die Hälfte aller Atomkerne umgewandelt wurden, bei anderen nur millionstel Sekunden. Diese Zeitspanne nennt man Halbwertszeit. Sie ist auch entscheidend bei der Suche nach einem geeigneten Endlager für unseren Atommüll. Aber dazu später mehr."
             },
             "nuclearEnergyUsage": {
-                "h1": "Atomenergie nutzen",
-                "p1": "---TODO--- (inc. video)"
+                "h1": "Kernenergie nutzen",
+                "p1": "Kernenergie - oder auch Atomenergie - ist die Energie, die in den Atomkernen enthalten ist. Atomkraftwerke nutzen diese Energie um Strom zu erzeugen.",
+                "p2": "Dazu werden Brennstäbe aus radioaktivem Uran oder Plutonium benutzt. Beim Zerfall der Atomkerne wird Energie und Hitzestrahlung frei. Mit dieser Hitze wird Wasser (im Primärkreislauf) so stark erhitzt, dass das Wasser (des Sekundärkreislaufs) im Dampferzeuger in Wasserdampf umgewandelt wird. Dieser Wasserdampf wiederum treibt große Turbinen an, die dann mit Hilfe von Generatoren Strom erzeugen. Damit die Brennstäbe bei der großen Hitzeentwicklung nicht schmelzen, müssen sie ständig mit Wasser gekühlt werden.",
+                "p3": "In einem dritten, unabhängigen Kreislauf wird der Wasserdampf meist in den typischen Kühltürmen wieder abgekühlt und entweicht als feuchte warme Luft in die Atmosphäre. Das Wasser zur Kühlung wird aus einem Fluss entnommen und rund zehn Grad wärmer wieder eingeleitet oder im Kühlturm wieder abgekühlt.",
+                "p4": "Es gibt verschiedene Typen von Reaktoren. In Deutschland sind vor allem der Druckwasser- und der Siedewasserreaktor anzutreffen. Je nach Bautyp sind die Primär- und Sekundärwasserkreisläufe unterschiedlich radioaktiv kontaminiert. Beim Druckwasserreaktor ist nur der Primärkreislauf kontaminiert.",
+                "p5": "Ein Atomkraftwerk hat eine maximale Laufzeit von ca. 40 Jahren, wobei deutsche Kraftwerke schon nach durchschnittlich 22 Jahren abgeschaltet werden. Im Jahr 1990 machte die Atomenergie einen Anteil von ungefähr 28 % am gesamten Energiemix in Deutschland aus. 2017 waren es nur noch 13 %. Strom aus der Atomenergie ist vergleichsweise sehr günstig, was einerseits auf relativ günstige Betriebskosten, aber auch auf jahrzehntelange Subventionen des Staates und eine Nichtberechnung der Folgekosten zurückzuführen ist.",
+                "rods": {
+                    "src": "assets/images/Nuclear_fuel_element.jpg",
+                    "title": "Brennelement mit einzelnen Brennstäben",
+                    "label1": "Quelle:",
+                    "label2": "/ Wikimedia Commons",
+                    "link1": "PD-USGov",
+                    "link2": "CC0",
+                    "href1": "https://commons.wikimedia.org/wiki/File:Nuclear_fuel_element.jpg",
+                    "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+                },
+                "reactor": {
+                    "title": "Aufbau und Funktion eines Atomkraftwerks vom Typ Druckwasserreaktor",
+                    "label1": "Quelle: Eigene Darstellung",
+                    "label2": "",
+                    "link1": "",
+                    "link2": "",
+                    "href1": "",
+                    "href2": ""
+                },
+                "plant": {
+                    "src": "assets/images/Philippsburg2.jpg",
+                    "title": "Atomkraftwerk Philipsburg",
+                    "label1": "Quelle:",
+                    "label2": "/ Wikimedia Commons",
+                    "link1": "Lothar Neumann",
+                    "link2": "CC BY-SA 2.5",
+                    "href1": "https://commons.wikimedia.org/wiki/File:Philippsburg2.jpg",
+                    "href2": "https://creativecommons.org/licenses/by-sa/2.5/deed.de"
+                },
+                "coolingwater": {
+                    "src": "assets/images/Reaktorbecken.jpg",
+                    "title": "Reaktorbecken im schwedischen Kernkraftwerk Forsmark - unter Wasser liegen die Brennelemente",
+                    "label1": "Quelle:",
+                    "label2": "/ Welt der Physik",
+                    "link1": "Hans Blomberg (Vattenfall)",
+                    "link2": "CC by-nc-nd",
+                    "href1": "https://www.weltderphysik.de/service/suche/?id=14&L=0&q=Reaktorbecken",
+                    "href2": "https://creativecommons.org/licenses/by-nc-nd/2.0/de/"
+                }
             },
             "isItSustainable": {
                 "h1": "Ist das nicht total nachhaltig?",
-                "p1": "Auf den ersten Blick ist Atomenergie umweltfreundlich und vorteilhaft...kaum CO₂-Austoß, sehr leistungsstark und im Betrieb kostengünstig. Im Vergleich zu Öl ist Atomenergie sehr viel effizienter: aus einem Kilogramm Öl kann man zwölf Kilowattstunden (kWh) Strom erzeugen, während man aus einem Kilogramm Uran sogar 350.000 kWh bekommt. --FOOTER LINK 5--",
-                "p2": "Betrachtet man nicht nur den Traubhausgasausstoß während des Betriebs, sondern die gesamte Prozesskette vom Bau bis zur Entsorgung, dann ist auch ein Kernkraftwerk nicht CO₂-arm. Besonders der Abbau und die Aufbereitung des Uran-Erzes bzw. Urans sind energieintensiv. --FOOTER LINK 6--",
-                "p3": "Doch stehen diese Vorteile einem sehr großen Risiko gegenüber: die gesundheitsgefährdende Strahlung die vor allem im Falle eines Unfalls oder Terroranschlags in einem Atomkraftwerk frei wird und Auswirkungen auf die Umwelt in großem Radius haben kann (siehe den Fall von Tschernobyl).",
-                "p4": "Trotz dieser Bedenken und Risiken gibt es weltweit weiterhin zahlreiche aktive Atomkraftwerke und auch einige in Planung."
+                "p1": "Auf den ersten Blick ist Atomenergie umweltfreundlich und vorteilhaft. Es besteht kaum CO₂-Ausstoß. Atomkraftwerke sind sehr leistungsstark und im Betrieb kostengünstig. Bei der Kernspaltung wird Masse in Energie umgewandelt, wobei - anders als beim Verbrennen fossiler Energieträger - kein CO₂ freigesetzt wird.<sup>1</sup> Im Vergleich zu Öl ist Atomenergie sehr viel effizienter: aus einem Kilogramm Öl kann man zwölf Kilowattstunden (kWh) Strom erzeugen, während man aus einem Kilogramm Uran sogar 350.000 kWh bekommt.<sup>2</sup>",
+                "p2": "Betrachtet man nicht nur den Treibhausgasausstoß während des Betriebs, sondern die gesamte Prozesskette vom Bau bis zur Entsorgung, dann ist auch ein Kernkraftwerk nicht CO₂-arm. Besonders der Abbau und die Aufbereitung des notwendigen Uran-Erzes bzw. Urans sind energieintensiv.<sup>3</sup>",
+                "p3": "Doch stehen diese Vorteile einem sehr großen Risiko gegenüber: die gesundheitsgefährdende Strahlung, die vor allem im Falle eines Unfalls, einer Naturkatastrophe oder eines Terroranschlags in einem Atomkraftwerk frei werden kann. Tragische Ereignisse wie Tschernobyl oder Fukushima haben auf dramatische Weise die  Auswirkungen auf Mensch und Umwelt in großem Radius gezeigt.",
+                "p4": "Trotz dieser Bedenken und Risiken gibt es weltweit weiterhin zahlreiche aktive Atomkraftwerke und Planungen für neue Anlagen und Ausbauten (z. B. in Frankreich und Russland).",
+                "nuclearworld": {
+                    "src": "assets/images/Nuclear_power_worldwide-2009.svg",
+                    "title": "Übersicht der Atomkraft weltweit, Stand 2017",
+                    "label1": "Quelle:",
+                    "label2": "/ Wikimedia Commons",
+                    "link1": "Herbertweidner",
+                    "link2": "CC0",
+                    "href1": "https://commons.wikimedia.org/wiki/File:Nuclear_power_worldwide-2009.svg",
+                    "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+                }
             },
             "nuclearWaste": {
                 "h1": "Atommüll",
-                "p1": "--TODO-- (inc. interactive maps active plants/interim storage locations)",
-                "p2": "In Deutschland gibt es momentan noch acht aktive Atomkraftwerke, die bis spätestens Ende 2022 abgeschaltet werden müssen. "
+                "p1": "Als Atommüll werden radioaktive Abfälle bezeichnet. Der Großteil davon kommt aus laufenden bzw. stillgelegten Kernkraftwerken und Kernforschungsanlagen. Einerseits sind sind es die “abgebrannten” Brennelemente, die nicht mehr wirkungsvoll genug sind für die Energieproduktion aber noch radioaktive Spaltprodukte beinhalten. Andererseits handelt es sich um kontaminierte Materialien wie Schutzkleidung, Werkzeug, Putzutensilien, sowie Geräte und Gebäudeteile der Kernreaktoren. Ein kleiner Teil sind auch Abfälle aus der Industrie und Medizin, z.B. radioaktive Kontrastmittel.<sup>4</sup>",
+                "p2_1": "Weil die Lagerung hochradioaktiver Stoffe mit hohen Sicherheitsvorkehrungen verbunden ist, ist es nicht so einfach, ein geeignetes Endlager für diesen Müll zu finden. Später mehr zum Prozess der",
+                "p2_2": "und",
+                "p3": "In der Bundesrepublik gibt es momentan noch acht aktive Atomkraftwerke, die bis spätestens Ende 2022 abgeschaltet werden müssen. Diese Abfälle warten in Zwischenlagern auf ihren endgültigen Lagerungsort. Einige der Zwischenlager befinden sich direkt neben den (abgeschalteten) Kernkraftwerken, andere wiederum sind speziell als zentrale Lager angelegt.s",
+                "viewjump1": {
+                    "target": "search",
+                    "label": "Endlagersuche",
+                    "ariaLabel": "Zum Endlagersuche"
+                },
+                "viewjump2": {
+                    "target": "participation",
+                    "label": "Bürgerbeteiligung.",
+                    "ariaLabel": "Zum Beteiligung"
+                }
             },
-            "plantDeconstruction": {
-                "h1": "Gar nicht so günstig…Herausforderung des Rückbaus",
-                "p1": "--TODO--"
+            "ending": {
+                "h1": "Wie aber kam es eigentlich zur Atomenergie und dass wir uns jetzt mit dem Atommüll auseinandersetzen müssen?"
             },
             "components": {
+                "viewButton": {
+                    "target": "history",
+                    "label": "Zum Zeitreise",
+                    "ariaLabel": "Zum Zeitreise"
+                }
             }
         },
         "history": {
             "prevView": "nuclearWaste",
             "order": 1,
-            "title": "Vergangenheit",
-            "description": "This chapter is about the basics of nuclear waste ...",
+            "title": "Zeitreise",
+            "description": "Scrolle dich durch die bildreiche und bewegte Geschichte der Atomenergie.",
+            "title2": "Chronik eines umstrittenen Erbes",
+            "intro": "Scrolle durch die spannende Geschichte der Atomenergie mit deinen Pfeiltasten, per Maus oder Touch.",
             "startingpoint": {
                 "h1": "1890 - Die Anfänge",
-                "p1": "Die ersten Experimente zur Radioaktivität wurden um 1890 durchgeführt, wobei Antoine Henri Becquerel 1896 die Radioaktivität entdeckte. Nach ihm ist heute noch die Einheit der Aktivität einer radioaktiven Substanz benannt: Ein Becquerel entspricht einem radioaktiven Zerfall pro Sekunde."
+                "p1": "Die ersten Experimente zur Radioaktivität wurden um 1890 durchgeführt, wobei Antoine Henri Becquerel 1896 eine ungewöhnliche “Uran-Strahlung” entdeckte, welche später als Radioaktivität bezeichnet wurde. Nach ihm ist deshalb die Einheit der Aktivität einer radioaktiven Substanz benannt: Ein Becquerel entspricht einem radioaktiven Zerfall pro Sekunde."
             },
             "thecuries": {
-                "p1": "Das Ehepaar Curie forschte zu Kernreaktionen."  
+                "p1": "Aufbauend auf den Ergebnissen Becquerels erforschte das Ehepaar Marie und Pierre Curie die bislang unbekannte Strahlung und prägten dabei das Wort Radioaktivität."
             },
             "atommodel": {
                 "h1": "1920 - Atommodell",
-                "p1": "Ernest Rutherford, der unter anderem die Radioaktivität in verschiedene Strahlentypen unterschied, hat auch erkannt, dass die Atome aus schweren Kernen bestehen und einer vergleichsweise großen, leichten Hülle - das Rutherfordsche Atommodell."
+                "p1": "Ernest Rutherford unterschied Radioaktivität in verschiedene Strahlentypen. Zudem erkannte er, dass die Atome aus schweren Kernen bestehen und einer vergleichsweise großen, leichten Hülle - das Rutherfordsche Atommodell war geboren."
             },
             "chainreaction": {
                 "h1": "1930er - eine Kettenreaction",
-                "p1": "Auf Grundlage der Forschung von Marie und Pierre Curie sowie Henri Becquerel haben mehrere Wissenschaftler weiter mit radioaktiven Substanzen geforscht. Mit der Entdeckung der induzierten Kernspaltung von Uran gelang Otto Hahn und Fritz Straßmann 1938 ein Meilenstein in der Forschung der Radioaktivität.",
-                "p2": "Marie Curies Tochter Irène und ihr Mann Frédéric haben daraufhin nachgewiesen, dass eine Kettenreaktion der Kernspaltung möglich ist. Diese nachgewiesene Kettenreaktion machte erstmals deutlich, wie Kernspaltung praktisch nutzbar ist."
+                "p1": "Radioaktive Substanzen wurden auf Basis dieser Grundlagen zum beliebten Forschungsobjekt. Mit der Entdeckung der induzierten Kernspaltung von Uran gelang Otto Hahn und Fritz Straßmann 1938 ein Meilenstein in der Erforschung der Radioaktivität.",
+                "p2": "Marie Curies Tochter Irène und ihr Mann Frédéric haben daraufhin nachgewiesen, dass eine Kettenreaktion der Kernspaltung möglich ist. Dieser Nachweis der Kettenreaktion machte erstmals deutlich, wie Kernspaltung praktisch nutzbar ist."
             },
             "firstreactor": {
                 "h1": "1942 - Erster Kernreaktor",
-                "p1": "Während des zweiten Weltkrieges wurden die neu gewonnenen Erkenntnisse verstärkt  in der militärischen Forschung genutzt. Im Jahr 1942 gelang die erste kontrollierte nukleare Kettenreaktion. Sie fand unter der Leitung vom Physiker Enrico Fermi im weltweit ersten Kernreaktor Chicago Pile One statt, der unter dem Football-Stadion der Universität Chicago erbaut wurde."
+                "p1": "Während des zweiten Weltkrieges wurden die neu gewonnenen Erkenntnisse verstärkt in der militärischen Forschung genutzt. Im Jahr 1942 gelang die erste kontrollierte nukleare Kettenreaktion. Sie fand unter der Leitung des Physikers Enrico Fermi im weltweit ersten Kernreaktor Chicago Pile One statt, der unter dem Football-Stadion der Universität Chicago erbaut wurde."
             },
             "startnuclearpower": {
                 "h1": "1951 - Beginn des Atomstroms",
@@ -145,164 +520,348 @@
             "firstreactorgermany": {
                 "h1": "1957 - das “Atomei”: Deutschlands erster Atomreaktor",
                 "p1": "Deutschland nimmt seinen ersten Kernreaktor 1957 in Garching bei München in Betrieb. Der Forschungsreaktor wird wegen seiner eiförmigen Kuppel auch Atomei genannt.",
-                "p2": "Drei Jahre später - 1960 - tritt das Deutsche Atomgesetz in Kraft. Es regelt den Bau und Betrieb von Kernkraftwerken. Die spätere Entsorgung des radioaktiven Abfalls wird allerdings nicht geregelt."
+                "p2": "Drei Jahre später tritt 1960 das Deutsche Atomgesetz in Kraft. Es regelt den Bau und Betrieb von Kernkraftwerken. Die spätere Entsorgung des radioaktiven Abfalls wird allerdings nicht geregelt."
             },
             "asseandmorsleben": {
                 "h1": "1967 - 1971 - Asse & Morsleben",
-                "p1": "Nur wenige Jahre später werden erste Versuche für eine Einlagerung radioaktiver Abfälle durchgeführt. Dazu wurde das ehemalige niedersächsische Salzbergwerk Asse bei Braunschweig umfunktioniert um schwach- und mittelradioaktive Abfälle einzulagern."
+                "p1": "Nur wenige Jahre später werden erste Versuche für eine Einlagerung radioaktiver Abfälle durchgeführt. Dazu wurde das ehemalige niedersächsische Salzbergwerk Asse bei Braunschweig umfunktioniert, um schwach- und mittelradioaktive Abfälle einzulagern.",
+                "p2": "1971 folgt das Endlager für schwach- und mittelradioaktive Abfälle im ehemaligen Bergwerk Morsleben."
             },
             "atomicage": {
                 "h1": "1973 - “Atomzeitalter” und Anti-Atomkraft-Bewegung",
-                "p1": "Das Atomzeitalter beschreibt eine geschichtliche Epoche, welche durch die erstmalige Nutzung von Kernspaltung zu zivilen und militärischen Zwecken gekennzeichnet ist.",
-                "p2": "Besonders nach der ersten Ölkrise 1973 - als Preise für Erdöl in die Höhe gehen und die Abhängigkeit von erdölfördernden Ländern deutlich spürbar wird - werden vermehrt Kernkraftwerke geplant und gebaut."
+                "p1": "Das Atomzeitalter beschreibt eine geschichtliche Zeit (seit ca. 1945), welche durch die erstmalige Nutzung von Kernspaltung zu zivilen und militärischen Zwecken gekennzeichnet ist.",
+                "p2": "Besonders nach der ersten Ölkrise 1973 gehen die Preise für Erdöl in die Höhe und die Abhängigkeit von erdölfördernden Ländern wird deutlich spürbar. Daraufhin werden vermehrt Kernkraftwerke geplant und gebaut, auch um den steigenden Strombedarf zu decken."
             },
             "antiatomkraft": {
                 "p1": "Zeitgleich wird die Kritik an der zivilen Nutzung der Kernenergie immer stärker und es bildet sich eine Protestbewegung, die in Deutschland erstmals mit dem Protest gegen den Bau des Kernkraftwerks Wyhl auch in den Medien laut wird."
             },
             "neindanke": {
-                "p1": "Die Anti-Atomkraft-Bewegung ist eine der Bewegungen aus denen später die Partei Bündis 90/Die Grünen hervorgegangen ist."
+                "p1": "Die Anti-Atomkraft-Bewegung und die Forderung, auf atomaren Strom zu verzichten wurde erstmals mit der Gründung der Partei Bündnis 90/Die Grünen auch politisch verankert."
             },
             "gorleben": {
                 "h1": "seit 1977 - Gorleben als Anti-Beispiel",
-                "p1": "Am 22. Februar 1977 kam es zu einer folgenschweren Entscheidung: Der niedersächsische Ministerpräsident Ernst Albrecht bestimmt, dass in Gorleben ein nationales Endlager für hochradioaktiven Atommüll und eine Wiederaufbereitungsanlage errichtet werden soll. Im Jahr 1979 beginnen die Erkundungen des Salzstocks Gorleben als Endlager für hochradioaktive Abfälle.",
-                "p2": "Der Protest ließ nicht lange auf sich warten: Verschiedenste Demonstrationen, das Hüttendorf “Republik Freies Wendland” und zahlreiche andere Protestformen richteten sich zunächst gegen das Entsorgungszentrum, gegen die Erkundung des Salzstocks Gorleben und später auch gegen die Lagerung von Castor Behältern.",
-                "p3": "Dennoch wurde 1995 das oberirdische Zwischenlager in Betrieb genommen und bis 2011 wurden unter starkem Polizeiaufgebot begleitet von großen Demonstrationen insgesamt 13 Castortransporte nach Gorleben durchgeführt."
+                "p1": "Am 22. Februar 1977 kommt es zu einer folgenschweren Entscheidung: Der niedersächsische Ministerpräsident Ernst Albrecht bestimmt, dass in Gorleben ein nationales Endlager für hochradioaktiven Atommüll und eine Wiederaufbereitungsanlage errichtet werden sollen.",
+                "p2": "Im Jahr 1979 beginnen die Erkundungen des Salzstocks Gorleben als Endlager für hochradioaktive Abfälle.",
+                "p3": "Der Protest ließ nicht lange auf sich warten: Es kam zu lang anhaltenden Demonstrationen, die im Hüttendorf “Republik Freies Wendland” gipfelten. Sie richteten sich zunächst gegen das geplante Entsorgungszentrum, gegen die Erkundung des Salzstocks Gorleben und später auch gegen die Lagerung von Castor-Behältern.",
+                "p4": "Dennoch wurde 1995 das oberirdische Zwischenlager in Betrieb genommen. Bis 2011 wurden unter starkem Polizeiaufgebot begleitet von großen Demonstrationen insgesamt 13 Castortransporte (große Behälter mit hochradioaktiven Abfall) nach Gorleben durchgeführt.",
+                "p5": "Im Jahr 1997 beliefen sich die Kosten für den Transport von sechs Castoren nach Gorleben und ein damit verbunden Polizeiaufgebot von 30.000 Beamten, auf rund 56 Millionen Euro."
             },
             "oceanprotest": {
-                "h1": "1982 - Protestaktion gegen Verklappung im Meer",
-                "p1": "1982 macht die damals noch junge Umweltorganisation Greenpeace mittels Schlauchbooteinsätzen auf die Entsorgung von radioaktivem Müll im Meer aufmerksam. Durch die Dokumentation dieses Verfahrens wuchs die internationale Aufmerksamkeit und die Verklappung im Meer endete schließlich offiziell im Jahr 1993.",
-                "p2": "Dennoch bemängeln diverse Umweltorganisationen, dass auch noch heute durch Entsorgungsrohre radioaktiver Müll von Atomkraftwerken ins Meer gelangt."
+                "h1": "1982 - Protestaktion gegen Entsorgung im Meer",
+                "p1": "1982 macht die damals noch junge Umweltorganisation Greenpeace mittels Schlauchbooteinsätzen auf die Entsorgung von radioaktivem Müll im Meer aufmerksam. Durch die Dokumentation dieser Vorgänge wuchs die internationale Aufmerksamkeit und die Entsorgung im Meer endete schließlich offiziell im Jahr 1993.",
+                "p2": "Dennoch bemängeln diverse Umweltorganisationen, dass auch noch heute durch Entsorgungsrohre kontaminiertes Wasser von Atomkraftwerken ins Meer gelangt."
             },
             "tschernobyl": {
                 "h1": "1986 - Tschernobyl",
-                "p1": "Am 26. April 1986 ereignet sich die Katastrophe von Tschernobyl (damals UdSSR, heute Ukraine). Bei einer Kernschmelze  und Explosionen im Atomkraftwerk werden große Mengen radioaktives Material frei, das sich als Wolke auch über Westeuropa verbreitet und dort mit dem Regen aus der Atmosphäre gewaschen wird. Bis heute ist dieses Material in einigen Lebensmitteln (zum Beispiel Pilzen) zu finden und zeigt seine gesundheitsschädlichen Folgen in Form von Strahlungskrankheiten, insbesondere bei der lokalen Bevölkerung.",
-                "p2": "Dieser Super-GAU [LINK→ Exkurs Super-GAU] facht die Kritik an der Kernenergie in Europa weiter an. Nur fünf Wochen nach dem Unfall gründet die Deutsche Bundesregierung das Umweltministerium (Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit - kurz BMUB) um sich zukünftig intensiver mit umweltpolitischen Themen auseinander zu setzen."
+                "p1": "Am 26. April 1986 ereignet sich die Katastrophe von Tschernobyl (damals UdSSR, heute Ukraine). Bei einer Kernschmelze und Explosionen im Atomkraftwerk werden große Mengen radioaktiven Materials freigesetzt und in der Luft verteilt. Eine Wolke verbreitet sich über Westeuropa und wird dort mit dem Regen aus der Atmosphäre gewaschen. Bis heute ist dieses Material in einigen Lebensmitteln (zum Beispiel Pilzen) zu finden und zeigt seine gesundheitsschädlichen Folgen in Form von Strahlungskrankheiten, insbesondere bei der lokalen Bevölkerung.",
+                "p2": "Dieser Super-GAU facht die Kritik an der Kernenergie in Europa weiter an. Nur fünf Wochen nach dem Unfall gründet die Deutsche Bundesregierung das Umweltministerium (Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit - kurz BMUB), um sich zukünftig intensiver mit umweltpolitischen Themen auseinander zu setzen."
             },
             "highpoint": {
                 "h1": "1990er - Höhepunkte",
-                "p1": "In den 1990er Jahren hat die Atomenergie den höchsten Anteil am gesamten Strommix in der Geschichte der nuklearen Energie in Deutschland. Der Anteil liegt bei ungefähr 28%."
+                "p1": "In den 1990er Jahren hat die Atomenergie den höchsten Anteil am gesamten Strommix in der Geschichte der nuklearen Energie in Deutschland. Der Anteil liegt um 1990 bei ungefähr 28%."
             },
             "stepdown": {
-                "h1": "2000-2002 - Ein Atomaustieg",
-                "p1": "Unter der rot-grünen Regierung mit Bundeskanzler Schröder (SPD) wird mit den Energieversogungsunternehmen ein “Atomkonsens” vereinbart, der einen Atomausstieg innerhalb von ca. 10 Jahren beschließt.",
+                "h1": "2000-2002 - Ein Atomaustieg...",
+                "p1": "Unter der rot-grünen Regierung von Bundeskanzler Gerhard Schröder (SPD) wird mit den Energieversorgungsunternehmen ein “Atomkonsens” vereinbart. Er sieht einen Atomausstieg innerhalb von zehn Jahren vor.",
                 "h2": "2010 - ...oder doch nicht?",
-                "p2": "Die Bundesregierung mit Angela Merkel (CDU) als Kanzlerin beschließt zugunsten der Atomwirtschaft die Laufzeiten der Kernkraftwerke um durchschnittlich 12 Jahre zu verlängern.",
-                "p3": "Oktober: Die Erkundung des Endlagerstandortes Gorleben wird wieder aufgenommen."
+                "p2": "Etwa zehn Jahr später beschließt die Bundesregierung mit Angela Merkel (CDU) als Kanzlerin zugunsten der Atomwirtschaft die Laufzeiten der Kernkraftwerke um durchschnittlich 12 Jahre zu verlängern. In der Öffentlichkeit wird das als der “Ausstieg vom Ausstieg” aufgefasst.",
+                "p3": "Außerdem wird die seit 2000 unterbrochene Erkundung des möglichen Endlagerstandortes Gorleben wieder aufgenommen."
             },
             "fukushima": {
                 "h1": "2011 - Fukushima, der Ausstieg und die Wende",
                 "p1": "Ein weiterer katastrophaler Unfall ereignete sich 2011 im japanischen Fukushima. In Folge eines Erdbebens und darauf folgenden Tsunamis kommt es in Teilen des Atomkraftwerkes zur Kernschmelze und Explosionen bei der radioaktives Material frei wird.",
-                "p2": "In Deutschland führt die Katastrohpe dazu, dass die kurz zuvor (2010) beschlossene Laufzeitverlängerung für die bestehenden deutschen Atomkraftwerke zurückgenommen wird und alle Atommeiler überprüft werden. In der Folge werden acht nicht wieder hochgefahren. Die verbliebenen xxx sollen schnellstmöglich abgeschaltet werden. Das letzte Kraftwerk wird daher am 31.12.2022 heruntergefahren. Der Atomausstieg ist beschlossen.",
-                "p3": "Zukünftig soll der Energiebedarf vor allem mit erneuerbaren Energien gedeckt werden."
+                "p2": "In Deutschland führt die Katastrophe dazu, dass die kurz zuvor (2010) beschlossene Laufzeitverlängerung für die bestehenden deutschen Atomkraftwerke zurückgenommen wird und alle Atomkraftwerke überprüft werden. In der Folge werden acht AKWs nicht wieder hochgefahren. Die Verbliebenen sollen schnellstmöglich abgeschaltet werden. Das letzte Kraftwerk wird daher am 31.12.2022 heruntergefahren.",
+                "p3": "Der Atomausstieg ist beschlossen. Zukünftig soll der Energiebedarf vor allem mit erneuerbaren Energien gedeckt werden."
             },
             "thesearch": {
-                "h1": "Seit 2014 - Der Beginn einer langen Suche - die Endlagersuche",
-                "p1": "Im April 2014 wurde die Endlagerkommission basierend auf §3 des Standortauswahlgesetzesvom Deutschen Bundestag und Bundesrat eingesetzt. Auf der Grundlage ihrer Empfehlungen wurde das Standortauswahlgesetz über die Jahre immer wieder novelliert.",
-                "p2": "(Nachdem der Beschluss gefasst wurde aus der Kernkraft auszusteigen, wurde 2015 das Standortauswahlgesetzt erstmals erneuert, welches die Suche nach einem geeigneten Endlager für den radioaktiven Abfall regelt. Dieses Gesetz sieht zunächst vor, eine Expertenkommission einzusetzen, die das Standortauswahlgesetz (StandAG) untersucht. Anschließend gibt es einen Gesetzesbeschluss, welcher das vorher bestehende StandAG erneuert. Danach kann das Endlagersuchverfahren beginnen. Im Jahr 2017 wurde…)"
+                "h1": "2013 - Der Beginn einer langen Suche nach einem Endlager",
+                "p1": "Im April 2014 wird die Endlagerkommission vom Deutschen Bundestag und Bundesrat eingesetzt. Diese Expertengruppe erarbeitet in über zwei Jahren Arbeit einen umfassenden Bericht. Auf der Grundlage ihrer Empfehlungen wurde das Standortauswahlgesetz 2017 erneuert, welches das anstehende jahrzehntelange Suchverfahren nach einem geeigneten Endlagerstandort in Deutschland regelt."
             },
             "components": {
+                "viewButton": {
+                    "target": "search",
+                    "label": "Wie geht es weiter?",
+                    "ariaLabel": "Zum Die Suche"
+                },
                 "fullScreenImage": {
-                    "gradient": "linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 100%);",
+                    "gradient": "linear-gradient(to right, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 25%, rgba(0,0,0,0.2) 75%, rgba(0,0,0,0.6) 100%);",
+                    "gradient_old": "linear-gradient(to right, rgba(0,0,0,0.6) 0%, transparent 25%, transparent 75%, rgba(0,0,0,0.6) 100%);",
+                    "stickyContent": true,
                     "images": {
                         "startingpoint": {
                             "src": "assets/images/Becquerel_in_the_lab.jpg",
-                            "alt": "Titel: Becquerel bei einem Magnet-Experiment",
-                            "source": "Quelle: Public Domain/Wikimedia Common"
+                            "alt": "Becquerel bei einem Magnet-Experiment",
+                            "label1": "Quelle:",
+                            "label2": "/ Wikimedia Commons",
+                            "link1": "Unbekannt",
+                            "link2": "CC0",
+                            "href1": "",
+                            "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+                            "backgroundPosition": "center 40%"
                         },
                         "thecuries": {
                             "src": "assets/images/Pierre_and_Marie_Curie.jpg",
-                            "alt": "Titel: Pierre und Marie Curie in ihrem Labor in Paris, 1904",
-                            "source": "Quelle: Public Domain/Wikimedia Commons"
+                            "alt": "Pierre und Marie Curie in ihrem Labor in Paris, 1904",
+                            "label1": "Quelle:",
+                            "label2": "/ Wikimedia Commons",
+                            "link1": "Unbekannt",
+                            "link2": "CC0",
+                            "href1": "https://commons.wikimedia.org/wiki/File:Pierre_and_Marie_Curie.jpg",
+                            "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+                            "backgroundPosition": "75% 30%"
                         },
                         "atommodel": {
                             "src": "assets/images/Ernest_Rutherfords_laboratory.jpg",
-                            "alt": "Titel: Labor von Ernest Rutherford, 1926",
-                            "source": "Quelle: Science Museum London/  CC-BY-SA-2.0 /Wikimedia Commons"
+                            "alt": "Labor von Ernest Rutherford, 1926",
+                            "label1": "Quelle:",
+                            "label2": "/ Wikimedia Commons",
+                            "link1": "Science Museum London",
+                            "link2": "CC-BY-SA-2.0",
+                            "href1": "https://commons.wikimedia.org/wiki/File:Sir_Ernest_Rutherfords_laboratory,_early_20th_century._(9660575343).jpg",
+                            "href2": "https://creativecommons.org/licenses/by-sa/2.0/",
+                            "backgroundPosition": ""
                         },
                         "chainreaction": {
                             "src": "assets/images/Bunsentagung_1932_Munster_cropped.png",
-                            "alt": "Titel: Bunsentagung in Münster 1932 u.a. mit Ernest Rutherford, Lise Meitner und Otto Hahn",
-                            "source": "Quelle: Public Domain/Wikimedia Commons"
+                            "alt": "Bunsentagung in Münster 1932 u.a. mit Ernest Rutherford, Lise Meitner und Otto Hahn",
+                            "label1": "Quelle:",
+                            "label2": "/ Wikimedia Commons",
+                            "link1": "Friedrich Paneth",
+                            "link2": "CC0",
+                            "href1": "https://commons.wikimedia.org/wiki/File:Bunsentagung_1932_Münster.jpg",
+                            "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+                            "backgroundPosition": ""
                         },
                         "firstreactor": {
                             "src": "assets/images/ChicagoPile1-2.jpg",
-                            "alt": "Titel: Chicago Pile One, Zeichnung, 1946",
-                            "source": "Quelle: Public Domain/Wikimedia Commons"
+                            "alt": "Chicago Pile One, Zeichnung, 1946",
+                            "label1": "Quelle:",
+                            "label2": "/ Wikimedia Commons",
+                            "link1": "energy.gov",
+                            "link2": "CC0",
+                            "href1": "https://commons.wikimedia.org/wiki/File%3AHD.5A.020_(10692800196).jpg",
+                            "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+                            "backgroundPosition": "20% center"
                         },
                         "startnuclearpower": {
                             "src": "assets/images/First_four_nuclear_lit_bulbs.jpeg",
-                            "alt": "Titel: Die erste Nutzung von Strom aus Atomenergie lässt vier Glühbirnen leuchten, Idaho/USA,1951",
-                            "source": "Quelle: Public Domain/Wikimedia Commons"
+                            "alt": "Die erste Nutzung von Strom aus Atomenergie lässt vier Glühbirnen leuchten, Idaho/USA,1951",
+                            "label1": "Quelle:",
+                            "label2": "/ Wikimedia Commons",
+                            "link1": "Unbekannt",
+                            "link2": "CC0",
+                            "href1": "https://commons.wikimedia.org/wiki/File:First_four_nuclear_lit_bulbs.jpeg",
+                            "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+                            "backgroundPosition": ""
                         },
                         "firstreactorgermany": {
                             "src": "assets/images/Atomei.jpg",
-                            "alt": "Titel: Forschungsreaktor München I oder das “Atomei” - Deutschlands erster Atomreaktor",
-                            "source": "Quelle: High Contrast /  CC-BY-3.0-DE / Wikimedia Commons"
+                            "alt": "Forschungsreaktor München I oder das \"Atomei\" - Deutschlands erster Atomreaktor",
+                            "label1": "Quelle:",
+                            "label2": "/ Wikimedia Commons",
+                            "link1": "High Contrast",
+                            "link2": "CC-BY-3.0-DE",
+                            "href1": "https://commons.wikimedia.org/wiki/File:Atomei_-_Forschungsreaktor_München_I_(FRM_I).JPG",
+                            "href2": "https://creativecommons.org/licenses/by/3.0/de/",
+                            "backgroundPosition": ""
                         },
-                        "asseandmorsleben": {
-                            "src": "assets/images/kuhlbecken_atomkraftwerk.jpg",
-                            "alt": "TODO",
-                            "source": "TODO"
+                        "asseandmorsleben-1": {
+                            "src": "assets/images/asse.jpg",
+                            "alt": "Bohrungen zur Untersuchung des umgebenen Salzgesteins in Asse II",
+                            "label1": "Quelle: © Bundesgesellschaft für Endlagerung mbH",
+                            "label2": "",
+                            "link1": "",
+                            "link2": "",
+                            "href1": "",
+                            "href2": "",
+                            "backgroundPosition": "center 35%"
                         },
-                        "atomicage": {
+                        "asseandmorsleben-2": {
+                            "src": "assets/images/westfeld.jpg",
+                            "alt": "Einlagerung von radioaktivem Abfall, rund 500 Meter unterhalb der Oberfläche",
+                            "label1": "Quelle: © Bundesgesellschaft für Endlagerung mbH",
+                            "label2": "",
+                            "link1": "",
+                            "link2": "",
+                            "href1": "",
+                            "href2": "",
+                            "backgroundPosition": "center 35%"
+                        },
+                        "atomicage-1": {
+                            "src": "assets/images/Atomkraftwerk_Rheinsberg.png",
+                            "alt": "Kontrollraum des Atomkraftwerk Rheinsberg",
+                            "label1": "Quelle:",
+                            "label2": "/ Bundesarchiv / Wikimedia Commons",
+                            "link1": "Ulrich Kohls",
+                            "link2": "CC-BY-SA 3.0",
+                            "href1": "https://commons.wikimedia.org/wiki/File%3ABundesarchiv_Bild_183-E0506-0004-012%2C_VEB_Atomkraftwerk_Rheinsberg.jpg",
+                            "href2": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+                            "backgroundPosition": "90% top"
+                        },
+                        "atomicage-2": {
                             "src": "assets/images/Grohnde.jpg",
-                            "alt": "Titel: Atomkraftwerk in Niedersachsen",
-                            "source": "Quelle: Elisabeth Belik / CC-BY-SA-3.0 / Wikimedia Commons"
+                            "alt": "Atomkraftwerk in Niedersachsen",
+                            "label1": "Quelle:",
+                            "label2": "/ Wikimedia Commons",
+                            "link1": "Elisabeth Belik",
+                            "link2": "CC-BY-SA-3.0",
+                            "href1": "https://commons.wikimedia.org/wiki/File%3AGrohnde.JPG",
+                            "href2": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+                            "backgroundPosition": "100% 100%"
                         },
                         "antiatomkraft": {
                             "src": "assets/images/Demo_gegen_Kernenergie_1975_cropped.png",
-                            "alt": "Titel: Anti-Atomkraft-Demo in Bonn, 1975",
-                            "source": "Quelle: Ulrich Wienke / CC BY-SA 3.0 de / Bundesarchiv"
+                            "alt": "Anti-Atomkraft-Demo in Bonn, 1975",
+                            "label1": "Quelle:",
+                            "label2": "/ Bundesarchiv",
+                            "link1": "Ulrich Wienke",
+                            "link2": "CC BY-SA 3.0 de",
+                            "href1": "https://commons.wikimedia.org/wiki/Category:Photographs_by_Ulrich_Wienke#/media/File:Bundesarchiv_B_145_Bild-F046092-0005,_Bonn,_Demo_gegen_Kernenergie_-_AKWs.jpg",
+                            "href2": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+                            "backgroundPosition": "75% center"
                         },
                         "neindanke": {
                             "src": "assets/images/Atomkraft_Nej_Tak.jpg",
-                            "alt": "Titel: “Atomkraft? Nein Danke” Bekanntes Anti-Atomkraft-Logo, entworfen in Dänemark,1975",
-                            "source": "Quelle: Wikimedia Commons"
+                            "alt": "\"Atomkraft? Nein Danke\" Bekanntes Anti-Atomkraft-Logo, entworfen in Dänemark,1975",
+                            "label1": "Quelle:",
+                            "label2": "/ Wikimedia Commons",
+                            "link1": "RhinoMind",
+                            "link2": "CC-BY-SA-4.0",
+                            "href1": "https://commons.wikimedia.org/wiki/File:Atomkraft%3F_Nej_Tak.jpg",
+                            "href2": "https://creativecommons.org/licenses/by-sa/4.0/",
+                            "backgroundPosition": "center 25%"
                         },
                         "gorleben-1": {
-                            "src": "assets/images/WendlandAntiNuclearProtest13.jpg",
-                            "alt": "TODO",
-                            "source": "TODO"
+                            "src": "assets/images/Gorleben-Erkundungsbergwerk.jpg",
+                            "alt": "Erkundungsbergwerk Gorleben",
+                            "label1": "Quelle:",
+                            "label2": "/ Wikimedia Commons",
+                            "link1": "Fice",
+                            "link2": "CC0",
+                            "href1": "https://commons.wikimedia.org/wiki/File:GorlebenNuclearWaste3.jpg",
+                            "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+                            "backgroundPosition": "25% center"
                         },
                         "gorleben-2": {
                             "src": "assets/images/WendlandAntiNuclearProtest13.jpg",
-                            "alt": "TODO",
-                            "source": "TODO"
+                            "alt": "Stillleben als Ausdruck des Protestes der Bevölkerung im Wendland gegen die jährlichen \"Castor\"-Transporte ins Zwischenlager Gorleben sowie die Pläne eines Endlagers für hochradioaktiven Atommüll im Salzstock Gorleben-Rambow.",
+                            "label1": "Quelle:",
+                            "label2": "/ Wikimedia Commons",
+                            "link1": "Christian Fischer",
+                            "link2": "CC0",
+                            "href1": "https://commons.wikimedia.org/wiki/File%3AWendlandAntiNuclearProtest13.jpg",
+                            "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+                            "backgroundPosition": "15% 40%"
                         },
                         "gorleben-3": {
                             "src": "assets/images/Anti-Castor-Demonstration_Gorleben.jpg",
                             "alt": "Anti-Castor-Demonstration bei Gorleben am 6. November 2010",
-                            "source": "Quelle: Bündnis 90/Die Grünen Nordrhein-Westfalen / CC BY-SA 2.0 / Wikimedia Commons"
+                            "label1": "Quelle:",
+                            "label2": "/ Wikimedia Commons",
+                            "link1": "Bündnis 90/Die Grünen Nordrhein-Westfalen",
+                            "link2": "CC BY-SA 2.0 ",
+                            "href1": "https://commons.wikimedia.org/wiki/File%3AAnti-Castor-Demonstration_Gorleben_20101106_b.jpg",
+                            "href2": "https://creativecommons.org/licenses/by-sa/2.0/",
+                            "backgroundPosition": "65% 30%"
                         },
                         "oceanprotest": {
-                            "src": "assets/images/Demo_gegen_Kernenergie_1975_cropped.png",
-                            "alt": "Titel: Juni 1982, Greenpeace-Aktion gegen Schiffe die nuklear Abfall aus Großbritannien, Belgien und der Schweiz im Atlantik entsorgen wollen",
-                            "source": "Quelle: © Pierre Gleizes / Greenpeace"
+                            "src": "assets/images/greenpeace_protest_ocean-dumping.jpeg",
+                            "alt": "Juni 1982, Greenpeace-Aktion gegen Schiffe die nuklear Abfall aus Großbritannien, Belgien und der Schweiz im Atlantik entsorgen wollen",
+                            "label1": "Quelle: © Pierre Gleizes / Greenpeace",
+                            "label2": "",
+                            "link1": "",
+                            "link2": "",
+                            "href1": "",
+                            "href2": "",
+                            "backgroundPosition": "40% 10%"
                         },
                         "tschernobyl-1": {
                             "src": "assets/images/tschernobyl2.jpg",
-                            "alt": "Titel: Kontrollraum des Kernkraftwerks Tschernobyl nach der Katastrophe",
-                            "source": "Quelle: BBC World Service / CC BY-NC 2.0 / flickr.com"
+                            "alt": "Kontrollraum des Kernkraftwerks Tschernobyl nach der Katastrophe",
+                            "label1": "Quelle:",
+                            "label2": "/ flickr.com",
+                            "link1": "BBC World Service",
+                            "link2": "CC BY-NC 2.0",
+                            "href1": "https://www.flickr.com/photos/bbcworldservice/5410423069/in/photolist-9f9YQy-9f6GZn-9f6Qhn-9f6QLz-9f9Yp7-9f9YEf-9f9Qou-9f9Z6w-9f9Xxy-9f9Y77-9f6HMa-9f9XAb-9fgZm4-9fgZ5F-9fgYYK-9f6Hsv-9fgZik-9f6HCK-9f6QoZ-9f9QKw-9fk7ms-9fgZ8K-9fk7Wm-9fk7RC-9fgZpi-9fk7BN-9fk7U9",
+                            "href2": "https://creativecommons.org/licenses/by-nc/2.0/",
+                            "backgroundPosition": "25% center"
                         },
                         "tschernobyl-2": {
                             "src": "assets/images/Tschernobyl_2013.jpg",
-                            "alt": "Titel: Erster “Sakrophag” über dem Unfallort zur Abschirmung der Radioaktivität",
-                            "source": "Quelle: © Arne Müseler / arne-mueseler.de / CC-BY-SA-3.0"
+                            "alt": "Erster \"Sakrophag\" über dem Unfallort zur Abschirmung der Radioaktivität",
+                            "label1": "Quelle:",
+                            "label2": "/ Wikimedia Commons",
+                            "link1": "Arne Müseler arne-mueseler.de",
+                            "link2": "CC-BY-SA-3.0",
+                            "href1": "https://commons.wikimedia.org/w/index.php?curid=32845924",
+                            "href2": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+                            "backgroundPosition": "center top"
                         },
                         "highpoint": {
-                            "src": "assets/images/Grohnde.jpg",
-                            "alt": "Titel: Wie sieht die Stromerzeugung der Zukunft aus?",
-                            "source": "Quelle: Alex Jones on Unsplash"
+                            "src": "assets/images/alex-jones-3663.jpg",
+                            "alt": "Wie sieht die Stromerzeugung der Zukunft aus?",
+                            "label1": "Quelle:  on",
+                            "label2": "Unsplash.com",
+                            "link1": "Alex Jones",
+                            "link2": "CC0",
+                            "href1": "https://unsplash.com/photos/XPcsu_Da5qw",
+                            "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+                            "backgroundPosition": "left bottom"
                         },
-                        "stepdown": {
-                            "src": "assets/images/Demo_gegen_Kernenergie_1975_cropped.png",
-                            "alt": "Titel: Wie sieht die Stromerzeugung der Zukunft aus?",
-                            "source": "Quelle: Alex Jones on Unsplash"
+                        "stepdown-1": {
+                            "src": "assets/images/berlin-reichstag.jpg",
+                            "alt": "Reichstag Berlin",
+                            "label1": "Quelle:",
+                            "label2": "/ pixabay.com",
+                            "link1": "PublicDomainPictures",
+                            "link2": "CC0",
+                            "href1": "https://pixabay.com/en/berlin-dome-reichstag-steel-glass-217162/",
+                            "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+                            "backgroundPosition": "30% 70%"
                         },
-                        "fukushima": {
-                            "src": "assets/images/ChicagoPile1-2.jpg",
-                            "alt": "Titel: IAEA Experten im Kernkraftwerk Fukushima Daiichi",
-                            "source": "Quelle: IAEA Imagebank / CC-BY-SA-2.0 / Wikimedia Commons"
+                        "stepdown-2": {
+                            "src": "assets/images/berlin-reichstag.jpg",
+                            "alt": "Reichstag Berlin",
+                            "label1": "Quelle:",
+                            "label2": "/ pixabay.com",
+                            "link1": "PublicDomainPictures",
+                            "link2": "CC0",
+                            "href1": "https://pixabay.com/en/berlin-dome-reichstag-steel-glass-217162/",
+                            "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+                            "backgroundPosition": "30% 70%"
+                        },
+                        "fukushima-1": {
+                            "src": "assets/images/fukushima.jpg",
+                            "alt": "IAEA Experten im Kernkraftwerk Fukushima Daiichi",
+                            "label1": "Quelle:",
+                            "label2": "/ Wikimedia Commons",
+                            "link1": "IAEA Imagebank",
+                            "link2": "CC-BY-SA-2.0",
+                            "href1": "https://commons.wikimedia.org/wiki/File:IAEA_Experts_at_Fukushima_(02813336).jpg",
+                            "href2": "https://creativecommons.org/licenses/by-sa/2.0/",
+                            "backgroundPosition": "right 60%"
+                        },
+                        "fukushima-2": {
+                            "src": "assets/images/american-public-power-association.jpg",
+                            "alt": "Windkraft",
+                            "label1": "Quelle:",
+                            "label2": "/ Unsplash.com",
+                            "link1": "American Public Power Association",
+                            "link2": "CC0",
+                            "href1": "https://unsplash.com/photos/eIBTh5DXW9w",
+                            "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+                            "backgroundPosition": "35% 60%"
+                        },
+                        "thesearch": {
+                            "src": "assets/images/american-public-power-association.jpg",
+                            "alt": "Windkraft",
+                            "label1": "Quelle:",
+                            "label2": "/ Unsplash.com",
+                            "link1": "American Public Power Association",
+                            "link2": "CC0",
+                            "href1": "https://unsplash.com/photos/eIBTh5DXW9w",
+                            "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+                            "backgroundPosition": "35% 60%"
                         }
                     }
                 }
@@ -311,9 +870,9 @@
         "search": {
             "prevView": "history",
             "order": 2,
-            "title": "Endlagersuche",
+            "title": "Die Suche",
             "leader": "Die Suche nach einem Endlager für hochradioaktive Abfälle wird lange dauern. Erst 2031 soll es soweit sein. Dann steht die nicht minder komplexe Aufgabe des Endlagerbaus und der Einlagerung der hoch radioaktiven Abfälle an. Erst um 2100 rechnen Experten mit dem Verschluss des Endlagers. Anschließend sollen die Abfälle in dem Endlagerbergwerk sicher für die gigantische Zeit von einer Million Jahre gelagert werden. Zwar verlaufen die Zerfallsprozesse exponentiell, dennoch braucht es lange,  (unterfüttern/visualisieren) bis die Strahlung so stark abgeklungen ist, dass keine Gefahr mehr für Mensch und Umwelt besteht, da einige Radionuklide lange Halbwertszeiten aufweisen. Das erklärt, wieso der Gesetzgeber sicherstellen möchte, dass für einen sehr langen Zeitraum die sehr stark strahlenden Elemente nicht in die Biosphäre gelangen können.",
-            "description": "This chapter is about the basics of nuclear waste ...",
+            "description": "Wir stehen am Anfang einer gigantischen Suchaktion. Was genau suchen wir eigentlich?",
             "whatIsStoredWhere": {
                 "h1": "Was wird wo gelagert?",
                 "p1": "Im geplanten Endlager werden ausschließlich stark radioaktive Abfälle eingelagert. Sie entstehen vorwiegend bei der Produktion von Atomstrom und der Wiederaufbereitung von verbrauchten Brennelementen. Wichtig ist zu wissen, dass die Abfälle nur einen geringen Anteil am Gesamtvolumen aller radioaktiven Abfälle ausmachen. Allerdings sind sie wegen ihrer hohen Aktivität für den überwiegenden Anteil der Strahlung verantwortlich. Die in rund 1900 Behältern einzulagernden hochradioaktiven Abfallstoffe haben ein Volumen von 30.000 Kubikmetern. Demgegenüber ist das Volumen der schwach- bis mittelradioaktiven Abfälle zwanzigfach größer und entspricht ca. 600.000 Kubikmetern. Dennoch sind die hochradiokativen Abfälle für knapp 99 % der gesamten Radioaktivität verantwortlich.",
@@ -359,21 +918,123 @@
             "nationalPlateView": {
                 "h1": "Der Blick über den nationalen Tellerrand",
                 "p1": ""
+            },
+            "components": {
+                "viewButton": {
+                    "target": "participation",
+                    "label": "Zum Mitreden",
+                    "ariaLabel": "Zum Mitreden"
+                }
             }
         },
         "participation": {
             "prevView": "search",
             "order": 3,
-            "title": "Beteiligung",
+            "title": "Mitreden",
             "leader": "",
-            "description": "This chapter is about the basics of nuclear waste ..."
+            "description": "Du möchtest mitreden, wo der Müll (nicht) hin soll? Geht das?",
+            "participate": {
+                "h1": "Die Endlagersuche mitgestalten",
+                "p1": "Atome sind eine kleine Einheit unserer Materie und gleichzeitig die Bausteine chemischer Elemente wie z.B. Kohlenstoff. Sie sind so klein, dass man sie mit dem menschlichen Auge nicht erfassen kann. Erst wenn man etwa 10 Millionen Atome nebeneinander aufreiht, ergibt sich 1 Millimeter. Jedes Atom besteht aus einem winzigen Atomkern und einer vergleichsweise riesigen Hülle.",
+                "p2": "Allerdings gibt es auch Gegenbeispiele aus anderen Ländern. Mancherorts steht die örtliche Bevölkerung der Nutzung und Einlagerung radioaktiver Stoffe in ihrer Region weniger ablehnend gegenüber. In Anlehnung an die bekannte Serie Simpsons spricht man hier vom \"Springfield Syndrom\". Menschen in diesen Regionen haben über lange Zeit einen starken Bezug zur Atomenergie aufgebaut. Teilweise ist das örtliche Atomkraftwerk wichtigster Arbeitgeber. Durch den vertrauten Umgang mit der Atomenergie werden Gefahrenpotenziale geringer eingeschätzt und die Vorteile hervorgehoben.",
+                "p3": "Ein solches Beispiel stellt die Gemeinde Östhammar in Schweden dar, <a href=\"https://www.zdf.de/nachrichten/heute-in-europa/endlager-schweden-100.html\" target=\"_blank\">wie dieses Video zeigt</a>. Dort befindet sich das stillgelegte Atomkraftwerk Forsmarsk. Es war der größte Arbeitgeber in der Region. Allerdings wurde es wegen Sicherheitsmängeln abgeschaltet. Durch den Bau des Endlagers ab 2022 erhoffen sich die Menschen vor Ort nun neue Arbeitsplätze und finanzielle Unterstützung durch den Staat.",
+                "simpsons": {
+                    "src": "assets/images/simpsons.jpeg",
+                    "title": "Springfield Syndrom",
+                    "label1": "Quelle:",
+                    "label2": "/ Wikimedia Commons",
+                    "link1": "Combo",
+                    "link2": "CC-BY-SA-3.0",
+                    "href1": "https://commons.wikimedia.org/wiki/File:Cherno_3.jpeg",
+                    "href2": "https://creativecommons.org/licenses/by-sa/3.0/deed.de"
+                },
+                "p4": "Doch natürlich sind Ängste der Bevölkerung begründet und nachvollziehbar. Manchmal wird daher gefordert, die Abfälle im Ausland zu entsorgen. Dies hat der Gesetzgeber bewusst verhindert. Die Endlagerung muss in Deutschland erfolgen. Es soll so ein verantwortungsbewusster Umgang mit den gefährlichen Stoffen sichergestellt werden. Außerdem ist ein Großteil des erzeugten Stroms in Deutschland genutzt worden. Daher ist es richtig, dass hier auch die Entsorgung passiert.",
+                "p5": "In den nächsten Jahrzehnten findet dazu ein mehrstufiger Prozess statt. Er fußt auf negativen Erfahrungen aus der Vergangenheit. Vielen Menschen sind in diesem Zusammenhang die Proteste im niedersächsischen Gorleben in Erinnerung. Es kam über Jahrzehnte zu Widerstand der Bevölkerung und Kritik am staatlichen Vorgehen.",
+                "gorleben": {
+                    "src": "assets/images/gorleben_protest.jpg",
+                    "title": "Demonstration gegen den Endlagerstandort Gorleben",
+                    "label1": "Quelle:",
+                    "label2": "/ Flickr.com",
+                    "link1": "Johann Meier / Campact ",
+                    "link2": "CC BY-NC 2.0",
+                    "href1": "https://www.flickr.com/photos/campact/6384409167/in/photolist-aJaLq8-aH22Rt-aMJtz4-8RbHoM-aA1NF6-aMPdLP-8Ru1d8-5AXRwT-5AXS2n-8RfyWs-8RCMqU-eAWYQf-aC4oP4-bpxEnd-8Rw4Hy-ptYpqN-bCsGf2-aDnwwN-8YD87p-8RwNtC-5AHacx-5AXRHt-93VWtf-8RcrEc-8YynWR-aLHmvM-8RwGYE-8Rswfr-5B37Df-5AXS7r-8EJXvP-aMJGLH-aMJpzZ-8YAAR2-8RtNJk-aJAAbp-aH2iCx-aDiGTV-aGooWc-nXQaUg-aMK3LH-8RfyFq-aMPARX-5AXRZF-5AXRCH-8Roj6x-aMKxCc-5B388A-aC4noR-8Rrx3G",
+                    "href2": "https://creativecommons.org/licenses/by-nc/2.0/"
+                },
+                "p6": "Diese Erfahrungen sind in die Gestaltung des anstehenden Endlagersuchverfahrens eingeflossen. Die Bevölkerung soll sich von Beginn an im Verfahren einbringen können. Dieses soll verständlich und nachvollziehbar ablaufen. Daher wurde eine <a href=\"https://www.bfe.bund.de/DE/soa/unterlagen-standag/unterlagen-standag_node.html\" target=\"_blank\">Informationsplattform</a> eingerichtet. Sie veröffentlicht wichtige Unterlagen und gibt Aufschluss über den Stand des Verfahrens.",
+                "p7": "Diese Informationen sind die Grundlage, damit sich die Bevölkerung am Verfahren inhaltlich beteiligen kann. Auf Beteiligungsveranstaltungen kann sie den Prozess diskutieren und kommentieren. Mit Nachprüfrechten können die Schritte der über- und untertägigen Erkundung kontrolliert werden. Das Verfahren soll alle Interessen zu Wort kommen lassen und sicherstellen, dass die gefundene Lösung im Sinne des Gemeinwohls ist. Das bedeutet, dass berechtigte Einwände von egoistischen Einzelinteressen getrennt werden. Nur so lässt sich schließlich der bestmögliche Standort finden. Wenn am Ende viele Menschen den Auswahlprozess nachvollziehbar finden, wird die Akzeptanz für den Standort steigen."
+            },
+            "whoDoesWhat": {
+                "h1": "Wer macht eigentlich was?",
+                "p1": "Bei der Endlagersuche werden mehrere Akteure in einem komplexen System zusammenwirken. Es setzt sich aus einer technischen und einer gesellschaftlichen Dimension zusammen.",
+                "p2": "Die <b>Bundesgesellschaft für Endlagerung (BGE) </b>führt das Verfahren durch. Dazu erstellt sie bspw. Erkundungsprogramme für die möglichen Standorte und setzt diese dann um.",
+                "actors": {
+                    "src": "assets/images/MindMap_Akteure.001.png",
+                    "title": "Vereinfachte Darstellung der Akteure im Endlagersuchverfahren",
+                    "label1": "Quelle: Eigene Darstellung",
+                    "label2": "",
+                    "link1": "",
+                    "link2": "",
+                    "href1": "",
+                    "href2": ""
+                },
+                "p3": "Das <b>Bundesamt für kerntechnische Entsorgungssicherheit (BfE)</b> ist gleichermaßen Aufsichtsbehörde und Träger der Öffentlichkeitsbeteiligung. Daher verbindet es die technische mit der gesellschaftlichen Dimension. Es stellt zum einen sicher, dass das Verfahren korrekt abläuft. Zum anderen organisiert es die Beteiligung der Öffentlichkeit bei der Endlagersuche. Dazu prüft es die erarbeiteten Berichte der BGE in jeder Phase. Außerdem organisiert es Stellungsnahmeverfahren und anschließende Erörterungstermine. Sie finden am Ende der über- und untertägigen Erkundung und zum Standortvorschlag statt. Hier kann die Bevölkerung Einwände zum Verfahren äußern. Es ist außerdem dafür verantwortlich, dass die vorgesehenen Gremien zur Öffentlichkeitsbeteiligung gebildet werden. Am Ende unterbreitet es den Standortvorschlag.",
+                "p4": "Das <b>Nationale Begleitgremium (NBG)</b> nimmt ebenfalls eine zentrale Rolle im Verfahren ein. Es stellt sicher, dass das Verfahren im Sinne des Gemeinwohls verläuft. Das meint, dass das Ergebnis das Beste für die große Mehrheit der Bevölkerung ist und nicht nur für einzelne Interessen. Daher verbindet das NBG ebenfalls die technische mit der gesellschaftlichen Dimension. Es wird das langwierige Verfahren neutral und unabhängig begleiten. Dazu wirkt es vermittelnd zwischen allen beteiligten Akteuren. So soll erreicht werden, dass schrittweise das Vertrauen in das Verfahren ansteigt und die Zustimmung zum Prozess wächst. Dazu befasst sich das NBG mit allen Fragestellungen rund um die Endlagersuche.",
+                "p5": "Der <b>Partizipationsbeauftragte</b> wird vom Nationalen Begleitgremium ernannt. Er unterstützt das NBG bei seiner Arbeit. Er ist Ansprechpartner für alle Beteiligten im Verfahren. Er soll frühzeitig sich abzeichnende Konflikte im Verfahren erkennen und Vorschläge zu deren Bearbeitung machen. Dies können bspw. Mediations- und Streitschlichtungsmaßnahmen sein. Ihm kommt somit die Rolle eines Konfliktmanagers zu.",
+                "p6": "Die Fachkonferenz Teilgebiete, der Rat der Regionen und die Regionalkonferenzen ermöglichen die Mitwirkung der Bevölkerung. Sie füllen die gesellschaftliche Dimension des Verfahrens mit Leben."
+            },
+            "ending": {
+                "h1": "2031: Endlich ein Endlager gefunden!? Und nun?"
+            },
+            "components": {
+                "viewButton": {
+                    "target": "future",
+                    "label": "Zum Zukunft",
+                    "ariaLabel": "Zum Zukunft"
+                }
+            }
         },
         "future": {
             "prevView": "participation",
             "order": 4,
             "title": "Zukunft",
             "leader": "",
-            "description": "This chapter is about the basics of nuclear waste ..."
+            "description": "Wie kann man so ein Lager kennzeichnen, so dass Lebewesen in 100.000 Jahren es noch verstehen?",
+            "future": {
+                "p1": "Das letzte Atomkraftwerk Deutschlands wird am 31. Dezember 2022 stillgelegt, aber die Folgen werden noch lange spürbar sein.",
+                "p2": "„<i>Mehr als 30.000 Generationen werden von 60 Jahren Nutzung der Atomkraft betroffen sein – das zeigt, welch ein Irrweg die Nutzung der Atomenergie gewesen ist</i>“, stellte Umweltministerin Barbara Hendricks fest.",
+                "p3": "Die Abfälle in dem Endlager sollen für die gigantische Zeit von einer Million Jahre sicher gelagert werden. Doch wie lang ist das eigentlich? Was war denn vor einer Million Jahren auf der Erde los?",
+                "timeline": {
+                    "title": "Was geschah vor einer Million Jahren auf der Erde? Exponentielle Zeitleiste",
+                    "label1": "Quelle: Eigene Darstellung",
+                    "label2": "",
+                    "link1": "",
+                    "link2": "",
+                    "href1": "",
+                    "href2": ""
+                },
+                "p4": "Gesehen auf diese enorme Zeitspanne fällt der Anfang und das Ende der Atomenergie-Nutzung in Deutschland auf den selben Moment. Doch was wird in einer Million Jahren sein? Welche Lebewesen bevölkern dann die Erde?"
+            },
+            "warning": {
+                "h1": "Warnung an Lebewesen in 100.000 Jahren",
+                "p1": "Dies stellt uns vor eine ganze andere Herausforderung: Wie können wir sicherstellen, dass nachfolgende Generationen und Lebensformen unsere Warnhinweise vor dem gefährlichen Müll verstehen? Sprache und Schrift entwickelt sich zu schnell. Wir haben heute noch Probleme die Hieroglyphen der Ägypter vollständig zu entziffern. Und das war vor 4000 Jahren. Wie sollte also die Höhlenmalerei des Atommülls aussehen? Welche Warnungen und Symbole sind noch in 100.000 oder 800.000 Jahren verständlich?",
+                "hazard": {
+                    "src": "assets/images/hazard_red.svg",
+                    "title": "Warnsymbol für Radioaktivität",
+                    "label1": "Quelle: Public Domain /",
+                    "label2": "",
+                    "link1": "Wikimedia Commons",
+                    "link2": "",
+                    "href1": "https://commons.wikimedia.org/wiki/File:Logo_iso_radiation.svg",
+                    "href2": ""
+                },
+                "p2": "Denn die rund 30.000 Kubikmeter hochradioaktive Abfälle werden noch lange gesundheitsbedrohlich strahlen. Sie müssen daher sicher verwahrt werden. Die Aufgabe ist technisch komplex und eine gesellschaftspolitische Herausforderung. Denn vermutlich wird sich keine Gemeinde in Deutschland darum reißen, Endlagerstandort zu werden.",
+                "p3": "Als Einzelner fühlt man sich im Anbetracht der Größe und Dauer der Aufgabe verständlicherweise desillusioniert und überfordert. Schnell kommt das Gefühl auf, dass sich der Aufgabe schon andere annehmen werden und wieso sollte man überhaupt wertvolle Freizeit für die Bearbeitung eines derart abstrakten Themas aufwenden?",
+                "p4": "Eine schier endlose Anzahl an Szenarien ist denkbar und sie haben alle eines gemein: Es wird eine informierte, interessierte und kritisch aufgeklärte Gesellschaft brauchen, um das Such-Verfahren zu einem erfolgreichen Ausgang zu bringen und dem finalen Standort zur Akzeptanz zu verhelfen."
+            },
+            "whatCanIDO": {
+                "h1": "Was kann ich tun?",
+                "p1": "Überlasst die Lösung nicht einfach Anderen, sondern bringt Euch ein, informiert Euch und lasst doch mal eure Freunde schätzen, wie lange der Atommüll sicher gelagert werden soll... "
+            }
         }
     }
 }

@@ -1,0 +1,32 @@
+@import "./../../../variables";
+
+section.overlay-basic {
+  
+  padding-top: 4em;
+  
+  &, .background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .image {
+    margin-bottom: 3em;
+
+    img {
+      max-width: 100%;
+      width: auto;
+      margin: 0 auto;
+      display: block;
+    }
+
+    p {
+      margin: 0;
+    }
+    
+    &.bottom {
+      margin-top: 3em;
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,10 +1,27 @@
 <div class="full-screen-image">
-    
+
     <div class="full-screen-image-gradient hidden" style="background: {{ data.gradient }}"></div>
-    
+
     <div class="full-screen-image-container">
         {% for key, image in data.images %}
-            <img class="full-screen-image hidden {{ key }}" src="" style="background-image:url({{ image.src }});" alt="{{ image.alt }}">
+            <div class="{{ key }} title="{{ image.alt }}">
+                <img class="hidden" style="background-image:url({{ image.src }}); background-position:{{ image.backgroundPosition }};">
+                <div class="attribution">
+                    <div class="hidden attribution-button">{{ data.icon.info }}</div>
+                    <div class="hidden attribution-info">
+                        <p>{{ image.alt }}</p>
+                        <p>
+                            <span>{{ image.label1 }} </span>
+                            <a target="_blank" href="{{ image.href1 }}">{{ image.link1 }}</a>
+                            {% if image.href2 %}
+                                /
+                                <a target="_blank" href="{{ image.href2 }}">{{ image.link2 }}</a>
+                            {% endif %}
+                            <span> {{ image.label2 }}</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
         {% endfor %}
     </div>
 

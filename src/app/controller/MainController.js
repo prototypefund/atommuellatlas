@@ -4,6 +4,7 @@ import ContentModel from '/app/model/ContentModel';
 import AppStateModel from '/app/model/AppStateModel';
 import EventDispatcher from '/core/event/EventDispatcher';
 import ViewEvent from '/core/event/ViewEvent';
+import DomUtil from '/core/util/DomUtil';
 
 export default class MainController {
     constructor(introTarget) {
@@ -26,12 +27,28 @@ export default class MainController {
 
         window.addEventListener("resize", this.resizeHandler);
         window.addEventListener("scroll", this.scrollHandler);
+        
+        this.appBg = document.querySelector(".app-bg");
 
         EventDispatcher.addEventListener(ViewEvent.CHANGED, event => this._onViewChange(event));
+        EventDispatcher.addEventListener(ViewEvent.SCROLL, event => this._onViewScroll(event));
     }
 
     _onViewChange(event) {
         AppStateModel.currentViewID = event.id;
+        
+        if (event.id === "history") {
+            DomUtil.addClass(this.appBg, "inverse")
+        } else {
+            DomUtil.removeClass(this.appBg, "inverse")
+        }
+    }
+    
+    _onViewScroll(event) {
+        if (event.id === "below_nav") {
+            let offsetTop = this.welcomeScreen.height;
+            window.scrollTo(0, offsetTop);
+        }
     }
 
     _onScroll(event) {

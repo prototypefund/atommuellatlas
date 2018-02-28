@@ -5,9 +5,15 @@ import OverlayEvent from '/core/event/OverlayEvent';
 
 import template from './template.twig';
 import style from './_style.scss';
+import iconLogo from './../../../../static/assets/icons/logo.svg';
 
 export default class WelcomeScreen extends BaseComponent {
     constructor(data) {
+        data = Object.assign({}, data, {
+            icon: {
+                logo: iconLogo
+            }
+        });
         super(template, style, data);
         
         this.aboutHandler = this._onAbout.bind(this); 
@@ -24,6 +30,11 @@ export default class WelcomeScreen extends BaseComponent {
 
     registerNavComponent(navComponent) {
         navComponent.appendTo(this.navigationContainer);
+    }
+    
+    get height() {
+        let rect = this.element.getBoundingClientRect();
+        return rect.bottom - rect.top;
     }
     
     _onAbout() {

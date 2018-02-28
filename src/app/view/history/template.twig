@@ -1,73 +1,169 @@
 <section class="history">
-    <h1>{{ data.title }}</h1>
-    
+    <div class="intro">
+        <h1>{{ data.title2 }}</h1>
+        <p>{{ data.intro }}</p>
+    </div>
 
-    <h2 data-marker="startingpoint">{{ data.startingpoint.h1 }}</h2>
-    <p>{{ data.startingpoint.p1 }}</p>
-    
-    <p data-marker="thecuries">{{ data.thecuries.p1 }}</p>
-    
-    <h2 data-marker="atommodel">{{ data.atommodel.h1 }}</h2>
-    <p>{{ data.atommodel.p1 }}</p>
-    
-    <h2 data-marker="chainreaction">{{ data.chainreaction.h1 }}</h2>
-    <p>{{ data.chainreaction.p1 }}</p>
-    <p>{{ data.chainreaction.p2 }}</p>
-
-    <h2 data-marker="firstreactor">{{ data.firstreactor.h1 }}</h2>
-    <p>{{ data.firstreactor.p1 }}</p>
-
-    <h2 data-marker="startnuclearpower">{{ data.startnuclearpower.h1 }}</h2>
-    <p>{{ data.startnuclearpower.p1 }}</p>
-
-    <h2 data-marker="firstreactorgermany">{{ data.firstreactorgermany.h1 }}</h2>
-    <p>{{ data.firstreactorgermany.p1 }}</p>
-    <p>{{ data.firstreactorgermany.p2 }}</p>
-
-    <h2 data-marker="asseandmorsleben">{{ data.asseandmorsleben.h1 }}</h2>
-    <p>{{ data.asseandmorsleben.p1 }}</p>
-
-    <h2 data-marker="atomicage">{{ data.atomicage.h1 }}</h2>
-    <p>{{ data.atomicage.p1 }}</p>
-    <p>{{ data.atomicage.p2 }}</p>
-    
-    <p data-marker="antiatomkraft">{{ data.antiatomkraft.p1 }}</p>
-    
-    <p data-marker="neindanke">{{ data.neindanke.p1 }}</p>
-    
-    <h2 data-marker="gorleben-1">{{ data.gorleben.h1 }}</h2>
-    <p>{{ data.gorleben.p1 }}</p>
-
-    <p data-marker="gorleben-2">{{ data.gorleben.p2 }}</p>
-
-    <p data-marker="gorleben-3">{{ data.gorleben.p3 }}</p>
-    
-    <h2 data-marker="oceanprotest">{{ data.oceanprotest.h1 }}</h2>
-    <p>{{ data.oceanprotest.p1 }}</p>
-    <p>{{ data.oceanprotest.p2 }}</p>
-    
-    <h2 data-marker="tschernobyl-1">{{ data.tschernobyl.h1 }}</h2>
-    <p>{{ data.tschernobyl.p1 }}</p>
-
-    <p data-marker="tschernobyl-2">{{ data.tschernobyl.p1 }}</p>
-    
-    <h2 data-marker="highpoint">{{ data.highpoint.h1 }}</h2>
-    <p>{{ data.highpoint.p1 }}</p>
-
-    <h2 data-marker="stepdown">{{ data.stepdown.h1 }}</h2>
-    <p>{{ data.stepdown.p1 }}</p>
-
-    <h2>{{ data.stepdown.h2 }}</h2>
-    <p>{{ data.stepdown.p2 }}</p>
-    <p>{{ data.stepdown.p3 }}</p>
-    
-    <h2 data-marker="fukushima">{{ data.fukushima.h1 }}</h2>
-    <p>{{ data.fukushima.p1 }}</p>
-    <p>{{ data.fukushima.p2 }}</p>
-    <p>{{ data.fukushima.p3 }}</p>
-    
-    <h2 data-marker="thesearch">{{ data.thesearch.h1 }}</h2>
-    <p>{{ data.thesearch.p1 }}</p>
-    <p>{{ data.thesearch.p2 }}</p>
-    
+    <div data-marker="startingpoint" class="bottom left">
+        <div>
+            <h2>{{ data.startingpoint.h1 }}</h2>
+            <p>{{ data.startingpoint.p1 }}</p>
+        </div>
+    </div>
+    <div data-marker="thecuries" class="bottom left">
+        <div>
+            <p>{{ data.thecuries.p1 }}</p>
+            <div class="extra-info" data-overlay-button="thecuries"></div>
+        </div>
+    </div>
+    <div data-marker="atommodel" class="top right">
+        <div>
+            <h2>{{ data.atommodel.h1 }}</h2>
+            <p>{{ data.atommodel.p1 }}</p>
+        </div>
+    </div>
+    <div data-marker="chainreaction" class="bottom right">
+        <div>
+            <h2>{{ data.chainreaction.h1 }}</h2>
+            <p>{{ data.chainreaction.p1 }}</p>
+            <p>{{ data.chainreaction.p2 }}</p>
+        </div>
+    </div>
+    <div data-marker="firstreactor" class="top left">
+        <div>
+            <h2>{{ data.firstreactor.h1 }}</h2>
+            <p>{{ data.firstreactor.p1 }}</p>
+            <div class="extra-info" data-overlay-button="firstreactor"></div>
+        </div>
+    </div>
+    <div data-marker="startnuclearpower" class="bottom right">
+        <div>
+            <h2>{{ data.startnuclearpower.h1 }}</h2>
+            <p>{{ data.startnuclearpower.p1 }}</p>
+        </div>
+    </div>
+    <div data-marker="firstreactorgermany" class="bottom left">
+        <div>
+            <h2>{{ data.firstreactorgermany.h1 }}</h2>
+            <p>{{ data.firstreactorgermany.p1 }}</p>
+            <p>{{ data.firstreactorgermany.p2 }}</p>
+        </div>
+    </div>
+    <div data-marker="asseandmorsleben-1" class="bottom left">
+        <div>
+            <h2>{{ data.asseandmorsleben.h1 }}</h2>
+            <p>{{ data.asseandmorsleben.p1 }}</p>
+            <div class="extra-info" data-overlay-button="asseandmorsleben-1"></div>
+            <div class="extra-info" data-overlay-button="asseandmorsleben-1-external"></div>
+        </div>
+    </div>
+    <div data-marker="asseandmorsleben-2" class="bottom left">
+        <div>
+            <p>{{ data.asseandmorsleben.p2 }}</p>
+            <div class="extra-info" data-overlay-button="asseandmorsleben-2"></div>
+            <div class="extra-info" data-overlay-button="asseandmorsleben-2-external"></div>
+        </div>
+    </div>
+    <div data-marker="atomicage-1" class="bottom right">
+        <div>
+            <h2>{{ data.atomicage.h1 }}</h2>
+            <p>{{ data.atomicage.p1 }}</p>
+        </div>
+    </div>
+    <div data-marker="atomicage-2" class="bottom right">
+        <div>
+            <p>{{ data.atomicage.p2 }}</p>
+        </div>
+    </div>
+    <div data-marker="antiatomkraft" class="top left">
+        <div>
+            <p>{{ data.antiatomkraft.p1 }}</p>
+        </div>
+    </div>
+    <div data-marker="neindanke" class="bottom left">
+        <div>
+            <p>{{ data.neindanke.p1 }}</p>
+        </div>
+    </div>
+    <div data-marker="gorleben-1" class="top right">
+        <div>
+            <h2>{{ data.gorleben.h1 }}</h2>
+            <p>{{ data.gorleben.p1 }}</p>
+            <p>{{ data.gorleben.p2 }}</p>
+        </div>
+    </div>
+    <div data-marker="gorleben-2" class="top right">
+        <div>
+            <p>{{ data.gorleben.p3 }}</p>
+        </div>
+    </div>
+    <div data-marker="gorleben-3" class="bottom left">
+        <div>
+            <p>{{ data.gorleben.p4 }}</p>
+            <p>{{ data.gorleben.p5 }}</p>
+            <div class="extra-info" data-overlay-button="gorleben-1"></div>
+            <div class="extra-info" data-overlay-button="gorleben-2"></div>
+        </div>
+    </div>
+    <div data-marker="oceanprotest" class="bottom left">
+        <div>
+            <h2>{{ data.oceanprotest.h1 }}</h2>
+            <p>{{ data.oceanprotest.p1 }}</p>
+            <p>{{ data.oceanprotest.p2 }}</p>
+        </div>
+    </div>
+    <div data-marker="tschernobyl-1" class="bottom right">
+        <div>
+            <h2>{{ data.tschernobyl.h1 }}</h2>
+            <p>{{ data.tschernobyl.p1 }}</p>
+            <div class="extra-info" data-overlay-button="tschernobyl-1"></div>
+            <div class="extra-info" data-overlay-button="tschernobyl-2"></div>
+        </div>
+    </div>
+    <div data-marker="tschernobyl-2" class="bottom left">
+        <div>
+            <p>{{ data.tschernobyl.p1 }}</p>
+            <div class="extra-info" data-overlay-button="tschernobyl-3"></div>
+        </div>
+    </div>
+    <div data-marker="highpoint" class="top left">
+        <div>
+            <h2>{{ data.highpoint.h1 }}</h2>
+            <p>{{ data.highpoint.p1 }}</p>
+        </div>
+    </div>
+    <div data-marker="stepdown-1" class="top left">
+        <div>
+            <h2>{{ data.stepdown.h1 }}</h2>
+            <p>{{ data.stepdown.p1 }}</p>
+        </div>
+    </div>
+    <div data-marker="stepdown-2" class="top left">
+        <div>
+            <h2>{{ data.stepdown.h2 }}</h2>
+            <p>{{ data.stepdown.p2 }}</p>
+            <p>{{ data.stepdown.p3 }}</p>
+        </div>
+    </div>
+    <div data-marker="fukushima-1" class="bottom right">
+        <div>
+            <h2>{{ data.fukushima.h1 }}</h2>
+            <p>{{ data.fukushima.p1 }}</p>
+            <p>{{ data.fukushima.p2 }}</p>
+        </div>
+    </div>
+    <div data-marker="fukushima-2" class="bottom right">
+        <div>
+            <p>{{ data.fukushima.p3 }}</p>
+            <div class="extra-info" data-overlay-button="fukushima-1"></div>
+            <div class="extra-info" data-overlay-button="fukushima-2"></div>
+        </div>
+    </div>
+    <div data-marker="thesearch" class="top left">
+        <div>
+            <h2>{{ data.thesearch.h1 }}</h2>
+            <p>{{ data.thesearch.p1 }}</p>
+            <div class="next-chapter"></div>
+        </div>
+    </div>
 </section>
