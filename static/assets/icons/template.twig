@@ -1,0 +1,83 @@
+<section class="search">
+    
+    <h1>{{ data.title }}</h1>
+    <p>{{ data.leader }}</p>
+    
+    <!--div class="map-area">
+        <div class="map-area-left">
+            <div class="map-container"></div>
+        </div>
+        <div class="map-area-right">
+            <h2>{{ data.whatIsStoredWhere.h1 }}</h2>
+            <p class="map-marker clay">{{ data.whatIsStoredWhere.p1 }}</p>
+            <p class="map-marker granite">{{ data.whatIsStoredWhere.p2 }}</p>
+            <div class="media media-inline"><img src="{{ data.image.well }}"></div>
+            <p>{{ data.whatIsStoredWhere.p3 }}</p>
+            <div class="media media-inline"><video controls src="http://multimedia.gsb.bund.de/BFS/KONRAD/Vom_Erzlager_zum_Endlager_deu.webm" type="video/webm"></video></div>
+            <p class="map-marker rocksalt">{{ data.whatIsStoredWhere.p4 }}</p>
+            <p class="map-marker rocksalt-jurassic">{{ data.whatIsStoredWhere.p5 }}</p>
+            <p class="map-marker rocksalt-keuper">{{ data.whatIsStoredWhere.p6 }}</p>
+            <div class="media media-inline"><iframe width="100%" height="350px" src="https://www.youtube.com/embed/ZmTaiElVfBg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
+
+        </div>
+    </div-->
+    
+    <h2>{{ data.wastecleaning.h1 }}</h2>
+    <p>{{ data.wastecleaning.p1 }}</p>
+    <p>{{ data.wastecleaning.p2 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.wastecleaning.barrels.src }}" alt="{{ data.wastecleaning.barrels.title }}">
+        <p>{{ data.wastecleaning.barrels.title }}</p>
+        <p>
+            <span>{{ data.wastecleaning.barrels.label1 }} </span>
+        </p>
+    </div>
+    <p>{{ data.wastecleaning.p3 }}</p>
+    <p>{{ data.wastecleaning.p4 }}</p>
+    <div class="media media-inline">
+        <video controls poster="transparent" style="background-image: url('{{ data.wastecleaning.endstorage.poster }}')"
+               src="{{ data.wastecleaning.endstorage.src }}"></video>
+        <p>{{ data.wastecleaning.endstorage.title }}</p>
+        <p>
+            <span>{{ data.wastecleaning.endstorage.label }} </span>
+            <a title="{{ data.wastecleaning.endstorage.href }}" href="{{ data.wastecleaning.endstorage.href }}">{{ data.wastecleaning.endstorage.link }}</a>
+        </p>
+    </div>
+    <p>{{ data.wastecleaning.p5 }}</p>
+    <div class="media media-inline">
+        <video controls poster="transparent" style="background-image: url('{{ data.wastecleaning.middleradioactive.poster }}')"
+               src="{{ data.wastecleaning.middleradioactive.src }}"></video>
+        <p>{{ data.wastecleaning.middleradioactive.title }}</p>
+        <p>
+            <span>{{ data.wastecleaning.middleradioactive.label }} </span>
+            <a title="{{ data.wastecleaning.middleradioactive.href }}" href="{{ data.wastecleaning.middleradioactive.href }}">{{ data.wastecleaning.middleradioactive.link }}</a>
+        </p>
+    </div>
+    <p>{{ data.wastecleaning.p6 }}</p>
+    <p>{{ data.wastecleaning.p7 }}</p>
+    <p>{{ data.wastecleaning.p8 }}</p>
+    <p>{{ data.wastecleaning.p9 }}</p>
+    <p>{{ data.wastecleaning.p10 }}</p>
+    <p>{{ data.wastecleaning.p11 }}</p>
+    <p>{{ data.wastecleaning.p12 }}</p>
+    <p>{{ data.wastecleaning.p13 }}</p>
+    <p>{{ data.wastecleaning.p14 }}</p>
+
+    
+    
+    
+    <div class="media media-inline">
+        <img src="{{ data.nuclearEnergyUsage.rods.src }}" alt="{{ data.nuclearEnergyUsage.rods.title }}">
+        <p>{{ data.nuclearEnergyUsage.rods.title }}</p>
+        <p>
+            <span>{{ data.nuclearEnergyUsage.rods.label1 }} </span>
+            <a title="{{ data.nuclearEnergyUsage.rods.href1 }}" href="{{ data.nuclearEnergyUsage.rods.href1 }}">{{ data.nuclearEnergyUsage.rods.link1 }}</a>
+            /
+            <a title="{{ data.nuclearEnergyUsage.rods.href2 }}" href="{{ data.nuclearEnergyUsage.rods.href2 }}">{{ data.nuclearEnergyUsage.rods.link2 }}</a>
+            <span> {{ data.nuclearEnergyUsage.rods.label2 }}</span>
+        </p>
+    </div>
+    
+    
+    <div class="next-chapter"></div>
+</section>

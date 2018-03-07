@@ -37,8 +37,6 @@ export default class MainController {
     _onViewChange(event) {
         AppStateModel.currentViewID = event.id;
         
-        this._scrollBelowWelcomeScreen();
-        
         if (event.id === "history") {
             DomUtil.addClass(this.appBg, "inverse")
         } else {

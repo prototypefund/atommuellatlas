@@ -46,7 +46,6 @@ export default class ViewNavigation extends BaseComponent {
     }
     
     _onResize() {
-        console.log("NAV RESIZE")
         
         
     }
@@ -56,6 +55,7 @@ export default class ViewNavigation extends BaseComponent {
 
         this._onSelectNavItem(event.target);
         EventDispatcher.dispatchEvent(ViewEvent.LOAD, event.target.dataset.target);
+        EventDispatcher.dispatchEvent(ViewEvent.SCROLL, "below_nav");
     }
 
     _onSelectNavItem(item,) {
