@@ -1,4 +1,4 @@
-# AtommÃ¼ll Atlas #
+# Atommüll Atlas #
 
 ## SETUP ##
 
@@ -8,6 +8,6 @@
 
     npm run start
     
-## DEPLOY ##
+## BUILD ##
 
     npm run release
