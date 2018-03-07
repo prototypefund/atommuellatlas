@@ -6,7 +6,7 @@
   position: relative;
   bottom: 0;
   color: $white;
-  user-select: none;
+  user-select: none;  
   
   &-bar {
     display: flex;
@@ -21,6 +21,8 @@
     // TODO fix bar max width on large screens when sticky! (maybe another div to contain nav-bar inside?)
 
     li {
+      
+      
       //flex: 0 1 auto;
       flex: 1;
       margin: 0 6px;

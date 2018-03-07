@@ -20,6 +20,10 @@
     padding: 0;
   }
 
+  p, li {
+    font-family: Roboto, sans-serif;
+  }
+
   > *:not(.welcome-screen-hero) {
     z-index: $above;
     
