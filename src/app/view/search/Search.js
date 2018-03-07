@@ -13,14 +13,12 @@ import Footer from '/app/component/footer/Footer';
 import template from './template.twig';
 import style from './_style.scss';
 
-import imageWell from '/../static/assets/images/kap3_1.jpg';
-import imageWasteProcess from '/../static/assets/images/kap3_2.jpg';
+//import iconBarrels from '/../static/assets/icons/barrels.svg';
 
 export default class Search extends BaseView {
     constructor(id, data={}) {
-        data.image = Object.assign({}, data.image, {
-            well: imageWell,
-            wasteProcess: imageWasteProcess
+        data.icons = Object.assign({}, data.icons, {
+            //barrels: iconBarrels
         });
         super(id, template, style, data);
     }

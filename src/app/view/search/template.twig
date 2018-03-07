@@ -3,59 +3,197 @@
     <h1>{{ data.title }}</h1>
     <p>{{ data.leader }}</p>
     
+    
+    
+    <h2>{{ data.wastecleaning.h1 }}</h2>
+    <p>{{ data.wastecleaning.p1 }}</p>
+    <p>{{ data.wastecleaning.p2 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.wastecleaning.barrels.src }}" alt="{{ data.wastecleaning.barrels.title }}">
+        <p>{{ data.wastecleaning.barrels.title }}</p>
+        <p>
+            <span>{{ data.wastecleaning.barrels.label1 }} </span>
+        </p>
+    </div>
+    <p>{{ data.wastecleaning.p3 }}</p>
+    <p>{{ data.wastecleaning.p4 }}</p>
+    <div class="media media-inline">
+        <video controls poster="transparent" style="background-image: url('{{ data.wastecleaning.endstorage.poster }}')"
+               src="{{ data.wastecleaning.endstorage.src }}"></video>
+        <p>{{ data.wastecleaning.endstorage.title }}</p>
+        <p>
+            <span>{{ data.wastecleaning.endstorage.label }} </span>
+            <a title="{{ data.wastecleaning.endstorage.href }}" href="{{ data.wastecleaning.endstorage.href }}">{{ data.wastecleaning.endstorage.link }}</a>
+        </p>
+    </div>
+    <p>{{ data.wastecleaning.p5 }}</p>
+    <div class="media media-inline">
+        <video controls poster="transparent" style="background-image: url('{{ data.wastecleaning.middleradioactive.poster }}')"
+               src="{{ data.wastecleaning.middleradioactive.src }}"></video>
+        <p>{{ data.wastecleaning.middleradioactive.title }}</p>
+        <p>
+            <span>{{ data.wastecleaning.middleradioactive.label }} </span>
+            <a title="{{ data.wastecleaning.middleradioactive.href }}" href="{{ data.wastecleaning.middleradioactive.href }}">{{ data.wastecleaning.middleradioactive.link }}</a>
+        </p>
+    </div>
+    <p>{{ data.wastecleaning.p6 }}</p>
+    <p>{{ data.wastecleaning.p7 }}</p>
+    <p>{{ data.wastecleaning.p8 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.wastecleaning.wasteroute.src }}" alt="{{ data.wastecleaning.wasteroute.title }}">
+        <p>{{ data.wastecleaning.wasteroute.title }}</p>
+        <p>
+            <span>{{ data.wastecleaning.wasteroute.label1 }} </span>
+            <a title="{{ data.wastecleaning.wasteroute.href1 }}" href="{{ data.wastecleaning.wasteroute.href1 }}">{{ data.wastecleaning.wasteroute.link1 }}</a>
+        </p>
+    </div>
+    <p>{{ data.wastecleaning.p9 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.wastecleaning.konrad.src }}" alt="{{ data.wastecleaning.konrad.title }}">
+        <p>{{ data.wastecleaning.konrad.title }}</p>
+        <p>
+            <span>{{ data.wastecleaning.konrad.label1 }} </span>
+            <a title="{{ data.wastecleaning.konrad.href1 }}" href="{{ data.wastecleaning.konrad.href1 }}">{{ data.wastecleaning.konrad.link1 }}</a>
+            /
+            <a title="{{ data.wastecleaning.konrad.href2 }}" href="{{ data.wastecleaning.konrad.href2 }}">{{ data.wastecleaning.konrad.link2 }}</a>
+            <span> {{ data.wastecleaning.konrad.label2 }}</span>
+        </p>
+    </div>
+    <p>{{ data.wastecleaning.p10 }}</p>
+    <p>{{ data.wastecleaning.p11 }}</p>
+    <p>{{ data.wastecleaning.p12 }}</p>
+    <p>{{ data.wastecleaning.p13 }}</p>
+    <p>{{ data.wastecleaning.p14 }}</p>
+    
+    
+    <h2>{{ data.storageoptions.h1 }}</h2>
+    <p>{{ data.storageoptions.p1 }}</p>
+    <h3>{{ data.storageoptions.sh1 }}</h3>
+    <p>{{ data.storageoptions.p2 }}</p>
+    <ul>
+        {% for item in data.storageoptions.l1 %}<li>{{ item }}</li>{% endfor %}
+    </ul>
+    <div class="media media-inline">
+        <img src="{{ data.storageoptions.space.src }}" alt="{{ data.storageoptions.space.title }}">
+        <p>{{ data.storageoptions.space.title }}</p>
+        <p>
+            <span>{{ data.storageoptions.space.label1 }} </span>
+            <a title="{{ data.storageoptions.space.href1 }}" href="{{ data.storageoptions.space.href1 }}">{{ data.storageoptions.space.link1 }}</a>
+            /
+            <a title="{{ data.storageoptions.space.href2 }}" href="{{ data.storageoptions.space.href2 }}">{{ data.storageoptions.space.link2 }}</a>
+            <span> {{ data.storageoptions.space.label2 }}</span>
+        </p>
+    </div>
+    <h3>{{ data.storageoptions.sh2 }}</h3>
+    <p>{{ data.storageoptions.p3 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.storageoptions.ice.src }}" alt="{{ data.storageoptions.ice.title }}">
+        <p>{{ data.storageoptions.ice.title }}</p>
+        <p>
+            <span>{{ data.storageoptions.ice.label1 }} </span>
+            <a title="{{ data.storageoptions.ice.href1 }}" href="{{ data.storageoptions.ice.href1 }}">{{ data.storageoptions.ice.link1 }}</a>
+            /
+            <a title="{{ data.storageoptions.ice.href2 }}" href="{{ data.storageoptions.ice.href2 }}">{{ data.storageoptions.ice.link2 }}</a>
+            <span> {{ data.storageoptions.ice.label2 }}</span>
+        </p>
+    </div>
+    <h3>{{ data.storageoptions.sh3 }}</h3>
+    <p>{{ data.storageoptions.p4 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.storageoptions.ocean.src }}" alt="{{ data.storageoptions.ocean.title }}">
+        <p>{{ data.storageoptions.ocean.title }}</p>
+        <p>
+            <span>{{ data.storageoptions.ocean.label1 }} </span>
+            <a title="{{ data.storageoptions.ocean.href1 }}" href="{{ data.storageoptions.ocean.href1 }}">{{ data.storageoptions.ocean.link1 }}</a>
+            /
+            <a title="{{ data.storageoptions.ocean.href2 }}" href="{{ data.storageoptions.ocean.href2 }}">{{ data.storageoptions.ocean.link2 }}</a>
+            <span> {{ data.storageoptions.ocean.label2 }}</span>
+        </p>
+    </div>
+    <h3>{{ data.storageoptions.sh4 }}</h3>
+    <p>{{ data.storageoptions.p5 }}</p>
+
+
+    <h2>{{ data.searchdetail.h1 }}</h2>
+    <p>{{ data.searchdetail.p1 }}</p>
+    <p>{{ data.searchdetail.p2 }}</p>
+    <p>{{ data.searchdetail.p3 }}</p>
+    <p>{{ data.searchdetail.p4 }}</p>
+    <p>{{ data.searchdetail.p5}}</p>
+
+    
     <div class="map-area">
         <div class="map-area-left">
             <div class="map-container"></div>
         </div>
         <div class="map-area-right">
-            <h2>{{ data.whatIsStoredWhere.h1 }}</h2>
-            <p class="map-marker clay">{{ data.whatIsStoredWhere.p1 }}</p>
-            <p class="map-marker granite">{{ data.whatIsStoredWhere.p2 }}</p>
-            <div class="media media-inline"><img src="{{ data.image.well }}"></div>
-            <p>{{ data.whatIsStoredWhere.p3 }}</p>
-            <div class="media media-inline"><video controls src="http://multimedia.gsb.bund.de/BFS/KONRAD/Vom_Erzlager_zum_Endlager_deu.webm" type="video/webm"></video></div>
-            <p class="map-marker rocksalt">{{ data.whatIsStoredWhere.p4 }}</p>
-            <p class="map-marker rocksalt-jurassic">{{ data.whatIsStoredWhere.p5 }}</p>
-            <p class="map-marker rocksalt-keuper">{{ data.whatIsStoredWhere.p6 }}</p>
-            <div class="media media-inline"><iframe width="100%" height="350px" src="https://www.youtube.com/embed/ZmTaiElVfBg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
-
+            <p>{{ data.whatIsWhere.p1 }}</p>
+            <p>{{ data.whatIsWhere.p2 }}</p>
+            <p>{{ data.whatIsWhere.p3 }}</p>
+            <p>{{ data.whatIsWhere.p4 }}</p>
+            <p>{{ data.whatIsWhere.p5 }}</p>
+            <p>{{ data.whatIsWhere.p6 }}</p>
+            <p class="map-marker clay">{{ data.whatIsWhere.p7 }}</p>
+            <div class="media media-inline">
+                <img src="{{ data.whatIsWhere.tungsten.src }}" alt="{{ data.whatIsWhere.tungsten.title }}">
+                <p>{{ data.whatIsWhere.tungsten.title }}</p>
+                <p>
+                    <span>{{ data.whatIsWhere.tungsten.label1 }} </span>
+                    <a title="{{ data.whatIsWhere.tungsten.href1 }}" href="{{ data.whatIsWhere.tungsten.href1 }}">{{ data.whatIsWhere.tungsten.link1 }}</a>
+                    /
+                    <a title="{{ data.whatIsWhere.tungsten.href2 }}" href="{{ data.whatIsWhere.tungsten.href2 }}">{{ data.whatIsWhere.tungsten.link2 }}</a>
+                    <span> {{ data.whatIsWhere.tungsten.label2 }}</span>
+                </p>
+            </div>
+            <p class="map-marker granite">{{ data.whatIsWhere.p8 }}</p>
+            <div class="media media-inline">
+                <img src="{{ data.whatIsWhere.granit.src }}" alt="{{ data.whatIsWhere.granit.title }}">
+                <p>{{ data.whatIsWhere.granit.title }}</p>
+                <p>
+                    <span>{{ data.whatIsWhere.granit.label1 }} </span>
+                    <a title="{{ data.whatIsWhere.granit.href1 }}" href="{{ data.whatIsWhere.granit.href1 }}">{{ data.whatIsWhere.granit.link1 }}</a>
+                    /
+                    <a title="{{ data.whatIsWhere.granit.href2 }}" href="{{ data.whatIsWhere.granit.href2 }}">{{ data.whatIsWhere.granit.link2 }}</a>
+                    <span> {{ data.whatIsWhere.granit.label2 }}</span>
+                </p>
+            </div>
+            <p class="map-marker rocksalt rocksalt-jurassic rocksalt-keuper">{{ data.whatIsWhere.p9 }}</p>
+            <div class="media media-inline">
+                <img src="{{ data.whatIsWhere.salt.src }}" alt="{{ data.whatIsWhere.salt.title }}">
+                <p>{{ data.whatIsWhere.salt.title }}</p>
+                <p>
+                    <span>{{ data.whatIsWhere.salt.label1 }} </span>
+                    <a title="{{ data.whatIsWhere.salt.href1 }}" href="{{ data.whatIsWhere.salt.href1 }}">{{ data.whatIsWhere.salt.link1 }}</a>
+                    /
+                    <a title="{{ data.whatIsWhere.salt.href2 }}" href="{{ data.whatIsWhere.salt.href2 }}">{{ data.whatIsWhere.salt.link2 }}</a>
+                    <span> {{ data.whatIsWhere.salt.label2 }}</span>
+                </p>
+            </div>
         </div>
     </div>
-    
-    
-    <h2>{{ data.searchProcess.h1 }}</h2>
-    <p>{{ data.searchProcess.p1 }}</p>
-    <p>{{ data.searchProcess.p2 }}</p>
-    <p>{{ data.searchProcess.p3 }}</p>
-    <p>{{ data.searchProcess.p4 }}</p>
-    <p>{{ data.searchProcess.p5 }}</p>
-    <h3>{{ data.searchProcess.h2 }}</h3>
-    <p>{{ data.searchProcess.p6 }}</p>
-    <h3>{{ data.searchProcess.h3 }}</h3>
-    <p>{{ data.searchProcess.p7 }}</p>
-    <p>{{ data.searchProcess.p8 }}</p>
-    <h3>{{ data.searchProcess.h4 }}</h3>
-    <p>{{ data.searchProcess.p9 }}</p>
-    <p>{{ data.searchProcess.p10 }}</p>
-    <h3>{{ data.searchProcess.h5 }}</h3>
-    <div class="media media-inline"><img src="{{ data.image.wasteProcess }}"></div>
 
-    <h2>{{ data.whereStandsWhat.h1 }}</h2>
-    <p>{{ data.whereStandsWhat.p1 }}</p>
 
-    <h2>{{ data.finalDisposalDispute.h1 }}</h2>
-    <p>{{ data.finalDisposalDispute.p1 }}</p>
-    <p>{{ data.finalDisposalDispute.p2 }}</p>
-    <p>{{ data.finalDisposalDispute.p3 }}</p>
-    <p>{{ data.finalDisposalDispute.p4 }}</p>
-    <p>{{ data.finalDisposalDispute.p5 }}</p>
-
-    <h2>{{ data.disposalCosts.h1 }}</h2>
-    <p>{{ data.disposalCosts.p1 }}</p>
-
-    <h2>{{ data.nationalPlateView.h1 }}</h2>
-    <p>{{ data.nationalPlateView.p1 }}</p>
-    
+    <h3>{{ data.requirements.sh1 }}</h3>
+    <p>{{ data.requirements.p1 }}</p>
+    <p>{{ data.requirements.p2 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.requirements.ground.src }}" alt="{{ data.requirements.ground.title }}">
+        <p>{{ data.requirements.ground.title }}</p>
+        <p>
+            <span>{{ data.requirements.ground.label1 }} </span>
+        </p>
+    </div>
+    <h3>{{ data.requirements.sh2 }}</h3>
+    <p>{{ data.requirements.p3 }}</p>
+    <p>{{ data.requirements.p4 }}</p>
+    <p>{{ data.requirements.p5}}</p>
+    <div class="media media-inline">
+        <img src="{{ data.requirements.phases.src }}" alt="{{ data.requirements.phases.title }}">
+        <p>{{ data.requirements.phases.title }}</p>
+        <p>
+            <span>{{ data.requirements.phases.label1 }} </span>
+        </p>
+    </div>
     
     <div class="next-chapter"></div>
 </section>

@@ -45,6 +45,6 @@ new class App extends Application {
         this.initOverlay(overlayContainer, overlayMap);
 
 
-        this.start("nuclearWaste");
+        this.start("search");
     }
 };

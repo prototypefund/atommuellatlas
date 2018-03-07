@@ -27,15 +27,25 @@ html {
       padding: 50px 0 0;
     }
 
-    p {
+    p, li {
       font-family: $font-text;
       line-height: 1.65em;
       text-align: justify;
+      
+      b {
+        font-weight: $font-bold;
+      }
     }
 
     a {
       word-break: break-all; // no overflowing long links
       text-decoration: none;
+    }
+    
+    li {
+      //font-size: 0.9rem;
+      line-height: 1.2em;
+      margin-bottom: 0.4em;
     }
   }
 

@@ -37,6 +37,8 @@ export default class MainController {
     _onViewChange(event) {
         AppStateModel.currentViewID = event.id;
         
+        this._scrollBelowWelcomeScreen();
+        
         if (event.id === "history") {
             DomUtil.addClass(this.appBg, "inverse")
         } else {
@@ -46,8 +48,7 @@ export default class MainController {
     
     _onViewScroll(event) {
         if (event.id === "below_nav") {
-            let offsetTop = this.welcomeScreen.height;
-            window.scrollTo(0, offsetTop);
+            this._scrollBelowWelcomeScreen()
         }
     }
 
@@ -57,6 +58,11 @@ export default class MainController {
 
     _onResize(event) {
         this._setNavPosition();
+    }
+    
+    _scrollBelowWelcomeScreen() {
+        let offsetTop = this.welcomeScreen.height;
+        window.scrollTo(0, offsetTop);
     }
 
     _lockNavHeight() {

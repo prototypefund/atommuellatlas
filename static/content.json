@@ -2,7 +2,6 @@
     "logLevel": "warn",
     "image": {
         "hero": {
-            "src1": "assets/icons/logo.svg",
             "src": "assets/images/jakob-madsen-187927.jpg",
             "alt": "TODO"
         },
@@ -666,7 +665,7 @@
                             "backgroundPosition": ""
                         },
                         "asseandmorsleben-1": {
-                            "src": "assets/images/asse.jpg",
+                            "src": "assets/images/Schachtanlage_Asse.jpeg",
                             "alt": "Bohrungen zur Untersuchung des umgebenen Salzgesteins in Asse II",
                             "label1": "Quelle: © Bundesgesellschaft für Endlagerung mbH",
                             "label2": "",
@@ -871,58 +870,200 @@
             "prevView": "history",
             "order": 2,
             "title": "Die Suche",
-            "leader": "Die Suche nach einem Endlager für hochradioaktive Abfälle wird lange dauern. Erst 2031 soll es soweit sein. Dann steht die nicht minder komplexe Aufgabe des Endlagerbaus und der Einlagerung der hoch radioaktiven Abfälle an. Erst um 2100 rechnen Experten mit dem Verschluss des Endlagers. Anschließend sollen die Abfälle in dem Endlagerbergwerk sicher für die gigantische Zeit von einer Million Jahre gelagert werden. Zwar verlaufen die Zerfallsprozesse exponentiell, dennoch braucht es lange,  (unterfüttern/visualisieren) bis die Strahlung so stark abgeklungen ist, dass keine Gefahr mehr für Mensch und Umwelt besteht, da einige Radionuklide lange Halbwertszeiten aufweisen. Das erklärt, wieso der Gesetzgeber sicherstellen möchte, dass für einen sehr langen Zeitraum die sehr stark strahlenden Elemente nicht in die Biosphäre gelangen können.",
+            "leader": "Die Suche nach einem Endlager für hochradioaktive Abfälle wird lange dauern. Erst 2031 soll es soweit sein. Dann steht die nicht weniger schwierige Aufgabe des Endlagerbaus an. Anschließend können die hochradioaktiven Abfälle eingelagert werden. Um 2100 rechnen Experten mit dem Verschluss des Endlagers. Anschließend sollen die Abfälle in dem Endlagerbergwerk sicher gelagert werden.",
             "description": "Wir stehen am Anfang einer gigantischen Suchaktion. Was genau suchen wir eigentlich?",
-            "whatIsStoredWhere": {
-                "h1": "Was wird wo gelagert?",
-                "p1": "Im geplanten Endlager werden ausschließlich stark radioaktive Abfälle eingelagert. Sie entstehen vorwiegend bei der Produktion von Atomstrom und der Wiederaufbereitung von verbrauchten Brennelementen. Wichtig ist zu wissen, dass die Abfälle nur einen geringen Anteil am Gesamtvolumen aller radioaktiven Abfälle ausmachen. Allerdings sind sie wegen ihrer hohen Aktivität für den überwiegenden Anteil der Strahlung verantwortlich. Die in rund 1900 Behältern einzulagernden hochradioaktiven Abfallstoffe haben ein Volumen von 30.000 Kubikmetern. Demgegenüber ist das Volumen der schwach- bis mittelradioaktiven Abfälle zwanzigfach größer und entspricht ca. 600.000 Kubikmetern. Dennoch sind die hochradiokativen Abfälle für knapp 99 % der gesamten Radioaktivität verantwortlich.",
-                "p2": "Für schwach- und mittelradioaktive Abfallstoffe - auch Abfälle mit vernachlässigbarer Wärmeentwicklung genannt - wurde atomrechtlich bereits ein Endlager beschlossen, das sich gerade im Bau befindet: Schacht Konrad. Es wurde als Standort ausgewählt, da es einerseits für ein Eisenerzbergwerk unüblich trocken ist. Andererseits ist die Einlagerung in Feldern in einer Tiefe von rund 800 bis 1000 Metern Tiefe möglich. Schützend oberhalb des Wirtsgesteins liegt eine breite Schicht aus sehr undurchlässigem Tongestein.",
-                "p3": "Es handelt sich um ein stillgelegtes Eisenerzbergwerk niedersächsischen Salzgitter, das gegenwärtig zu einem Endlager umgebaut und soll 2022 fertiggestellt werden. Allerdings ist ungewiss, ob der Termin eingehalten werden kann.",
-                "p4": "Bereits in der Vergangenheit wurden Abfälle mit vernachlässigbarer Wärmeentwicklung unter der Erde eingelagert. Dies geschah während der deutschen Teilung sowohl in West- wie auch in Ostdeutschland. Bereits 1971 wurde damit begonnen, schwach- und mittelradioaktive Abfälle in einem ehemaligen Salz- und Kalibergwerk im sachsen-anhaltinischen Morsleben einzulagern. Aufgrund von Sicherheitsbedenken wurde das Einbringen von Abfällen 1998 endgültig beendet. Die Kammern werden nun verschlossen und die ca. 357.000 Kubikmeter radioaktive Abfälle mit vernachlässigbarer Wärmentwicklungeingelagerte Abfälle sollen in der Schachtanlage verbleiben. Wie auch das westdeutsche Endlager Asse II ist Morsleben stark durch jahrzehntelangen Kali- und Steinsalzabbau geprägt. Des Weiteren betonten Kritiker des Standortes bereits seit den späten 60er Jahren die Gefahr, das eintretendes Wasser die Stabilität des Bergwerks beeinträchtigen könnte bis hin zu dem bestehenden Risiko eines vollständigen Einsturzes des Schachts mit der Folge einer Freisetzung der radioaktiven Strahlung an der Oberfläche.",
-                "p5": "Informationen Morsleben",
-                "p6": "<a>https://www.bgr.bund.de/DE/Themen/Endlagerung/Standorte/Morsleben/morsleben_node.html Informationen Asse</a>"
+            "wastecleaning": {
+                "h1": "Mülltrennung",
+                "p1": "Im geplanten Endlager werden ausschließlich hochradioaktive Abfälle eingelagert. Sie entstehen vorwiegend bei der Produktion von Atomstrom und der Wiederaufbereitung von verbrauchten Brennelementen.",
+                "p2": "Auch wenn die hochradioaktiven Abfälle nur einen geringen Anteil am Gesamtvolumen aller radioaktiver Abfälle ausmachen, so sind sie doch für fast 99% der radioaktiven Strahlung verantwortlich.",
+                "barrels": {
+                    "src": "assets/icons/barrels.svg",
+                    "title": "Atommodell nach Rutherford",
+                    "label1": "Quelle: Eigene Darstellung",
+                    "label2": "",
+                    "link1": "",
+                    "link2": "",
+                    "href1": "",
+                    "href2": ""
+                },
+                "p3": "Der insgesamt bisher angefallene hochradioaktive Atommüll beläuft sich weltweit auf ca. 300.000 Tonnen. Ungefähr 17.000 Tonnen werden alleine in Deutschland bis zum Abschalten des letzten AKW 2022 produziert worden sein.",
+                "p4": "Die in rund 1.900 Behältern (momentan in sogenannten Castoren) einzulagernden hochradioaktiven Abfallstoffe haben ein Gewicht von 17.000 Tonnen und ein Volumen von 30.000 Kubikmetern. Zum Vergleich: Das entspricht dem Volumen von etwa 8 Olympiaschwimmbecken! Demgegenüber ist das Volumen der schwach- bis mittelradioaktiven Abfälle zwanzigfach größer, also ca. 600.000 Kubikmetern.",
+                "endstorage": {
+                    "src": "http://multimedia.gsb.bund.de/BFE/animation/endlagerausstellung/assets/videos/c1_06_hochradioaktive_abfaelle.mp4",
+                    "poster": "http://multimedia.gsb.bund.de/BFE/animation/endlagerausstellung/assets/images/c1_06_hochradioaktive_abfaelle.jpg",
+                    "title": "Hochradioaktive Abfälle",
+                    "label": "Quelle:",
+                    "link": "© Film/Bundesgesellschaft für Endlagerung mbH",
+                    "href": "http://www.bfs.de/SharedDocs/Videos/BfS/DE/ion-radioaktivitaet.html"
+                },
+                "p5": "Gesetzlich wurde beschlossen, dass schwach- und mittelradioaktive Abfälle gemeinsam eingelagert werden und der hochradioaktive Müll davon getrennt entsorgt werden muss.",
+                "middleradioactive": {
+                    "src": "http://multimedia.gsb.bund.de/BFE/animation/endlagerausstellung/assets/videos/c1_05_schwach_und_mittelradioaktive_abfaelle.mp4",
+                    "poster": "http://multimedia.gsb.bund.de/BFE/animation/endlagerausstellung/assets/images/c1_05_schwach_und_mittelradioaktive_abfaelle.jpg",
+                    "title": "Schwach- und mittelradioaktive Abfälle",
+                    "label": "Quelle:",
+                    "link": "© Film/Bundesgesellschaft für Endlagerung mbH",
+                    "href": "http://multimedia.gsb.bund.de/BFE/animation/endlagerausstellung/index.html#radioaktive_abfaelle/1"
+                },
+                "p6": "Der Großteil aller radioaktiven Abfälle entstammt direkt oder indirekt der atomaren Stromerzeugung in Kernkraftwerken (siehe folgende Abbildung). Zudem entstehen bei der Stilllegung und dem Abriss eines AKW sog. Rückbauabfälle. Viele AKW-Bauteile und Betriebsabfälle wie Schutzkleidung sind nach der langen Nutzung verstrahlt und müssen sicher gelagert werden, bis die Strahlung hinreichend abgeklungen ist.",
+                "p7": "Hierfür werden die Strahlenbelastungen ermittelt und gefährliche Elemente zur Aufbewahrung zwischengelagert. Von dort werden sie später in das entsprechende Endlager gebracht.",
+                "p8": "In wesentlich geringeren Mengen fällt auch in der Forschung und Medizin radioaktiver Abfall an, so z.B. bei Strahlentherapien zur Krebsbehandlung.",
+                "wasteroute": {
+                    "src": "assets/icons/waste.svg",
+                    "title": "Vom Kernkraftwerk ins Endlager: die Wege des radioaktiven Abfalls",
+                    "label1": "Quelle: Eigene Darstellung",
+                    "label2": "",
+                    "link1": "",
+                    "link2": "",
+                    "href1": "",
+                    "href2": ""
+                },
+                "p9": "Schwach- und mittelradioaktive Abfallstoffe werden auch Abfälle mit vernachlässigbarer Wärmeentwicklung genannt. Für sie wurde atomrechtlich bereits ein Endlager beschlossen: Schacht Konrad, ein stillgelegtes Eisenerzbergwerk im niedersächsischen Salzgitter. Momentan wird es zu einem Endlager umgebaut und soll 2022 fertiggestellt sein. Aufgrund von Verzögerungen beim Bau ist es <a href=\"https://www.focus.de/politik/deutschland/atom-atom-endlager-schacht-konrad-droht-verzoegerung_aid_951025.html\" target=\"_blank\">ungewiss, ob der Termin eingehalten werden kann</a>.",
+                "konrad": {
+                    "src": "assets/images/Schacht_Konrad_2012.jpg",
+                    "title": "Vom Kernkraftwerk ins Endlager: die Wege des radioaktiven Abfalls",
+                    "label1": "Quelle:",
+                    "label2": "/ Wikimedia Commons",
+                    "link1": "Hejkal",
+                    "link2": "CC-BY-SA-3.0",
+                    "href1": "https://commons.wikimedia.org/wiki/File:Schacht_Konrad_2012.jpg",
+                    "href2": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+                },
+                "p10": "Das Eisenerzbergwerk wurde unter anderem ausgewählt, da es besonders trocken ist. Trockenheit ist ein wichtiges Kriterium für ein Endlager. Denn beim Eintritt von salzhaltigem Wasser würde es zur Korrosion der Fässer kommen. So könnte radioaktives Material austreten.",
+                "p11": "Abgebrannte Brennelemente der Atomkraftwerke stellen hochradioaktive Abfälle dar. Für ihre dauerhafte Aufbewahrung wird nun ein Endlager gesucht. Die hochradioaktiven Abfälle können jedoch aufgrund der sogenannten Nachzerfallswärme nicht unmittelbar nach ihrem Gebrauch transportiert werden. Die über 100°C heißen verbrauchten Brennstäbe werden daher zunächst in einem Wasserbassin (dem sogenannten Abklingbecken) für drei bis fünf Jahre abgekühlt. Erst danach sind sie transportfähig und können in Castoren umgesetzt werden.",
+                "p12": "Doch auch dann besteht noch eine erhebliche Restwärme. So kann die Temperatur an der Außenhülle eines Castor-Behälters bis zu 85°C betragen. Diese Behälter werden heute in oberirdischen Zwischenlagern aufbewahrt bis das Endlager fertig ist.",
+                "p13": "Bis vor ein paar Jahren wurden die Abfälle nach England und Frankreich in Wiederaufbereitungsanlagen transportiert. Dort wurden ungenutzte Radionuklide von den verbrauchten Elementen abgetrennt und zu neuen Brennelementen verarbeitet.",
+                "p14": "Seit 2005 dürfen verbrauchte Brennelemente aus der Stromerzeugung nicht mehr in die Wiederaufbereitung gebracht werden. Stattdessen werden sie direkt beim jeweiligen Atomkraftwerk bzw. in zentralen Zwischenlagern aufbewahrt."
             },
-            "searchProcess": {
-                "h1": "Ablauf der deutschen Endlagersuche",
-                "p1": "In einem komplexen und langwierigen Verfahren wird anhand vieler Kriterien nach dem Standort mit der bestmöglichen Sicherheit gesucht. Er soll das Risiko für die nachfolgenden Generationen möglichst gering halten. Um unerwartete Entwicklungen auch nachträglich noch berücksichtigen zu können, wurden besondere Anforderungen an das Endlager gestellt. Neben der Gefahr durch die hohe radioaktive Strahlung ist auch die starke Wärmeentwicklung, die bei den Zerfallsprozessen entsteht, eine Herausforderung.",
-                "p2": "Kriterien/Anforderungen",
-                "p3": "- Reversibilität",
-                "p4": "- Rückholbarkeit",
-                "p5": "In einem komplexen und langwierigen Verfahren wird anhand vieler Kriterien nach dem Standort mit der bestmöglichen Sicherheit gesucht. Er soll das Risiko für die nachfolgenden Generationen möglichst gering halten. Um unerwartete Entwicklungen auch nachträglich noch berücksichtigen zu können, wurden besondere Anforderungen an das Endlager gestellt. Neben der Gefahr durch die hohe radioaktive Strahlung ist auch die starke Wärmeentwicklung, die bei den Zerfallsprozessen entsteht, eine Herausforderung.",
-                "h2": "1. Phase: Ermittlung von Teilgebieten",
-                "p6": "Am Anfang des Auswahlverfahrens steht eine „weiße Landkarte“. Darunter wird verstanden, dass grundsätzlich alle Regionen in Deutschland als möglicher Standort für das Endlager infrage kommen. In einem vergleichenden Verfahren werden mittels diverser Kriterien schrittweise Teilgebiete aus dem Verfahren genommen, bis nur noch ein Standort mit der bestmöglichen Sicherheit verbleibt. In der ersten Phase werden dazu vorliegende geographische Daten verwendet, um grundsätzlich geeignete Teilgebiete auszuwählen und einer näheren Prüfung zu unterziehen. Ausschlusskriterien ermöglichen es frühzeitig, ungeeignete Regionen aus dem weiteren Verfahren zu entfernen. Außerdem finden erste Sicherheitsuntersuchungen statt.  Die verfahrensdurchführende Bundesgesellschaft für Endlagerung (BGE) veröffentlicht am Ende einen Zwischenbericht. Er enthält Empfehlungen für die nachfolgend detaillierter zu untersuchenden Teilgebiete und entsprechende Erkundungsprogramme. Dieser wird vom Bundesamt für kerntechnische Entsorgung (der Genehmigungs- und Aufsichtsbehörde) geprüft und anschließend dem Umweltministerium zugeleitet. Die Bundesregierung informiert Bundestag und Bundesrat, die dann mit einem Bundesgesetz den weiteren Fortgang des Verfahrens beschließen können. Es regelt auch den Umgang mit Regionen bei denen die bisher vorliegenden Daten nicht ausreichen, um eine Einschätzung vorzunehmen[DM11]",
-                "h3": "2. Phase: Übertägige Erkundung",
-                "p7": "Die in der ersten Phase für geeignet befundenen Teilgebiete werden nun genauer untersucht. Dazu finden überall übertägige Erkundungen statt. Diese Untersuchungen bilden die Grundlage, um im nächsten Schritt besonders geeignete Teilgebiete auch untertägig zu erkunden und noch präzisere Informationen zur Geeignetheit der einzelnen Gebiete zu erhalten. Außerdem werden weitere Sicherheitsuntersuchungen durchgeführt und sogenannte sozioökonomische Potenzialanalysen durchgeführt. Darunter wird verstanden....",
-                "p8": "Am Ende dieser Phase erstellt die BGE erneut einen Bericht. Er enthält Vorschläge für näher zu erkundende Gebiete. Sie bezieht dazu erneut die vorgeschriebenen Kriterien mit ein und erstellt Erkundungsprogramme sowie Prüfkriterien für die untertägige Erkundung. Sie werden wieder vom BfE geprüft und anschließend dem Umweltministerium zugeleitet. Die Bundesregierung informiert erneut Bundestag und Bundesrat. Die Legislative kann dann per Bundesgesetz die in der dritten Phase näher zu erkundenden Gebiete beschließen.",
-                "h4": "3. Phase: Untertägige Erkundung",
-                "p9": "Die verbliebenen mindestens zwei Gebiete werden nun untertägig erkundet und auf Ihre Sicherheit hin untersucht. Wieder finden die etablierten Kriterien und Anforderungen Anwendung. Die BGE macht schließlich einen Vorschlag, wo das Endlager errichtet werden soll und übermittelt ihn an das BfE. Die Aufsichtsbehörde führt nun eine Umweltverträglichkeitsprüfung durch.",
-                "p10": "Wenn es keine rechtlichen Beanstandungen gibt, übermittelt das BfE den Standortvorschlag an das Umweltministerium. Die Bundesregierung legt ihn anschließend Bundestag und Bundesrat als Gesetzentwurf vor. Der demokratisch legitimierte Gesetzgeber trifft schließlich die Entscheidung über den Endlagerstandort.",
-                "h5": "Ergebnis: Auswahl des Standorts mit der bestmöglichen Sicherheit"
+            "storageoptions": {
+                "h1": "Wohin mit dem Müll? - Optionen zur Endlagerung",
+                "p1": "Gesetzlich wurde festgelegt, dass die Endlagerung mittels eines Bergwerks in 500 bis 1000 Meter unter der Erde zu erfolgen hat. Das ist nicht die einzige Möglichkeit. Andere Formen der mehr oder weniger nachhaltigen Entsorgung standen zur <a target=\"blank_\" href=\"https://www.bundestag.de/blob/434430/bb37b21b8e1e7e049ace5db6b2f949b2/drs_268-data.pdf\">Auswahl</a>. Sie wurden nach eingehender Prüfung durch eine Expertenkommission verworfen. Dies betrifft auch die Transmutation.",
+                "sh1": "Weltall",
+                "p2": "Die Entsorgung des Atommülls im Weltraum wurde erstmals von Wissenschaftlern der NASA in den 1970er und 80er Jahren untersucht. Die Grundidee war dabei, eine Rakete samt atomaren Abfalls zum Mond, zur Sonne oder zu einem anderen Sonnensystem zu schicken. Diese Entsorgungsoption wurde aus mehreren Gründen verworfen:",
+                "l1": [
+                    "Bedenken hinsichtlich der technischen Umsetzbarkeit.",
+                    "Risiko einer radioaktiven Kontaminierung großer Flächen bei einem Absturz oder einer Explosion der Rakete.",
+                    "Hohe finanziellen Kosten."
+                ],
+                "space": {
+                    "src": "assets/images/Shuttle.jpg",
+                    "title": "Entsorgung im Weltall",
+                    "label1": "Quelle:",
+                    "label2": "/ Pixabay.com",
+                    "link1": "bachstroem",
+                    "link2": "CC0",
+                    "href1": "https://pixabay.com/de/spaceshuttel-weltraum-sci-fi-2690279/",
+                    "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+                },
+                "sh2": "Eis",
+                "p3": "Eine andere Idee war es, den Atommüll in den Eiskappen Grönlands oder der Antarktis zu lagern. Der Vorschlag wurde in Deutschland schon Anfang der 1960er Jahre verworfen. Neben den hohen anfallenden Kosten wurden in den 1970er Jahren wissenschaftliche Zweifel laut: Mit dem wachsenden Wissen um die Folgen der globalen Erwärmung und dem Schmelzen der Eismassen wurde diese Möglichkeit endgültig ausgeschlossen.",
+                "ice": {
+                    "src": "assets/images/Eis.jpg",
+                    "title": "Entsorgung im Eis",
+                    "label1": "Quelle:",
+                    "label2": "/ Pixabay.com",
+                    "link1": "MemoryCatcher",
+                    "link2": "CC0",
+                    "href1": "https://pixabay.com/de/eisberge-eis-antarktis-eisberg-429132/",
+                    "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+                },
+                "sh3": "Ozeane",
+                "p4": "Ozeane wurden schon früh als mögliche Orte für eine Entsorgung von radioaktiven Abfällen diskutiert. Fachleute lehnen heute eine Entsorgung im Meer vor allem wegen hoher Sicherheitsrisiken ab. Nichtsdestotrotz wurden laut der Nuclear Energy Agency bis 1982 rund 114.726 Tonnen Atommüll im Meer entsorgt. In Fachkreisen wird dieser Vorgang Verklappung genannt.",
+                "ocean": {
+                    "src": "assets/images/Ozean.jpg",
+                    "title": "Entsorgung im Ozean",
+                    "label1": "Quelle:",
+                    "label2": "/ Pixabay.com",
+                    "link1": "dimitrisvetsikas1969",
+                    "link2": "CC0",
+                    "href1": "https://pixabay.com/de/meer-infinity-blue-ozean-natur-3072293/",
+                    "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+                },
+                "sh4": "Bohrlöcher",
+                "p5": "Bei der Endlagerung in Bohrlöchern wird der radioaktive Abfall ebenfalls in der Erde aufbewahrt. Die Lagerung erfolgt in 3.000 bis 5.000 Meter tiefen Löchern in Granitgestein. Zur Aufbewahrung werden spezielle Behälter verwendet. Das Verfahren braucht noch weitere Forschung: Es sind technische Verbesserungen bei der Bohrtechnologie sowie den Abfallbehältern notwendig. Es mangelt auch an Erfahrungswerten. Daher ist derzeit nicht bekannt, ob die Sicherheit bei dieser Methode dauerhaft gewährleistet ist."
             },
-            "whereStandsWhat": {
-                "h1": "Wo steht was:",
-                "p1": "<a>http://multimedia.gsb.bund.de/BFE/animation/endlagerausstellung/karte_entstehung.html</a>"
+            "searchdetail": {
+                "h1": "Finde das Endlager - das Suchverfahren im Detail",
+                "p1": "<i>\"Dieses ist, soweit ich es sehen kann, wenn man es ernstlich behandeln will, überhaupt kein Problem... Ich habe mir in Karlsruhe sagen lassen, dass der gesamte Atommüll, der in der Bundesrepublik im Jahr 2000 vorhanden sein wird, in einen Kasten hineinginge, der ein Kubus von 20 Meter Seitenlänge ist. Wenn man das gut versiegelt und verschließt und in ein Bergwerk steckt, dann wird man hoffen können, dass man damit dieses Problem gelöst hat.\"</i><br>Carl Friedrich von Weizsäcker, Physiker, 1969",
+                "p2": "Ganz so einfach, wie es sich dieser Fachmann vor rund 50 Jahren vorgestellt hat, wird die Lösung aller Voraussicht nach nicht werden. In der Tat beschränkt sich die Suche nach einem geeigneten Endlager auf Orte unter der Erde. Allerdings steht Deutschland zunächst ein langes und schwieriges Verfahren bevor.",
+                "p3": "Anhand vieler Kriterien soll ein Standort mit der bestmöglichen Sicherheit für nachfolgende Generationen ermittelt werden. Dort wird das Endlager errichtet. Nachdem alle hochradioaktiven Abfälle eingelagert sind, wird es verschlossen. Es wird eine Fläche von mehreren Quadratkilometern umfassen. Diese Größe ist abhängig vom verwendeten Wirtsgestein.",
+                "p4": "Der Gesetzgeber hat beschlossen, dass Salz, Ton und Kristallin (bspw. Granit) als potenzielle Wirtsgesteine infrage kommen. Wirtsgestein ist das Material, welches das Endlager später umgeben wird. Diese Materialien haben unterschiedliche physikalische Eigenschaften. Daher ist die benötigte Fläche für ein Endlager gesteinsabhängig.",
+                "p5": "Etliche Schwierigkeiten müssen beim Bau und Betrieb eines Endlagers bewältigt werden. Um unerwartete Entwicklungen auch nachträglich noch berücksichtigen zu können, werden besondere Anforderungen an das Endlager gestellt: Der Atommüll soll noch bis zu 500 Jahre nach Verschluss wieder aus dem Bergwerk geholt werden können. Das könnte beispielsweise der Fall sein, wenn in Zukunft geeignetere Lagerstätten gefunden werden."
             },
-            "finalDisposalDispute": {
-                "h1": "Der Streit um die richtige Form der Endlagerung",
-                "p1": "Gesetzlich wurde festgelegt, dass die Einlagerung unter der Erde erfolgen soll. Dieses Vorgehen ist nicht unumstritten. Etliche andere Formen der mehr oder weniger nachhaltigen Entsorgung standen zur Disposition:",
-                "p2": "- Verklappung: <a>http://www-pub.iaea.org/MTCD/publications/PDF/te_1105_prn.pdf</a>",
-                "p3": "- Weltall",
-                "p4": "- Transutation...",
-                "p5": "Eine wichtige Einschränkung ist dabei, dass die in Deutschland entstandenen Abfälle national endgelagert werden sollen."
+            "whatIsWhere": {
+                "p1": "Am Anfang des Auswahlverfahrens steht eine <b>„weiße Landkarte“</b>. Das heißt, alle geographischen Regionen in Deutschland werden zunächst gleichermaßen als möglicher Endlagerstandort angesehen. Anhand vieler Kriterien werden nun schrittweise ungeeignete Regionen aus dem Verfahren genommen. Am Schluss verbleibt nur noch ein Standort mit der bestmöglichen Sicherheit. Einige der Kriterien sind in der Karte dargestellt.",
+                "p2": "Regionen, in denen starke <b>Erhebungen des Gesteins</b> oder <b>Gesteinsverschiebungen</b> zu erwarten sind, werden ausgeschlossen. Wegen des langen Zeitraums von einer Million Jahren reichen dabei bereits geringe Bewegungen von wenigen Millimetern jährlich aus, um die Region langfristig stark zu verändern.",
+                "p3": "Regionen mit starken aktuellen oder vergangenen <b>Bergbauarbeiten</b> können aus dem Verfahren fallen. Die Entscheidung ist abhängig davon, ob die Bohrungen die Stabilität des zukünftigen Endlagers bedrohen.",
+                "p4": "Gebiete mit stärkeren <b>Erdbebenaktivitäten</b> oder <b>Vulkanismus</b> kommen für ein Endlager nicht infrage.",
+                "p5": "Auch größere <b>Siedlungsgebiete</b> wie Städte werden aus dem Verfahren ausgeschlossen.",
+                "p6": "Aufgrund unpassender Beschaffenheit im Untergrund entfallen viele Gebiete Deutschlands für ein Endlager. Nur drei Gesteinsarten kommen in Frage…",
+                "p7": "<b>Tongestein</b> ist kaum wasserdurchlässig und nicht wasserlöslich. Dafür ist Ton weniger hitzebeständig als Salz bzw. Kristallin und könnte durch die Wärme der radioaktiven Abfälle beschädigt werden. Die Abfallbehälter müssten aus diesem Grund in einem größeren Abstand voneinander aufgestellt werden und das Endlager daher größer sein.",
+                "tungsten": {
+                    "src": "assets/images/Tongestein_ausschnitt.png",
+                    "title": "Schwarzes Tongestein. Die Farbe des Tongesteins ist abhängig von seiner jeweiligen Zusammensetzung.",
+                    "label1": "Quelle:",
+                    "label2": "/ Wikimedia Commons",
+                    "link1": "Ekkol",
+                    "link2": "CC BY-SA 3.0",
+                    "href1": "https://commons.wikimedia.org/wiki/File:Limestone_on_shale.jpg",
+                    "href2": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+                },
+                "p8": "<b>Kristallin - z.B. Granit</b> - ist sehr fest, kaum wasserlöslich und äußerst hitzebeständig. Allerdings neigt es zu Rissen. Durch diese könnte Wasser in das Endlager eindringen und gefährliche Stoffe nach außen gelangen. <a target=\"_blank\" href=\"http://www.deutschlandfunkkultur.de/atommuell-schweden-auf-endlager-suche.2165.de.html?dram:article_id=340884\">Kritiker bezweifeln</a> außerdem, dass die zum Einsatz kommenden Kupferbehälter langfristig sicher sind. Zusätzlich bräuchte es eine Schutzschicht aus Bentonit gegen eindringendes Wasser.",
+                "granit": {
+                    "src": "assets/images/Granit.jpg",
+                    "title": "Granit",
+                    "label1": "Quelle:",
+                    "label2": "/ Flickr.com",
+                    "link1": "Walker Carpenter",
+                    "link2": "CC BY 2.0",
+                    "href1": "https://www.flickr.com/photos/walkercarpenter/4698240864/in/photolist-8aaHjQ-WazdvG-5kJa8w-5FCVGw-oqZ9p3-bZYrTN-ape4x3-99At8x-7Nwmsy-4duYeY-4APCgB-psHMKv-9nLCVX-f6eK7-5Abnaw-4rPo4v-apdZ8w-53xZnC-4dqZkt-f6fj4-atAdcV-edHrYy-bZYqZY-WacaZ-4duZ1u-81L8JY-4y3H5q-qhHhe-6yVLXd-9ckXsx-5aLZu-qMTRU-aqGyPd-2BK19V-9ZUSk-a43WRT-bfvwze-7ZRNU2-i6ynMS-bZYcjA-diExN6-6v13SD-7gkS1z-ekTXLa-apdTgq-5QAY45-psGarN-BjmZ7t-psHLmZ-6rYd38",
+                    "href2": "https://creativecommons.org/licenses/by/2.0/"
+                },
+                "p9": "<b>Steinsalz</b> zeichnet sich durch gute Wärmeleitfähigkeit aus. Es ist wie Ton beweglich, wodurch es die Abfallbehälter in einem Endlager sehr gut umschließen würde. Aufgrund seiner Wasserlöslichkeit muss die Gefahr von eindringendem Wasser ausgeschlossen werden.",
+                "salt": {
+                    "src": "assets/images/Salzgestein.jpg",
+                    "title": "Salzgestein",
+                    "label1": "Quelle:",
+                    "label2": "/ Wikimedia Commons",
+                    "link1": "Wampi",
+                    "link2": "CC BY-SA 3.0",
+                    "href1": "https://commons.wikimedia.org/w/index.php?curid=5662945",
+                    "href2": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+                }
             },
-            "disposalCosts": {
-                "h1": "Ohne Moos nichts Los - Kosten der Endlagerung",
-                "p1": ""
-            },
-            "nationalPlateView": {
-                "h1": "Der Blick über den nationalen Tellerrand",
-                "p1": ""
+            "requirements": {
+                "sh1": "Das Endlager muss viele Anforderungen erfüllen",
+                "p1": "Oben wurden Kriterien genannt, die zum <b>Ausschluss</b> einer Region im Verfahren führen. Darüber hinaus gibt es viele weitere Anforderungen an den Standort. Ein Endlager muss trocken sein. Daher ist eine <b>Mindestanforderung</b>, dass nahezu kein Wasser von außen eindringen kann. Natürlich soll auf keinen Fall radioaktives Material aus dem Endlager entweichen. Deswegen müssen die Kammern, in denen der Müll gelagert wird, von einer dicken und unversehrten Schicht aus Wirtsgestein umschlossen werden. Das nennen Experten den einschlusswirksamen Gebirgsbereich. Es soll sichergestellt sein, dass Mensch und Umwelt vor der Strahlung geschützt sind. Daher muss darüber zusätzlich eine weitere mehrere hundert Meter dicke Gesteinsschicht liegen.",
+                "p2": "Außerdem werden zur Festlegung viele weitere <b>Abwägungskriterien</b> berücksichtigt. Dies sind nicht nur geowissenschaftliche Größen. Es wird beispielsweise auch gefordert, dass ein Mindestabstand zwischen Endlagerstandort und Wohngebieten liegt. Er soll sich außerhalb von Naturschutzgebieten befinden und wichtige Kulturgüter unversehrt lassen. Auch in einem Überschwemmungsgebiet soll das Endlager nicht liegen.",
+                "ground": {
+                    "src": "assets/icons/Gebirgsbereich_magenta.svg",
+                    "title": "Vereinfachte Kriterien eines Endlagers",
+                    "label1": "Quelle: Eigene Darstellung",
+                    "label2": "",
+                    "link1": "",
+                    "link2": "",
+                    "href1": "",
+                    "href2": ""
+                },
+                "sh2": "In 3 Schritten zum Endlager",
+                "p3": "In der ersten Phase werden die umfangreich vorliegenden Daten der geologischen Behörden verwendet. Mit ihnen werden geeignete Teilgebiete ausgewählt.",
+                "p4": "Diese Teilgebiete werden nun genauer untersucht. Dazu werden für die Standorte einzelne Erkundungsprogramme erstellt. Vor Ort werden Untersuchungen an der Oberfläche durchgeführt und erste Erkundungsbohrungen vorgenommen.",
+                "p5": "In der dritten und letzten Phase sind nur noch wenige Regionen übrig. Mindestens zwei Gebiete werden nun untertägig erkundet. Dazu werden Erkundungsbergwerke gebaut. Wissenschaftler können so direkt unter Tage die Eignung des Gebirges ermitteln.",
+                "phases": {
+                    "src": "assets/icons/Three Phases_new.svg",
+                    "title": "Phasen der Endlagersuche",
+                    "label1": "Quelle: Eigene Darstellung",
+                    "label2": "",
+                    "link1": "",
+                    "link2": "",
+                    "href1": "",
+                    "href2": ""
+                }
             },
             "components": {
                 "viewButton": {
                     "target": "participation",
-                    "label": "Zum Mitreden",
+                    "label": "Habe ich eigentlich ein Wort mitzureden?",
                     "ariaLabel": "Zum Mitreden"
                 }
             }
