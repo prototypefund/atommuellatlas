@@ -68,11 +68,49 @@
             ]
         },
         "about": {
-            "overlay": "basic ",
+            "overlay": "about",
             "h1": "About",
-            "p1": "Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum... Lorum Ipsum...",
-            "p2": "",
-            "p3": ""
+            "aaLogo": {
+                "src": "assets/icons/logo.svg",
+                "title": "Atommüll Atlas"
+            },
+            "p1": "Der Atommüll-Atlas ist ein Informationsangebot zur nuklearen Endlagersuche und Geschichte der Atomenergie. Wir möchten mit dem Projekt das Interesse am Thema förden und der Diskurs innerhalb der Bevölkerung anregen.",
+            "p2": "Das Projekt ist nicht kommerziell und steht als <a href=\"https://bitbucket.org/HenrikEliasson/atommuellatlas\" title=\"https://bitbucket.org/HenrikEliasson/atommuellatlas\" target=\"_blank\">Open Source Code</a> zur Verfügung. Der Großteil der verwendeten Fotos und Videos steht unter einer Creative Commons Lizenz.",
+            "p3": "Der Atommüll-Atlas ist ein Projekt der Open Knowledge Foundation e.V. und durch den Prototypefund des Bundesministeriums für Bildung und Forschung gefördert.",
+            "okfLogo": {
+                "src": "assets/icons/logo_okfn.svg",
+                "title": "Open Knowledge Foundation"
+            },
+            "bmbfLogo": {
+                "src": "assets/icons/logo-bmbf.svg",
+                "title": "Bundesministerium für Bildung und Forschung"
+            },
+            "protoLogo": {
+                "src": "assets/icons/logo-prototype.svg",
+                "title": "Protype Fund"
+            },
+            "h2": "Umsetzende",
+            "p4": "<b>Henrik Eliasson</b> - Konzept , Layout und Software Entwicklung",
+            "p5": "<b>Solveig Schröder</b> - Konzept, Inhaltliche Ausarbeitung und Projektmanagement",
+            "p6": "<b>Jörg Sommer</b> - Inhaltliche Ausarbeitung",
+            "h3": "Unterstützer",
+            "p7": "Unser Dank für die tatkräftige ehrenamtliche Unterstützung geht an:",
+            "p8": "Bernd Marticke für den Einsatz von Zeit, Ideen, Gedanken und ganz viel inhaltlicher Unterstützung Paula Mittrowan für die kreative Umsetzung der Infografiken und der Design-Unterstützung Sandro Höhn und Nils Richterich für das fleißige Zusammenstellen von Daten, Bildern und interessanten Artikeln Verena Gröbmayr für den letzten Feinschliff",
+            "p9": "Code for Hamburg für die starke inhaltliche Begleitung des Projektes",
+            "cfhLogo": {
+                "src": "assets/icons/new-code-for-hamburg.png",
+                "title": "Code for Hamburg"
+            },
+            "p10": "Deutsche Umweltstiftung für die starke inhaltliche Begleitung des Projektes",
+            "dusLogo": {
+                "src": "assets/icons/DUS_Logo_vektor.png",
+                "title": "Deutsche Umweltstiftung"
+            },
+            "p11": "Berlin Institut für Partizipation für die starke inhaltliche Begleitung des Projektes",
+            "bipLogo": {
+                "src": "assets/icons/Logo_bipar_CMYK.png",
+                "title": "Berlin Institut für Partizipation"
+            }
         },
         "isitreallygreen": {
             "overlay": "basic",
@@ -918,7 +956,7 @@
                     "href1": "",
                     "href2": ""
                 },
-                "p9": "Schwach- und mittelradioaktive Abfallstoffe werden auch Abfälle mit vernachlässigbarer Wärmeentwicklung genannt. Für sie wurde atomrechtlich bereits ein Endlager beschlossen: Schacht Konrad, ein stillgelegtes Eisenerzbergwerk im niedersächsischen Salzgitter. Momentan wird es zu einem Endlager umgebaut und soll 2022 fertiggestellt sein. Aufgrund von Verzögerungen beim Bau ist es <a href=\"https://www.focus.de/politik/deutschland/atom-atom-endlager-schacht-konrad-droht-verzoegerung_aid_951025.html\" target=\"_blank\">ungewiss, ob der Termin eingehalten werden kann</a>.",
+                "p9": "Schwach- und mittelradioaktive Abfallstoffe werden auch Abfälle mit vernachlässigbarer Wärmeentwicklung genannt. Für sie wurde atomrechtlich bereits ein Endlager beschlossen: Schacht Konrad, ein stillgelegtes Eisenerzbergwerk im niedersächsischen Salzgitter. Momentan wird es zu einem Endlager umgebaut und soll 2022 fertiggestellt sein. Aufgrund von Verzögerungen beim Bau ist es <a href=\"https://www.focus.de/politik/deutschland/atom-atom-endlager-schacht-konrad-droht-verzoegerung_aid_951025.html\" title=\"https://www.focus.de/politik/deutschland/atom-atom-endlager-schacht-konrad-droht-verzoegerung_aid_951025.html\" target=\"_blank\">ungewiss, ob der Termin eingehalten werden kann</a>.",
                 "konrad": {
                     "src": "assets/images/Schacht_Konrad_2012.jpg",
                     "title": "Vom Kernkraftwerk ins Endlager: die Wege des radioaktiven Abfalls",
@@ -937,7 +975,7 @@
             },
             "storageoptions": {
                 "h1": "Wohin mit dem Müll? - Optionen zur Endlagerung",
-                "p1": "Gesetzlich wurde festgelegt, dass die Endlagerung mittels eines Bergwerks in 500 bis 1000 Meter unter der Erde zu erfolgen hat. Das ist nicht die einzige Möglichkeit. Andere Formen der mehr oder weniger nachhaltigen Entsorgung standen zur <a target=\"blank_\" href=\"https://www.bundestag.de/blob/434430/bb37b21b8e1e7e049ace5db6b2f949b2/drs_268-data.pdf\">Auswahl</a>. Sie wurden nach eingehender Prüfung durch eine Expertenkommission verworfen. Dies betrifft auch die Transmutation.",
+                "p1": "Gesetzlich wurde festgelegt, dass die Endlagerung mittels eines Bergwerks in 500 bis 1000 Meter unter der Erde zu erfolgen hat. Das ist nicht die einzige Möglichkeit. Andere Formen der mehr oder weniger nachhaltigen Entsorgung standen zur <a target=\"blank_\" href=\"https://www.bundestag.de/blob/434430/bb37b21b8e1e7e049ace5db6b2f949b2/drs_268-data.pdf\" title=\"https://www.bundestag.de/blob/434430/bb37b21b8e1e7e049ace5db6b2f949b2/drs_268-data.pdf\">Auswahl</a>. Sie wurden nach eingehender Prüfung durch eine Expertenkommission verworfen. Dies betrifft auch die Transmutation.",
                 "sh1": "Weltall",
                 "p2": "Die Entsorgung des Atommülls im Weltraum wurde erstmals von Wissenschaftlern der NASA in den 1970er und 80er Jahren untersucht. Die Grundidee war dabei, eine Rakete samt atomaren Abfalls zum Mond, zur Sonne oder zu einem anderen Sonnensystem zu schicken. Diese Entsorgungsoption wurde aus mehreren Gründen verworfen:",
                 "l1": [
@@ -1008,7 +1046,7 @@
                     "href1": "https://commons.wikimedia.org/wiki/File:Limestone_on_shale.jpg",
                     "href2": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                 },
-                "p8": "<b>Kristallin - z.B. Granit</b> - ist sehr fest, kaum wasserlöslich und äußerst hitzebeständig. Allerdings neigt es zu Rissen. Durch diese könnte Wasser in das Endlager eindringen und gefährliche Stoffe nach außen gelangen. <a target=\"_blank\" href=\"http://www.deutschlandfunkkultur.de/atommuell-schweden-auf-endlager-suche.2165.de.html?dram:article_id=340884\">Kritiker bezweifeln</a> außerdem, dass die zum Einsatz kommenden Kupferbehälter langfristig sicher sind. Zusätzlich bräuchte es eine Schutzschicht aus Bentonit gegen eindringendes Wasser.",
+                "p8": "<b>Kristallin - z.B. Granit</b> - ist sehr fest, kaum wasserlöslich und äußerst hitzebeständig. Allerdings neigt es zu Rissen. Durch diese könnte Wasser in das Endlager eindringen und gefährliche Stoffe nach außen gelangen. <a target=\"_blank\" href=\"http://www.deutschlandfunkkultur.de/atommuell-schweden-auf-endlager-suche.2165.de.html?dram:article_id=340884\" title=\"http://www.deutschlandfunkkultur.de/atommuell-schweden-auf-endlager-suche.2165.de.html?dram:article_id=340884\">Kritiker bezweifeln</a> außerdem, dass die zum Einsatz kommenden Kupferbehälter langfristig sicher sind. Zusätzlich bräuchte es eine Schutzschicht aus Bentonit gegen eindringendes Wasser.",
                 "granit": {
                     "src": "assets/images/Granit.jpg",
                     "title": "Granit",
@@ -1078,7 +1116,7 @@
                 "h1": "Die Endlagersuche mitgestalten",
                 "p1": "Atome sind eine kleine Einheit unserer Materie und gleichzeitig die Bausteine chemischer Elemente wie z.B. Kohlenstoff. Sie sind so klein, dass man sie mit dem menschlichen Auge nicht erfassen kann. Erst wenn man etwa 10 Millionen Atome nebeneinander aufreiht, ergibt sich 1 Millimeter. Jedes Atom besteht aus einem winzigen Atomkern und einer vergleichsweise riesigen Hülle.",
                 "p2": "Allerdings gibt es auch Gegenbeispiele aus anderen Ländern. Mancherorts steht die örtliche Bevölkerung der Nutzung und Einlagerung radioaktiver Stoffe in ihrer Region weniger ablehnend gegenüber. In Anlehnung an die bekannte Serie Simpsons spricht man hier vom \"Springfield Syndrom\". Menschen in diesen Regionen haben über lange Zeit einen starken Bezug zur Atomenergie aufgebaut. Teilweise ist das örtliche Atomkraftwerk wichtigster Arbeitgeber. Durch den vertrauten Umgang mit der Atomenergie werden Gefahrenpotenziale geringer eingeschätzt und die Vorteile hervorgehoben.",
-                "p3": "Ein solches Beispiel stellt die Gemeinde Östhammar in Schweden dar, <a href=\"https://www.zdf.de/nachrichten/heute-in-europa/endlager-schweden-100.html\" target=\"_blank\">wie dieses Video zeigt</a>. Dort befindet sich das stillgelegte Atomkraftwerk Forsmarsk. Es war der größte Arbeitgeber in der Region. Allerdings wurde es wegen Sicherheitsmängeln abgeschaltet. Durch den Bau des Endlagers ab 2022 erhoffen sich die Menschen vor Ort nun neue Arbeitsplätze und finanzielle Unterstützung durch den Staat.",
+                "p3": "Ein solches Beispiel stellt die Gemeinde Östhammar in Schweden dar, <a href=\"https://www.zdf.de/nachrichten/heute-in-europa/endlager-schweden-100.html\" title=\"https://www.zdf.de/nachrichten/heute-in-europa/endlager-schweden-100.html\" target=\"_blank\">wie dieses Video zeigt</a>. Dort befindet sich das stillgelegte Atomkraftwerk Forsmarsk. Es war der größte Arbeitgeber in der Region. Allerdings wurde es wegen Sicherheitsmängeln abgeschaltet. Durch den Bau des Endlagers ab 2022 erhoffen sich die Menschen vor Ort nun neue Arbeitsplätze und finanzielle Unterstützung durch den Staat.",
                 "simpsons": {
                     "src": "assets/images/simpsons.jpeg",
                     "title": "Springfield Syndrom",
@@ -1090,7 +1128,7 @@
                     "href2": "https://creativecommons.org/licenses/by-sa/3.0/deed.de"
                 },
                 "p4": "Doch natürlich sind Ängste der Bevölkerung begründet und nachvollziehbar. Manchmal wird daher gefordert, die Abfälle im Ausland zu entsorgen. Dies hat der Gesetzgeber bewusst verhindert. Die Endlagerung muss in Deutschland erfolgen. Es soll so ein verantwortungsbewusster Umgang mit den gefährlichen Stoffen sichergestellt werden. Außerdem ist ein Großteil des erzeugten Stroms in Deutschland genutzt worden. Daher ist es richtig, dass hier auch die Entsorgung passiert.",
-                "p5": "In den nächsten Jahrzehnten findet dazu ein mehrstufiger Prozess statt. Er fußt auf negativen Erfahrungen aus der Vergangenheit. Vielen Menschen sind in diesem Zusammenhang die Proteste im niedersächsischen Gorleben in Erinnerung. Es kam über Jahrzehnte zu Widerstand der Bevölkerung und Kritik am staatlichen Vorgehen.",
+                "p5": "In den nächsten Jahrzehnten findet dazu ein mehrstufiger <a TODO>Prozess statt</a>. Er fußt auf negativen Erfahrungen aus der Vergangenheit. Vielen Menschen sind in diesem Zusammenhang die Proteste im niedersächsischen Gorleben in Erinnerung. Es kam über Jahrzehnte zu Widerstand der Bevölkerung und Kritik am staatlichen Vorgehen.",
                 "gorleben": {
                     "src": "assets/images/gorleben_protest.jpg",
                     "title": "Demonstration gegen den Endlagerstandort Gorleben",
@@ -1101,7 +1139,7 @@
                     "href1": "https://www.flickr.com/photos/campact/6384409167/in/photolist-aJaLq8-aH22Rt-aMJtz4-8RbHoM-aA1NF6-aMPdLP-8Ru1d8-5AXRwT-5AXS2n-8RfyWs-8RCMqU-eAWYQf-aC4oP4-bpxEnd-8Rw4Hy-ptYpqN-bCsGf2-aDnwwN-8YD87p-8RwNtC-5AHacx-5AXRHt-93VWtf-8RcrEc-8YynWR-aLHmvM-8RwGYE-8Rswfr-5B37Df-5AXS7r-8EJXvP-aMJGLH-aMJpzZ-8YAAR2-8RtNJk-aJAAbp-aH2iCx-aDiGTV-aGooWc-nXQaUg-aMK3LH-8RfyFq-aMPARX-5AXRZF-5AXRCH-8Roj6x-aMKxCc-5B388A-aC4noR-8Rrx3G",
                     "href2": "https://creativecommons.org/licenses/by-nc/2.0/"
                 },
-                "p6": "Diese Erfahrungen sind in die Gestaltung des anstehenden Endlagersuchverfahrens eingeflossen. Die Bevölkerung soll sich von Beginn an im Verfahren einbringen können. Dieses soll verständlich und nachvollziehbar ablaufen. Daher wurde eine <a href=\"https://www.bfe.bund.de/DE/soa/unterlagen-standag/unterlagen-standag_node.html\" target=\"_blank\">Informationsplattform</a> eingerichtet. Sie veröffentlicht wichtige Unterlagen und gibt Aufschluss über den Stand des Verfahrens.",
+                "p6": "Diese Erfahrungen sind in die Gestaltung des anstehenden Endlagersuchverfahrens eingeflossen. Die Bevölkerung soll sich von Beginn an im Verfahren einbringen können. Dieses soll verständlich und nachvollziehbar ablaufen. Daher wurde eine <a href=\"https://www.bfe.bund.de/DE/soa/unterlagen-standag/unterlagen-standag_node.html\" title=\"https://www.bfe.bund.de/DE/soa/unterlagen-standag/unterlagen-standag_node.html\" target=\"_blank\">Informationsplattform</a> eingerichtet. Sie veröffentlicht wichtige Unterlagen und gibt Aufschluss über den Stand des Verfahrens.",
                 "p7": "Diese Informationen sind die Grundlage, damit sich die Bevölkerung am Verfahren inhaltlich beteiligen kann. Auf Beteiligungsveranstaltungen kann sie den Prozess diskutieren und kommentieren. Mit Nachprüfrechten können die Schritte der über- und untertägigen Erkundung kontrolliert werden. Das Verfahren soll alle Interessen zu Wort kommen lassen und sicherstellen, dass die gefundene Lösung im Sinne des Gemeinwohls ist. Das bedeutet, dass berechtigte Einwände von egoistischen Einzelinteressen getrennt werden. Nur so lässt sich schließlich der bestmögliche Standort finden. Wenn am Ende viele Menschen den Auswahlprozess nachvollziehbar finden, wird die Akzeptanz für den Standort steigen."
             },
             "whoDoesWhat": {

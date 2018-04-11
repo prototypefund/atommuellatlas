@@ -12,6 +12,7 @@ import Participation from '/app/view/participation/Participation';
 import Future from '/app/view/future/Future';
 
 // overlays
+import About from '/app/overlay/about/About';
 import Basic from '/app/overlay/basic/Basic';
 import Info from '/app/overlay/info/Info';
 import Dark from '/app/overlay/dark/Dark';
@@ -31,8 +32,9 @@ new class App extends Application {
             "participation": Participation,
             "future": Future
         };
-        
+
         const overlayMap = {
+            "about": About,
             "basic": Basic,
             "info": Info,
             "dark": Dark
@@ -44,7 +46,35 @@ new class App extends Application {
         this.initView(viewContainer, viewMap);
         this.initOverlay(overlayContainer, overlayMap);
 
+        let startView = getViewRoute();
 
-        this.start("search");
+        this.start(startView);
     }
 };
+
+function getViewRoute() {
+    let route = location.pathname.substr(1).split("?"); // trim leading slash and separate trailing params 
+    let viewID = route[0];
+    let defaultView = "nuclearWaste";
+    let view;
+    switch (viewID) {
+        case "atommull":
+            view = "nuclearWaste";
+            break;
+        case "zeitreise":
+            view = "history";
+            break;
+        case "suche":
+            view = "search";
+            break;
+        case "mitreden":
+            view = "participation";
+            break;
+        case "zukunft":
+            view = "future";
+            break;
+        default:
+            view = defaultView;
+    }
+    return view
+}

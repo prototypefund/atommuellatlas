@@ -16,7 +16,7 @@ import style from './_style.scss';
 //import iconBarrels from '/../static/assets/icons/barrels.svg';
 
 export default class Search extends BaseView {
-    constructor(id, data={}) {
+    constructor(id, data = {}) {
         data.icons = Object.assign({}, data.icons, {
             //barrels: iconBarrels
         });
@@ -29,20 +29,21 @@ export default class Search extends BaseView {
         let viewBtnWrapper = this.element.querySelector(".next-chapter");
         this.viewButton = new ViewButton(this.data.components.viewButton);
         this.viewButton.appendTo(viewBtnWrapper);
-        
+
         this.layerMapContainer = this.element.querySelector(".map-container");
         this.layerMap = new LayerMap(ContentModel.componentData.layerMap);
         this.layerMap.appendTo(this.layerMapContainer);
-        
-        this.stickyController = new StickyController(this.layerMap.element);
-        
+
+
         this.footer = new Footer(ContentModel.componentData.footer);
-        this.footer.appendTo(this.element)
+        this.footer.appendTo(this.element);
+
+        this.stickyController = new StickyController(this.layerMap.element);
     }
-    
+
     destroy() {
         super.destroy();
-        
+
         this.viewButton.destroy();
         this.stickyController.destroy();
         this.layerMap.destroy();

@@ -1,0 +1,61 @@
+@import "./../../../variables";
+
+section.overlay-about {
+
+  padding-top: 4em;
+
+  b {
+    font-family: Roboto, sans-serif;
+  }
+
+  p {
+    clear: both;
+  }
+
+  &, .background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .image {
+    &:first-child {
+      width: 40%;
+      margin-right: 2em;
+      float: right;
+    }
+    
+    &:not(:first-child) {
+      max-width: 30%;
+    }
+
+    margin: 0 auto 3em;
+    max-width: 50%;
+
+    img {
+      max-width: 100%;
+      width: auto;
+      margin: 0 auto;
+      display: block;
+    }
+
+    &.bottom {
+      margin-top: 3em;
+      margin-bottom: 0;
+    }
+  }
+
+  .logo-lineup {
+    display: flex;
+    align-items: center;
+    margin: 3em 5% 0;
+
+    > * {
+      width: 30%;
+
+      img {
+        max-height: 150px;
+      }
+    }
+  }
+}

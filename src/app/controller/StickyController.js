@@ -19,11 +19,12 @@ export default class StickyController {
         // fix init pos calc
         setTimeout(() => {
             this.onResize();
-        }, 100);
+        }, 500);
     }
 
     onResize() {
         this.scrollTop = DomUtil.scrollOffset.top;
+        console.log("SCROLLTOP", this.scrollTop);
         this.height = window.innerHeight;
 
         this.targetRect = this.target.getBoundingClientRect();
@@ -33,7 +34,7 @@ export default class StickyController {
             width: this.targetRect.right - this.targetRect.left,
             height: this.targetRect.bottom - this.targetRect.top
         };
-        
+
         this.parentRect = this.parent.getBoundingClientRect();
         this.parentRect = {
             top: this.parentRect.top + this.scrollTop,
@@ -47,21 +48,23 @@ export default class StickyController {
         this.target.style.width = "auto";
         this.target.style.width = this.targetRect.width + "px";
 
-        this.onScroll();
-    }
-
-    onScroll() {
-        this.scrollTop = DomUtil.scrollOffset.top;
         
+        this.onScroll();
+        //this.setVerticalPosition();
+    }
+    
+    onScroll() {
+        //this.onResize();
+        this.scrollTop = DomUtil.scrollOffset.top;
         this.setVerticalPosition();
     }
 
     setVerticalPosition() {
 
-        // switch to sticky when this y reaches the map
+        // switch to sticky when this y reaches the target
         let diffLineTop = this.scrollTop + this.centeringOffset;
         let diffLineBottom = this.scrollTop + this.height - this.centeringOffset;
-        
+console.log("...")
         let isBelowTop = diffLineTop > this.targetRect.top;
         let isAboveBottom = this.parentRect.bottom > diffLineBottom;
 
@@ -83,5 +86,7 @@ export default class StickyController {
     destroy() {
         window.removeEventListener("resize", this.resizeHandler);
         window.removeEventListener("scroll", this.scrollHandler);
+
+        window.clearTimeout(this._getScrollTimer);
     }
 }
