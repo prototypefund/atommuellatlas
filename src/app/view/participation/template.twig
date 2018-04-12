@@ -16,7 +16,12 @@
         </p>
     </div>
     <p>{{ data.participate.p4 }}</p>
-    <p>{{ data.participate.p5 }}</p>
+    <p>
+        <span>{{ data.participate.p5_1 }}</span>
+        <a title="{{ data.participate.viewjump1.ariaLabel }}" class="view-link" aria-label="{{ data.participate.viewjump1.ariaLabel }}" data-view="{{ data.participate.viewjump1.target }}">{{ data.participate.viewjump1.label }}</a>
+        <span>{{ data.participate.p5_2 }}</span>
+    </p>
+    
     <div class="media media-inline">
         <img src="{{ data.participate.gorleben.src }}" alt="{{ data.participate.gorleben.title }}">
         <p>{{ data.participate.gorleben.title }}</p>
@@ -28,11 +33,18 @@
     </div>
     <p>{{ data.participate.p6 }}</p>
     <p>{{ data.participate.p7 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.participate.drHabil.src }}" alt="{{ data.participate.drHabil.title }}">
+        <p>{{ data.participate.drHabil.title }}</p>
+        <p>
+            <span>{{ data.participate.drHabil.label1 }} </span>
+        </p>
+    </div>
+    
 
     <h2>{{ data.whoDoesWhat.h1 }}</h2>
     <p>{{ data.whoDoesWhat.p1 }}</p>
     <p>{{ data.whoDoesWhat.p2 }}</p>
-    <p>{{ data.whoDoesWhat.p3 }}</p>
     <div class="media media-inline">
         <img src="{{ data.whoDoesWhat.actors.src }}" alt="{{ data.whoDoesWhat.actors.title }}">
         <p>{{ data.whoDoesWhat.actors.title }}</p>
@@ -40,9 +52,49 @@
             <span>{{ data.whoDoesWhat.actors.label1 }} </span>
         </p>
     </div>
+    <div class="media media-inline">
+        <img src="{{ data.whoDoesWhat.ursula.src }}" alt="{{ data.whoDoesWhat.ursula.title }}">
+        <p>{{ data.whoDoesWhat.ursula.title }}</p>
+        <p>
+            <span>{{ data.whoDoesWhat.ursula.label1 }} </span>
+        </p>
+    </div>
+    <p>{{ data.whoDoesWhat.p3 }}</p>
+    <div class="media media-inline">
+        <img src="{{ data.whoDoesWhat.wolfram.src }}" alt="{{ data.whoDoesWhat.wolfram.title }}">
+        <p>{{ data.whoDoesWhat.wolfram.title }}</p>
+        <p>
+            <span>{{ data.whoDoesWhat.wolfram.label1 }} </span>
+        </p>
+    </div>
     <p>{{ data.whoDoesWhat.p4 }}</p>
+    <ul>
+        {% for item in data.whoDoesWhat.l1 %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+
+    <div class="extra-info right" data-overlay-button="isitreallygreen"></div>
+    
+    <div class="media media-inline">
+        <img src="{{ data.whoDoesWhat.topfer.src }}" alt="{{ data.whoDoesWhat.topfer.title }}">
+        <p>{{ data.whoDoesWhat.topfer.title }}</p>
+        <p>
+            <span>{{ data.whoDoesWhat.topfer.label1 }} </span>
+        </p>
+    </div>
     <p>{{ data.whoDoesWhat.p5 }}</p>
     <p>{{ data.whoDoesWhat.p6 }}</p>
+    <p>{{ data.whoDoesWhat.p7 }}</p>
+    <p>{{ data.whoDoesWhat.p8 }}</p>
+    <ul>
+        {% for item in data.whoDoesWhat.l2 %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <p>{{ data.whoDoesWhat.p9 }}</p>
+    <p>{{ data.whoDoesWhat.p10 }}</p>
+    
     
     <div class="next-chapter"></div>
 </section>

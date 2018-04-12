@@ -12,8 +12,12 @@ import Footer from '/app/component/footer/Footer';
 
 import template from './template.twig';
 import style from './_style.scss';
+import OverlayButton from "../../component/overlayButton/OverlayButton";
 
 //import iconBarrels from '/../static/assets/icons/barrels.svg';
+
+
+const ATTR_OVERLAY = "data-overlay-button";
 
 export default class Search extends BaseView {
     constructor(id, data = {}) {
@@ -22,7 +26,7 @@ export default class Search extends BaseView {
         });
         super(id, template, style, data);
     }
-    
+
     postRender() {
         super.postRender();
 
@@ -37,6 +41,18 @@ export default class Search extends BaseView {
 
         this.footer = new Footer(ContentModel.componentData.footer);
         this.footer.appendTo(this.element);
+
+        let overlayBtnData = ContentModel.componentData.overlayButton;
+        this.overlayBtns = Array.from(this.element.querySelectorAll(`.extra-info[${ATTR_OVERLAY}]`)).map(element => {
+            return {"wrapper": element}
+        });
+        for (let overlay of this.overlayBtns) {
+            let target = DomUtil.getAttribute(overlay.wrapper, ATTR_OVERLAY);
+
+            overlay.button = new OverlayButton(overlayBtnData[target]);
+            overlay.button.appendTo(overlay.wrapper);
+        }
+
 
         this.stickyController = new StickyController(this.layerMap.element);
     }

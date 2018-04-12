@@ -1,4 +1,8 @@
 @import "./../../../variables";
 
 section.participation {
+  .view-link {
+    cursor: pointer;
+    color: $blue;
+  }
 }

@@ -72,4 +72,10 @@ body {
 
 .scroll-lock {
   overflow: hidden !important;
+
+  @media (min-width: 650px) {
+    // TODO only run this on desktop, 15px is scrollbar widths across browsers
+    padding-right: 15px;
+    width: calc(100% - 15px);
+  }
 }

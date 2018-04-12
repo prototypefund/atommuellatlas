@@ -251,6 +251,143 @@
         "fukushima-2": {
             "overlay": "dark",
             "p1": "Als Erneuerbare Energien werden Energieträger bezeichnet, die praktisch unerschöpflich zur Verfügung stehen. Demgegenüber stehen die endlichen fossilen Energiequellen wie z. B. Kohle oder Erdöl. Bei der Umwandlung in sekundäre Energieträger (Wärme, Elektrizität) erzeugen regenerative Energien kaum CO2. Beispiele für erneuerbare Energien sind Sonnenenergie, Windenergie oder Wasserkraft."
+        },
+        "castor": {
+            "overlay": "basic",
+            "p1": "Der geschützte Markenname Castor (Cask for Storage and Transport of Radioactive Material) bedeutet übersetzt so viel wie “Behälter zur Lagerung und zum Transport radioaktiven Materials”. Dieser spezielle Behälter wird für die Zwischenlagerung und den Transport der radioaktiven Brennelemente eingesetzt. Der zylinderförmige Behälter wiegt über 100 Tonnen bei  einer Länge von vier bis sechs Metern und einer Breite von etwa zweieinhalb Metern. Das Innere des Castors ist dabei mit Kühlmaterial versehen, sodass die Oberflächentemperatur durch die Zerfallswärme der Brennelemente nicht über 85°C steigt. Auch wenn die Castoren zahlreiche Tests durchlaufen müssen, bemängeln Kritiker vor allem Sicherheitsmängel in Bezug auf mögliche terroristische Angriffe. Dabei entspricht der radioaktive Inhalt eines einzigen Castor-Behälters mit abgebrannten Brennelementen bis zu <a href=\"http://www.tagesspiegel.de/politik/endlager-suche-fuer-die-ewigkeit/20162736.html\" title=\"http://www.tagesspiegel.de/politik/endlager-suche-fuer-die-ewigkeit/20162736.html\" target=\"_blank\">6 Hiroshima- plus 6 Nagasaki- Atombomben.</a>",
+            "image": {
+                "src": "assets/images/Castor_container_2001-03_in_Dannenberg-2.jpg",
+                "title": "Verladung eines CASTOR-Behälters",
+                "href1": "https://commons.wikimedia.org/wiki/File:Castor_container_2001-03_in_Dannenberg-2.jpg#/media/File:Castor_container_2001-03_in_Dannenberg-2.jpg",
+                "href2": "https://creativecommons.org/licenses/by-sa/3.0/",
+                "link1": "Dennis 140 & Saibo",
+                "link2": "CC BY-SA 3.0",
+                "label1": "Quelle:",
+                "label2": "/ Wikimedia Commons"
+            }
+        },
+        "strahlentherapie": {
+            "overlay": "basic",
+            "p1": "<a href=\"http://www.bfs.de/DE/themen/ion/anwendung-medizin/strahlentherapie/einfuehrung/einfuehrung.html\" title=\"http://www.bfs.de/DE/themen/ion/anwendung-medizin/strahlentherapie/einfuehrung/einfuehrung.html\" target=\"_blank\">Ionisierende Strahlung</a> findet in der Strahlentherapie (Krebstherapie) Verwendung, um Krebstumoren unter Kontrolle zu halten oder zu zerstören. Dabei erzeugen die ionisierenden Strahlungen Schäden am Erbgut der bestrahlten Krebszelle und können so die Zelle zum Aussterben bringen. Da die Strahlung auch andere Gebiete des Körpers erreicht, kann es zu zahlreichen Nebenwirkungen kommen. "
+        },
+        "undergroundDisposal": {
+            "overlay": "basic",
+            "image": {
+                "src": "assets/images/Blick_Morsleben.jpg",
+                "title": "Blick in das Endlager Morsleben",
+                "href1": "https://www.flickr.com/photos/gruene_sachsen_anhalt/21107569485/in/photolist-xdbLjL-yacP2P-xdbNLu-yacRuz",
+                "href2": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+                "link1": "Bündnis 90/ Die Grünen Sachsen-Anhalt",
+                "link2": "CC BY-NC-ND 2.0",
+                "label1": "Quelle:",
+                "label2": "/ flickr.com"
+            },
+            "p1": "Bereits in der Vergangenheit wurden Abfälle mit vernachlässigbarer Wärmeentwicklung unter der Erde eingelagert. Dies geschah während der deutschen Teilung sowohl in West- als auch in Ostdeutschland. Schon 1971 wurde <a href=\"https://www.greenpeace.de/themen/energiewende-atomkraft/atommull/morsleben-das-brockelnde-endlager\" title=\"https://www.greenpeace.de/themen/energiewende-atomkraft/atommull/morsleben-das-brockelnde-endlager\" target=\"_blank\">trotz Kritik</a> damit begonnen: Im sachsen-anhaltinischen Morsleben wurden schwach- und mittelradioaktive Abfälle in einem ehemaligen Salz- und Kalibergwerk eingelagert. Wegen starker Sicherheitsbedenken wurde das Einbringen von Abfällen 1998 endgültig beendet. Die Kammern werden nun verschlossen und die rund 37.000 Kubikmeter schwach- und mittelradioaktiven Abfälle sollen in der Schachtanlage verbleiben. Kritiker zweifeln an der Sicherheit der Anlage, die als einsturzgefährdet gilt.",
+            "image2": {
+                "src": "assets/images/Zufuhrkammer_zu_8a_mittelaktiver_abfall.jpg",
+                "title": "Zufuhrkammer für mittelradioaktiven Abfall in der Schachtanlage Asse II",
+                "href1": "https://commons.wikimedia.org/wiki/File:Zufuhrkammer_zu_8a_mittelaktiver_abfall.jpg#/media/File:Zufuhrkammer_zu_8a_mittelaktiver_abfall.jpg",
+                "href2": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+                "link1": "Stefan Brix",
+                "link2": "CC0",
+                "label1": "Quelle:",
+                "label2": "/ Wikimedia Commons"
+            },
+            "pp1": "Die Schachtanlage Asse II in Niedersachsen wurde in den 1960er und 70er Jahren großtechnisch als Forschungsbergwerk für die Endlagerung radioaktiver Abfallstoffe erprobt. Es gab erhebliche Bedenken, dass Grundwasser in die Schachtanlage durch Risse in der Decke eintreten könnte. Dennoch wurden insgesamt 125.787 Abfallfässer deponiert. Auf eine mögliche Rückholbarkeit der Abfälle und eine Einbeziehung der Bürger wurde verzichtet. Dies war möglich, da der Schacht unter Bergbaurecht und nicht unter Atomrecht betrieben wurde. Nach einem Skandal um austretende kontaminierte Salzlauge im Jahr 2008 wurde die Anlage endgültig unter Atomrecht gestellt. Sie befindet sich aktuell im Stilllegungsverfahren. Zudem wird ein Plan zur Bergung der Abfälle erarbeitet."
+        },
+        "konrad": {
+            "overlay": "basic",
+            "image": {
+                "src": "assets/images/19690820-Konrad-Beladen_von_Foerderwagen_unter_Tage-Original.jpeg",
+                "title": "Beladen von Förderwagen unter Tage",
+                "href1": "",
+                "href2": "",
+                "link1": "",
+                "link2": "",
+                "label1": "Quelle: © Bundesgesellschaft für Endlagerung mbH",
+                "label2": ""
+            },
+            "p1": "Die ehemalige Eisenerzgrube im niedersächsischen Salzgitter wurde bereits 1974 als möglicher Standort für die Endlagerung radioaktiver Abfallstoffe untersucht. Die dortige Landesregierung plante zunächst, das Endlager 1988 in Betrieb zu nehmen. Doch bisher ist das Endlager nicht fertiggestellt. Durch diverse Regierungswechsel, Bürgerproteste, Planungsmängel und ein komplexes Verfahren verzögert sich die Inbetriebnahme voraussichtlich auf das Jahr 2022. Nach der Inbetriebnahme sollen rund 300.000 Kubikmeter schwach und mittelradioaktive Abfälle eingelagert werden. Kritiker bemängeln vor allem die hohen Kosten von rund 7,5 Milliarden Euro und das mangelhafte Planungsverfahren für den Umbau der Anlage. Dieses <a href=\"https://www.youtube.com/watch?v=B1ckziQ2y8M\" title=\"https://www.youtube.com/watch?v=B1ckziQ2y8M\" target=\"_blank\">Video</a> gibt einen guten Einblick in das Endlager Konrad."
+        },
+        "ruckbau": {
+            "overlay": "basic",
+            "p1": "Nach der ca. 20 bis 40-jährigen Laufzeit werden die Atomkraftwerke stillgelegt und rückgebaut. Dieser Vorgang ist sehr zeit- und kostenintensiv, da ein Großteil der Materialien und Gebäude radioaktiv kontaminiert ist. Er muss entsprechend dekontaminiert oder sicher gelagert werden. Der Prozess des Rückbaus dauert ca. 10 - 20 Jahre. Mit dem Ausstieg aus der Atomenergie wird auch die Zahl der Fachkräfte langsam abnehmen. Es ist daher ratsam, mit dem Rückbau schnellstmöglich zu beginnen. So können das bestehende Wissen und die Erfahrungen im Umgang mit den abzubauenden Anlagen genutzt werden.",
+            "image2": {
+                "src": "assets/images/1024px-Lubmin_Hafen-2.jpg",
+                "title": "Das AKW Lubmin bei Greifswald",
+                "href1": "https://commons.wikimedia.org/wiki/File%3ALubmin_Hafen.jpg",
+                "href2": "https://creativecommons.org/licenses/by-sa/3.0/",
+                "link1": "Harald909",
+                "link2": "CC-BY-SA-3.0",
+                "label1": "Quelle:",
+                "label2": "/ Wikimedia Commons"
+            },
+            "pp1": "Der Rückbau des Kernkraftwerks Lubmin bei Greifswald ist das weltweit größte AKW-Rückbauprojekt. Das ehemalige DDR-Kraftwerk wurde Anfang der 90er Jahre aufgrund großer Sicherheitsmängel stillgelegt. Der Kostenvoranschlag für den Rückbau belief sich auf eine Summe von 3 bis 5 Milliarden Euro. Obwohl es keine größeren Pannen gab, werden die Kosten inzwischen auf mehr als 6,5 Milliarden Euro geschätzt. Dies liegt vor allem daran, dass der Rückbau deutlich länger dauert als eigentlich geplant. Ursprünglich sollte das radioaktive Material bereits 2008 vollständig entfernt sein. 2015 wurde eine neue Strategie beschlossen. Sie sieht vor, alle Bauten bis spätestens 2028 abzureißen. Für die Stilllegung und den Rückbau aller 23 Kernkraftwerke in der Bundesrepublik wurden <a href=\"https://www.bmwi.de/Redaktion/DE/Downloads/S-T/stresstestkernenergie.pdf?__blob=publicationFile&v=3\" title=\"https://www.bmwi.de/Redaktion/DE/Downloads/S-T/stresstestkernenergie.pdf?__blob=publicationFile&v=3\" target=\"_blank\">ca. 20 Milliarden Euro veranschlagt. Dies entspricht nur rund 850.000 Euro pro Kraftwerk</a>.",
+            "pp2": "Mehr zum Thema Rückbau unter <a href=\"https://www.oeko.de/oekodoc/2331/2015-498-de.pdf\" title=\"https://www.oeko.de/oekodoc/2331/2015-498-de.pdf\" target=\"_blank\">https://www.oeko.de/oekodoc/2331/2015-498-de.pdf</a>"
+        },
+        "transmutation": {
+            "overlay": "basic",
+            "p1": "Bei der Transmutation sollen langlebige Radionuklide in kurzlebige umgewandelt werden. So könnte das Volumen des langfristig zu lagernden Abfalls deutlich gemindert werden.Die Forschung ist noch nicht abgeschlossen. Es ist nicht sicher, ob und wann Ergebnisse in der Praxis angewendet werden können. Ungeachtet der technischen Machbarkeit stellt das Verfahren zudem keine alleinige Möglichkeit für die Endlagerung dar. Am Ende des Transmutationsprozesses bleiben weiterhin hochradioaktive Elemente erhalten (vgl. <a href=\"https://www.bundestag.de/blob/434430/bb37b21b8e1e7e049ace5db6b2f949b2/drs_268-data.pdf\" title=\"https://www.bundestag.de/blob/434430/bb37b21b8e1e7e049ace5db6b2f949b2/drs_268-data.pdf\" target=\"_blank\">Kommissionsbericht</a> 225f.)."
+        },
+        "ocean": {
+            "overlay": "basic",
+            "p1": "<p>Bereits seit den 1940er Jahren wurden radioaktive Abfälle in Meeren mit Verweis auf die Verdünnungswirkung großer Wassermassen entsorgt. Dabei wurde der radioaktive Abfall wahlweise nur im Meer versenkt oder auch auf dem Meeresboden vergraben. Die Kritik war vielfältig:</p><ul><li>Zweifel an der technischen Sicherheit.</li><li>Sollte sich die Entsorgung im Meer als falsch erweisen, wäre es nicht möglich, die versenkten Abfälle zu bergen (mangelnde Möglichkeiten zur Fehlerkorrektur).</li><li>Möglichkeit, dass radioaktive Stoffe in Nahrungsketten gelangen</li></ul><p>Im Jahr 1975 führte die London Dumping Convention schließlich zum internationalen Verbot für die Versenkung von radioaktivem Abfall auf oder in den Meeresgrund.</p>"
+        },
+        "tellerand": {
+            "overlay": "basic",
+            "p1": "Derzeit werden in rund 30 Staaten Atomkraftwerke betrieben. Dabei sind nach groben Schätzungen weltweit bisher mehr als 360.000 Tonnen hochradioaktiver Müll entstanden. Wie auch in Deutschland wird andernorts nach dem besten Ort für ein Endlager gesucht. Besonders die Endlagerung unter der Erde wird erforscht. Dennoch gibt es erhebliche Unterschiede. Dies zeigen die nachfolgenden Beispiele aus einigen europäischen Ländern. Es betrifft die Einschätzung hinsichtlich des geeigneten Wirtsgesteins, den Stand der Endlagersuche und auch den Einbezug der Bevölkerung. Die beiden skandinavischen Staaten Finnland und Schweden sind international Wegbereiter bei der Suche nach einem Endlager für hochradioaktiven Abfall. In Finnland soll bereits 2023 das weltweit erste Endlager für hochradioaktive Abfälle entstehen. Bei einer geplanten Laufzeit von 100.000 bis hin zu einer Million Jahren sollen im Tiefenlager „Onkalo“ (kleine Höhle) ca. 6.000 Tonnen hochradioaktiver Müll endgelagert werden. Die Endlagerung erfolgt in Kristallingestein. Auch im Nachbarland Schweden hat man sich auf das Wirtsgestein Kristallin festgelegt. In der kleinen Gemeinde Östhammer soll ab 2022 ein Endlager entstehen. Bemerkenswert ist, dass es in beiden Ländern gelang, eine breite Akzeptanz für die Endlagerung aufzubauen. In Schweden haben sich sogar einige Gemeinden aktiv in einem nationalen Verfahren als Standort beworben.",
+            "p2": "Auch in der Schweiz läuft bereits ein Endlagersuchverfahren. Dort werden momentan drei mögliche Endlagerstandorte untersucht. Eine Standortentscheidung soll 2029 durch eine Entscheidung des Bundesrates erfolgen. Die Einlagerung von bis zu 4.300 Tonnen hochradioaktiven Abfalls soll 2060 beginnen. Als Wirtsgestein wurde Ton ausgewählt. Die Schweiz schuf in ihrem Standortauswahlverfahren starke Formen der Bürgerbeteiligung. Die 2011 gebildeten Regionalkonferenzen ermöglichen es Organisationen, regionalen Behörden, Privatpersonen und angrenzenden deutschen Gemeinden, sich an der Endlagersuche zu beteiligen.",
+            "image2": {
+                "src": "assets/images/Forschungsbergwerk_Bure.jpg",
+                "title": "Einblick in das Forschungsbergwerk Bure",
+                "href1": "https://www.flickr.com/photos/hillecrane/8971252078/in/album-72157633969662101/",
+                "href2": "https://creativecommons.org/licenses/by-nd/2.0/",
+                "link1": "Michael Hilberer",
+                "link2": "CC BY-ND 2.0",
+                "label1": "Quelle:",
+                "label2": "/ flickr.com"
+            },
+            "pp1": "Bei unserem westlichen Nachbarn Frankreich steht die Suche nach einem Endlager noch am Anfang. Bis 2025 soll das Projekt Cigeó in Bure (Lothringen) weitere Erkenntnisse zur Endlagerung liefern. Bei erfolgreicher Erkundung ist dann im Jahr 2035 eine 500 Meter tiefe Einlagerung in Tongestein geplant. Ungefähr 80.0000 Kubikmeter mittel- und hochradioaktiver Abfall könnten dort Platz finden.",
+            "image3": {
+                "src": "assets/images/2048px-2010_06_04_Centrale_nucléaire_de_Fessenheim2.jpg",
+                "title": "Das französische AKW Fessenheim",
+                "href1": "https://commons.wikimedia.org/wiki/File:2010_06_04_Centrale_nucl%C3%A9aire_de_Fessenheim2.jpg",
+                "href2": "https://creativecommons.org/licenses/by-sa/3.0/",
+                "link1": "Florival fr",
+                "link2": "CC BY-SA 3.0",
+                "label1": "Quelle:",
+                "label2": "/ Wikimedia Commons"
+            }
+        },
+        "theCost": {
+            "overlay": "basic",
+            "p1": "Die Kosten des Atomausstiegs teilen sich auf mehrere Positionen auf. Für das Endlager selbst werden 12,1 Mrd. Euro angenommen. Hinzukommen 5,8 Mrd. Euro für die notwendigen Zwischenlager, ehe der hochradioaktive Abfall in das Endlager eingelagert werden kann. Dazu braucht es entsprechende Verpackungen und Transporte. Schließlich werden Stilllegung und Rückbau der Atomkraftwerke mit 19,7 Mrd. Euro zu Buche schlagen. Die Gesamtkosten werden sich daher auf mindestens 47,5 Mrd. Euro belaufen. Um die Kosten für das geplante Endlager zu decken, haben die vier großen Stromversorger E.on, RWE, EnBW und Vattenfall einmalig die 23 Mrd. Euro an einen staatlichen Fonds überwiesen. Sie müssen sich zwar weiterhin um den Abriss ihrer stillgelegten Atomkraftwerke und die Verpackung kümmern, sind jedoch aus der Verantwortung für den Bau des Endlagers entlassen. Kritiker bemängeln, dass sich die großen Stromkonzerne “freigekauft” hätten. Denn es sei keineswegs sicher, ob die überwiesene Summe ausreicht, um alle entstehenden Kosten zu decken. Präzise Kostenkalkulationen für das Endlagervorhaben gestalten sich schwierig. Es fehlen Erfahrungswerte für diesen großen Zeitraum. Sollte sich zukünftig zeigen, dass die Kosten höher ausfallen als erwartet, wird der Staat Steuergelder zur Finanzierung des Vorhabens einsetzen müssen.",
+            "p2": "<b>Kostenaufschlüsselung des Atomenergieausstiegs nach Gutachlicher Stellungnahme (in Mrd. €)</b>",
+            "image2": {
+                "src": "assets/images/AMA_Kostenaufschluesselung.svg",
+                "title": "Das AKW Lubmin bei Greifswald",
+                "href1": "https://www.bmwi.de/Redaktion/DE/Downloads/B/bericht-der-expertenkommission-kernenergie.pdf?__blob=publicationFile&v=11",
+                "href2": "",
+                "link1": "Abschlussbericht der KFK Kommission 2016, S.20ff.",
+                "link2": "",
+                "label1": "Quelle: Eigene Abbildung; nach Gutachtlicher Stellungnahme der Firma Warth&Klein (“Stresstest”) aus dem",
+                "label2": "Anmerkung: Nicht berücksichtigt sind in dieser Darstellung möglicherweise anfallende weitere Kosten von 1,3 Mrd. für den vollständigen Gebäuderückbau und die Entsorgung bisher unbestrahlter Brennelemente (S. 21)."
+            },
+            "pp1": "Der Rückbau des Kernkraftwerks Lubmin bei Greifswald ist das weltweit größte AKW-Rückbauprojekt. Das ehemalige DDR-Kraftwerk wurde Anfang der 90er Jahre aufgrund großer Sicherheitsmängel stillgelegt. Der Kostenvoranschlag für den Rückbau belief sich auf eine Summe von 3 bis 5 Milliarden Euro. Obwohl es keine größeren Pannen gab, werden die Kosten inzwischen auf mehr als 6,5 Milliarden Euro geschätzt. Dies liegt vor allem daran, dass der Rückbau deutlich länger dauert als eigentlich geplant. Ursprünglich sollte das radioaktive Material bereits 2008 vollständig entfernt sein. 2015 wurde eine neue Strategie beschlossen. Sie sieht vor, alle Bauten bis spätestens 2028 abzureißen. Für die Stilllegung und den Rückbau aller 23 Kernkraftwerke in der Bundesrepublik wurden <a href=\"https://www.bmwi.de/Redaktion/DE/Downloads/S-T/stresstestkernenergie.pdf?__blob=publicationFile&v=3\" title=\"https://www.bmwi.de/Redaktion/DE/Downloads/S-T/stresstestkernenergie.pdf?__blob=publicationFile&v=3\" target=\"_blank\">ca. 20 Milliarden Euro veranschlagt. Dies entspricht nur rund 850.000 Euro pro Kraftwerk</a>.",
+            "pp2": "Mehr zum Thema Rückbau unter <a href=\"https://www.oeko.de/oekodoc/2331/2015-498-de.pdf\" title=\"https://www.oeko.de/oekodoc/2331/2015-498-de.pdf\" target=\"_blank\">https://www.oeko.de/oekodoc/2331/2015-498-de.pdf</a>"
+        },
+        "begleitgremium": {
+            "overlay": "basic",
+            "p1": "Es sollte ein Verfahrensbruch zwischen der Arbeit der <a href=\"https://www.bundestag.de/blob/434430/bb37b21b8e1e7e049ace5db6b2f949b2/drs_268-data.pdf\" title=\"https://www.bundestag.de/blob/434430/bb37b21b8e1e7e049ace5db6b2f949b2/drs_268-data.pdf\" target=\"_blank\">Endlagerkommission</a> und dem Auftakt der Endlagersuche vermieden werden. Daher wurde zunächst ein vorläufiges Nationales Begleitgremium gebildet. Es setzt sich aus sechs gesellschaftlich anerkannten Personen zusammen, die von Bundestag und Bundesrat gewählt wurden. Außerdem wurden drei Bürger mit Hilfe eines Zufallsverfahren ermittelt.",
+            "p2": "Ein Mitglied des NBG gehört der jungen Generation an. So sollen die Interessen der kommenden Generation besonders berücksichtigt werden. Nach der Überarbeitung (Novellierung) des Standortauswahlgesetzes wird nun das NBG auf 18 Personen erweitert. Es kommen 12 Personen des öffentlichen Lebens und sechs Bürger hinzu. Davon werden zwei Vertreter der jungen Generation angehören. Bestimmte Interessenkonflikte sollen vermieden werden. Daher dürfen die Mitglieder keinem Parlament bzw. keiner Regierung auf Bundes- oder Landesebene angehören. Die Gewählten dürfen auch keine wirtschaftlichen Interessen hinsichtlich der Standortauswahl oder der Endlagerung haben. Alle Mitglieder werden für drei Jahre gewählt und können zweimal wiedergewählt werden.",
+            "p3": "Die Sitzungen des NBG sind öffentlich. Das heißt, jeder Interessierte kann an ihnen teilnehmen. Die Termine werden auf der Seite des NBG bekannt gegeben: <a href=\"http://www.nationales-begleitgremium.de/DE/Home/home_node.html\" title=\"http://www.nationales-begleitgremium.de/DE/Home/home_node.html\" target=\"_blank\">Nationales Begleitgremium</a>",
+            "p4": "<br><b><a href=\"http://www.nationales-begleitgremium.de/DE/Begleitgremium/Mitglieder/mitglieder_node.html;jsessionid=795FA6E776F61E2909AE82EEBD26ABE0.2_cid331\" title=\"http://www.nationales-begleitgremium.de/DE/Begleitgremium/Mitglieder/mitglieder_node.html;jsessionid=795FA6E776F61E2909AE82EEBD26ABE0.2_cid331\" target=\"_blank\">Aktuelle Mitglieder</a></b>",
+            "p5": "<br><b>Von Bundestag und Bundesrat gewählte Mitglieder</b>",
+            "p6": "<ul><li>Prof. Dr. Klaus Töpfer, ehemaliger Leiter des Umweltprogramms der Vereinten Nationen und früherer Bundesumweltminister</li><li>Prof. Dr. Miranda Schreurs, Lehrstuhl für Umwelt und Klimapolitik, Hochschule für Politik an der TU München, ehemaliges Mitglied im Sachverständigenrat für Umweltfragen</li><li>Klaus Brunsmeier, Vorstandsmitglied des BUND, ehemaliges Mitglied der Endlager-Kommission </li><li>Prof. Dr. Armin Grunwald,  Leiter des Büros für Technikfolgen-Abschätzung beim Deutschen Bundestag, ehemaliges Mitglied der Endlager-Kommission</li><li>Dr. habil. Monika C. M. Müller, Studienleiterin für Naturwissenschaften, Ökologie und Umweltpolitik der Evangelischen Akademie Loccum</li><li>Prof. Dr. Kai Niebert, Professor für Didaktik der Naturwissenschaften und Nachhaltigkeit an der Universität Zürich, Präsident des Deutschen Naturschutzrings</li></ul>",
+            "p7": "<b>Bürgervertreter</b>",
+            "p8": "<ul><li>Bettina Gaebel, selbstständige Marketing- und Kommunikationsexpertin</li><li>Prof. Dr. Hendrik Lambrecht, Prof. für Industrial Ecology und Quantitative Methoden an der Hochschule Pforzheim</li><li>Jorina Suckow, Jura-Studentin, Vertreterin der jungen Generation</li></ul>",
+            "p9": "<b>Erklärung: Was ist ein Zufallsverfahren?</b>",
+            "p10": "Bei einem Zufallsverfahren handelt es sich um einen statistischen Auswahlprozess. Jede Person hat dabei die gleiche Chance ausgewählt zu werden. Für die Besetzung des NBG wurden 120 Teilnehmende aus der deutschen Bevölkerung durch ein solches Zufallsverfahren ausgewählt. Sie trafen sich in fünf regionalen Foren. Dort informierten sie sich über den Ablauf des Endlagersuchverfahrens. Aus ihrem Kreis bestimmten sie 30 Personen, die als Bürgernetzwerk zukünftig die Arbeit des NBG unterstützen. Drei Mitglieder des Bürgernetzwerkes wurden außerdem ins NBG entsandt."
         }
     },
     "component": {
@@ -350,6 +487,46 @@
             "fukushima-2": {
                 "overlay": "fukushima-2",
                 "label": "Fukushimas atomarer Abfall (Greenpeace Report, 2017) "
+            },
+            "castor": {
+                "overlay": "castor",
+                "label": "Castor"
+            },
+            "strahlentherapie": {
+                "overlay": "strahlentherapie",
+                "label": "Strahlentherapie"
+            },
+            "undergroundDisposal": {
+                "overlay": "undergroundDisposal",
+                "label": "Bisherige Erfahrungen in Deutschland mit der unterirdischen Endlagerung"
+            },
+            "konrad": {
+                "overlay": "konrad",
+                "label": "Schacht Konrad"
+            },
+            "ruckbau": {
+                "overlay": "ruckbau",
+                "label": "Rückbau"
+            },
+            "transmutation": {
+                "overlay": "transmutation",
+                "label": "Transmutation"
+            },
+            "ocean": {
+                "overlay": "ocean",
+                "label": "Oceane"
+            },
+            "tellerand": {
+                "overlay": "tellerand",
+                "label": "Der Blick über den nationalen Tellerrand"
+            },
+            "theCost": {
+                "overlay": "theCost",
+                "label": "Und was kostet das alles?"
+            },
+            "begleitgremium": {
+                "overlay": "begleitgremium",
+                "label": "Weiterführende Informationen zum Nationalen Begleitgremium"
             }
         },
         "layerMap": {
@@ -1128,7 +1305,13 @@
                     "href2": "https://creativecommons.org/licenses/by-sa/3.0/deed.de"
                 },
                 "p4": "Doch natürlich sind Ängste der Bevölkerung begründet und nachvollziehbar. Manchmal wird daher gefordert, die Abfälle im Ausland zu entsorgen. Dies hat der Gesetzgeber bewusst verhindert. Die Endlagerung muss in Deutschland erfolgen. Es soll so ein verantwortungsbewusster Umgang mit den gefährlichen Stoffen sichergestellt werden. Außerdem ist ein Großteil des erzeugten Stroms in Deutschland genutzt worden. Daher ist es richtig, dass hier auch die Entsorgung passiert.",
-                "p5": "In den nächsten Jahrzehnten findet dazu ein mehrstufiger <a TODO>Prozess statt</a>. Er fußt auf negativen Erfahrungen aus der Vergangenheit. Vielen Menschen sind in diesem Zusammenhang die Proteste im niedersächsischen Gorleben in Erinnerung. Es kam über Jahrzehnte zu Widerstand der Bevölkerung und Kritik am staatlichen Vorgehen.",
+                "p5_1": "In den nächsten Jahrzehnten findet dazu ein mehrstufiger Prozess statt",
+                "p5_2": "Er fußt auf negativen Erfahrungen aus der Vergangenheit. Vielen Menschen sind in diesem Zusammenhang die Proteste im niedersächsischen Gorleben in Erinnerung. Es kam über Jahrzehnte zu Widerstand der Bevölkerung und Kritik am staatlichen Vorgehen.",
+                "viewjump1": {
+                    "target": "search",
+                    "label": "(Endlagersuche).",
+                    "ariaLabel": "Zum Endlagersuche"
+                },
                 "gorleben": {
                     "src": "assets/images/gorleben_protest.jpg",
                     "title": "Demonstration gegen den Endlagerstandort Gorleben",
@@ -1140,7 +1323,17 @@
                     "href2": "https://creativecommons.org/licenses/by-nc/2.0/"
                 },
                 "p6": "Diese Erfahrungen sind in die Gestaltung des anstehenden Endlagersuchverfahrens eingeflossen. Die Bevölkerung soll sich von Beginn an im Verfahren einbringen können. Dieses soll verständlich und nachvollziehbar ablaufen. Daher wurde eine <a href=\"https://www.bfe.bund.de/DE/soa/unterlagen-standag/unterlagen-standag_node.html\" title=\"https://www.bfe.bund.de/DE/soa/unterlagen-standag/unterlagen-standag_node.html\" target=\"_blank\">Informationsplattform</a> eingerichtet. Sie veröffentlicht wichtige Unterlagen und gibt Aufschluss über den Stand des Verfahrens.",
-                "p7": "Diese Informationen sind die Grundlage, damit sich die Bevölkerung am Verfahren inhaltlich beteiligen kann. Auf Beteiligungsveranstaltungen kann sie den Prozess diskutieren und kommentieren. Mit Nachprüfrechten können die Schritte der über- und untertägigen Erkundung kontrolliert werden. Das Verfahren soll alle Interessen zu Wort kommen lassen und sicherstellen, dass die gefundene Lösung im Sinne des Gemeinwohls ist. Das bedeutet, dass berechtigte Einwände von egoistischen Einzelinteressen getrennt werden. Nur so lässt sich schließlich der bestmögliche Standort finden. Wenn am Ende viele Menschen den Auswahlprozess nachvollziehbar finden, wird die Akzeptanz für den Standort steigen."
+                "p7": "Diese Informationen sind die Grundlage, damit sich die Bevölkerung am Verfahren inhaltlich beteiligen kann. Auf Beteiligungsveranstaltungen kann sie den Prozess diskutieren und kommentieren. Mit Nachprüfrechten können die Schritte der über- und untertägigen Erkundung kontrolliert werden. Das Verfahren soll alle Interessen zu Wort kommen lassen und sicherstellen, dass die gefundene Lösung im Sinne des Gemeinwohls ist. Das bedeutet, dass berechtigte Einwände von egoistischen Einzelinteressen getrennt werden. Nur so lässt sich schließlich der bestmögliche Standort finden. Wenn am Ende viele Menschen den Auswahlprozess nachvollziehbar finden, wird die Akzeptanz für den Standort steigen.",
+                "drHabil": {
+                    "src": "assets/images/Monika_Muller.jpg",
+                    "title": "Das Mitglied des Nationalen Begleitgremiums Dr. habil. Monika Müller erläutert bei einer Tagung des NBG die geplante Öffentlichkeitsbeteiligung der Endlagersuche",
+                    "label1": "Quelle: ⓒbipar",
+                    "label2": "",
+                    "link1": "",
+                    "link2": "",
+                    "href1": "",
+                    "href2": ""
+                }
             },
             "whoDoesWhat": {
                 "h1": "Wer macht eigentlich was?",
@@ -1156,10 +1349,54 @@
                     "href1": "",
                     "href2": ""
                 },
+                "ursula": {
+                    "src": "assets/images/Ursula_Heinen-Esser.jpg",
+                    "title": "Die Geschäftsführerin der BGE Ursula Heinen-Esser bei einer Veranstaltung der Endlagerkommission",
+                    "label1": "Quelle: ⓒbipar",
+                    "label2": "",
+                    "link1": "",
+                    "link2": "",
+                    "href1": "",
+                    "href2": ""
+                },
                 "p3": "Das <b>Bundesamt für kerntechnische Entsorgungssicherheit (BfE)</b> ist gleichermaßen Aufsichtsbehörde und Träger der Öffentlichkeitsbeteiligung. Daher verbindet es die technische mit der gesellschaftlichen Dimension. Es stellt zum einen sicher, dass das Verfahren korrekt abläuft. Zum anderen organisiert es die Beteiligung der Öffentlichkeit bei der Endlagersuche. Dazu prüft es die erarbeiteten Berichte der BGE in jeder Phase. Außerdem organisiert es Stellungsnahmeverfahren und anschließende Erörterungstermine. Sie finden am Ende der über- und untertägigen Erkundung und zum Standortvorschlag statt. Hier kann die Bevölkerung Einwände zum Verfahren äußern. Es ist außerdem dafür verantwortlich, dass die vorgesehenen Gremien zur Öffentlichkeitsbeteiligung gebildet werden. Am Ende unterbreitet es den Standortvorschlag.",
+                "wolfram": {
+                    "src": "assets/images/Wolfram_Konig.png",
+                    "title": "Der Präsident des BfE und langjährige Präsident des Bundesamtes für Strahlenschutzes bei einer Veranstaltung der Endlagerkommission",
+                    "label1": "Quelle: ⓒbipar",
+                    "label2": "",
+                    "link1": "",
+                    "link2": "",
+                    "href1": "",
+                    "href2": ""
+                },
                 "p4": "Das <b>Nationale Begleitgremium (NBG)</b> nimmt ebenfalls eine zentrale Rolle im Verfahren ein. Es stellt sicher, dass das Verfahren im Sinne des Gemeinwohls verläuft. Das meint, dass das Ergebnis das Beste für die große Mehrheit der Bevölkerung ist und nicht nur für einzelne Interessen. Daher verbindet das NBG ebenfalls die technische mit der gesellschaftlichen Dimension. Es wird das langwierige Verfahren neutral und unabhängig begleiten. Dazu wirkt es vermittelnd zwischen allen beteiligten Akteuren. So soll erreicht werden, dass schrittweise das Vertrauen in das Verfahren ansteigt und die Zustimmung zum Prozess wächst. Dazu befasst sich das NBG mit allen Fragestellungen rund um die Endlagersuche.",
+                "l1": [
+                    "die zuständigen Institutionen befragen,",
+                    "bei Behörden Akten einsehen,",
+                    "Stellungnahmen abgeben oder sich",
+                    "bei Bedarf zusätzlichen wissenschaftlichen Rat einholen."
+                ],
+                "topfer": {
+                    "src": "assets/images/Klaus_Topfer.jpg",
+                    "title": "Klaus Töpfer - ehemaliger Umweltminister und einer der Vorsitzenden des NBG - bei einer Öffentlichkeitsveranstaltung",
+                    "label1": "Quelle: ⓒbipar",
+                    "label2": "",
+                    "link1": "",
+                    "link2": "",
+                    "href1": "",
+                    "href2": ""
+                },
                 "p5": "Der <b>Partizipationsbeauftragte</b> wird vom Nationalen Begleitgremium ernannt. Er unterstützt das NBG bei seiner Arbeit. Er ist Ansprechpartner für alle Beteiligten im Verfahren. Er soll frühzeitig sich abzeichnende Konflikte im Verfahren erkennen und Vorschläge zu deren Bearbeitung machen. Dies können bspw. Mediations- und Streitschlichtungsmaßnahmen sein. Ihm kommt somit die Rolle eines Konfliktmanagers zu.",
-                "p6": "Die Fachkonferenz Teilgebiete, der Rat der Regionen und die Regionalkonferenzen ermöglichen die Mitwirkung der Bevölkerung. Sie füllen die gesellschaftliche Dimension des Verfahrens mit Leben."
+                "p6": "Die Fachkonferenz Teilgebiete, der Rat der Regionen und die Regionalkonferenzen ermöglichen die Mitwirkung der Bevölkerung. Sie füllen die gesellschaftliche Dimension des Verfahrens mit Leben.",
+                "p7": "Die <b>Fachkonferenz Teilgebiete</b> wird vom BfE einberufen, wenn in der ersten Phase des Verfahrens der Zwischenbericht erstellt wurde. Er listet mögliche Endlagerregionen in Deutschland auf, die übertägig erkundet werden. Dazu lädt die BGE in den ermittelten Teilgebieten die breite Öffentlichkeit ein. Sie stellt den Anwesenden die Ergebnisse des Zwischenberichtes vor. Anschließend erörtern die Teilnehmenden den Bericht und teilen ihre Beratungsergebnisse der BGE mit. Besprochen werden können auch die angewandten Kriterien <a>link auf Kriterien</a>, die zur Festlegung der Teilgebiete geführt haben. Die Beratungsergebnisse fließen in die Auswahl der übertägig zu erkundenden Regionen ein. Anschließend löst sich die Fachkonferenz Teilgebiete wieder auf.",
+                "p8": "Wenn die übertägige Erkundung beginnt, wird in jeder betroffenen Region eine <b>Regionalkonferenz</b> eingerichtet. Sie sind die unmittelbaren Anlaufstellen für die Beteiligung vor Ort. Jeder Bürger und jede Bürgerin über 16 Jahre kann an dieser Vollversammlung teilnehmen. In jeder Regionalkonferenz wird ein Vertretungskreis gewählt. Er organisiert die Aufgaben der Regionalkonferenz, unter anderem:",
+                "l2": [
+                    "die Begleitung des Endlagersuchverfahrens,",
+                    "die Erarbeitung von Stellungnahmen und Empfehlungen."
+                ],
+                "p9": "Außerdem verfügen die Regionalkonferenzen über ein wichtiges Kontrollinstrument: das Nachprüfrecht. Damit können Sie eine formale Überprüfung des Verfahrens verlangen. Wenn eine Region aus dem Verfahren ausscheidet, beendet auch die Regionalkonferenz ihre Arbeit.",
+                "p10": "Zwischen den Regionalkonferenzen soll ein inhaltlicher Austausch möglich sein. Daher wird es einen <b>Rat der Regionen</b> geben. Er bildet sich aus entsandten Vertretern aus jeder Regionalkonferenz und den Zwischenlagerstandorten."
             },
             "ending": {
                 "h1": "2031: Endlich ein Endlager gefunden!? Und nun?"

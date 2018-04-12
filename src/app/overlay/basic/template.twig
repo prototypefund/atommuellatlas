@@ -17,6 +17,12 @@
     {% if data.p2 %}<p>{{ data.p2 }}</p>{% endif %}
     {% if data.p3 %}<p>{{ data.p3 }}</p>{% endif %}
     {% if data.p4 %}<p>{{ data.p4 }}</p>{% endif %}
+    {% if data.p5 %}<p>{{ data.p5 }}</p>{% endif %}
+    {% if data.p6 %}<p>{{ data.p6 }}</p>{% endif %}
+    {% if data.p7 %}<p>{{ data.p7 }}</p>{% endif %}
+    {% if data.p8 %}<p>{{ data.p8 }}</p>{% endif %}
+    {% if data.p9 %}<p>{{ data.p9 }}</p>{% endif %}
+    {% if data.p10 %}<p>{{ data.p10 }}</p>{% endif %}
     {% if data.link %}<a target="_blank" href="{{ data.link }}">{{ data.label }}</a>{% endif %}
     {% if data.image and data.image.bottom %}
         <div class="image bottom" title="{{ data.h1 }}">
@@ -28,6 +34,36 @@
                 /
                 <a target="_blank" href="{{ data.image.href2 }}">{{ data.image.link2 }}</a>
                 <span> {{ data.image.label2 }}</span>
+            </p>
+        </div>
+    {% endif %}
+    {% if data.image2 %}
+        <div class="image bottom" title="{{ data.image2.title }}">
+            <img src="{{ data.image2.src }}" alt="{{ data.image2.title }}">
+            <p>{{ data.image2.title }}</p>
+            <p>
+                <span>{{ data.image2.label1 }} </span>
+                <a target="_blank" href="{{ data.image2.href1 }}">{{ data.image2.link1 }}</a>
+                /
+                <a target="_blank" href="{{ data.image2.href2 }}">{{ data.image2.link2 }}</a>
+                <span> {{ data.image2.label2 }}</span>
+            </p>
+        </div>
+    {% endif %}
+    {% if data.pp1 %}<p>{{ data.pp1 }}</p>{% endif %}
+    {% if data.pp2 %}<p>{{ data.pp2 }}</p>{% endif %}
+    {% if data.pp3 %}<p>{{ data.pp3 }}</p>{% endif %}
+    {% if data.pp4 %}<p>{{ data.pp4 }}</p>{% endif %}
+    {% if data.image3 %}
+        <div class="image bottom" title="{{ data.image3.title }}">
+            <img src="{{ data.image3.src }}" alt="{{ data.image3.title }}">
+            <p>{{ data.image3.title }}</p>
+            <p>
+                <span>{{ data.image3.label1 }} </span>
+                <a target="_blank" href="{{ data.image3.href1 }}">{{ data.image3.link1 }}</a>
+                /
+                <a target="_blank" href="{{ data.image3.href2 }}">{{ data.image3.link2 }}</a>
+                <span> {{ data.image3.label2 }}</span>
             </p>
         </div>
     {% endif %}
