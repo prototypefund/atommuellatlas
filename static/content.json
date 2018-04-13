@@ -549,14 +549,6 @@
                 {
                     "id": "rocksalt",
                     "label": "Rocksalt"
-                },
-                {
-                    "id": "rocksalt-jurassic",
-                    "label": "Rocksalt Jurassic"
-                },
-                {
-                    "id": "rocksalt-keuper",
-                    "label": "Rocksalt Keuper"
                 }
             ]
         }

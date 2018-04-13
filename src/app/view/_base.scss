@@ -6,7 +6,7 @@ body main section {
   // dynamic view styling
   max-width: $max-width;
   margin: 0 auto;
-  
+
   img, video {
     width: 100%;
     height: auto;
@@ -14,23 +14,23 @@ body main section {
     background-size: 100% auto;
     background-position: center center;
   }
-  
+
   ul {
     margin-bottom: 4em;
   }
-  
+
   .media {
     width: $max-width;
     margin: 3em 0 4em;
-    
+
     &-inline {
       width: 100%;
       font-size: 0.8em;
-      
+
       &-untitled {
         margin-bottom: 3em;
       }
-      
+
       > * {
         margin: 0;
       }
@@ -38,19 +38,23 @@ body main section {
       svg, img, video {
         margin-bottom: 0.5em;
       }
-      
+
       &.enlarge {
         margin-top: 4em;
         margin-bottom: 6em;
-        
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
         svg, img, video {
-          // TODO does not work fully on mobile, or desktop
-          //width: calc(100vw - 30%);
-          //transform: translateX(calc(290px - 50vw + 15%));
+          width: calc(90vw);
+          max-width: 1200px;
           height: auto;
-          
+
           margin-bottom: 1em;
-          
+
           text {
             font-size: 0.9em;
           }
@@ -58,7 +62,7 @@ body main section {
       }
     }
   }
-  
+
   .extra-info {
     cursor: pointer;
     width: 100%;
@@ -74,10 +78,10 @@ body main section {
         width: 6rem;
       }
     }
-      
+
     &.right {
       > * {
-        left: 106%;  
+        left: 106%;
       }
     }
 
@@ -91,5 +95,27 @@ body main section {
   .next-chapter {
     text-align: right;
     padding-top: 4rem;
+    
+    > * {
+      cursor: pointer;
+
+      &:hover {
+        color: $grey-dark;
+
+        svg * {
+          fill: $grey-dark;
+          stroke: $grey-dark;
+        }
+      }
+
+      &:active {
+        color: $black;
+
+        svg * {
+          fill: $black;
+          stroke: $black;
+        }
+      }
+    }
   }
 }

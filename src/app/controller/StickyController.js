@@ -24,7 +24,6 @@ export default class StickyController {
 
     onResize() {
         this.scrollTop = DomUtil.scrollOffset.top;
-        console.log("SCROLLTOP", this.scrollTop);
         this.height = window.innerHeight;
 
         this.targetRect = this.target.getBoundingClientRect();
@@ -64,7 +63,7 @@ export default class StickyController {
         // switch to sticky when this y reaches the target
         let diffLineTop = this.scrollTop + this.centeringOffset;
         let diffLineBottom = this.scrollTop + this.height - this.centeringOffset;
-console.log("...")
+        
         let isBelowTop = diffLineTop > this.targetRect.top;
         let isAboveBottom = this.parentRect.bottom > diffLineBottom;
 

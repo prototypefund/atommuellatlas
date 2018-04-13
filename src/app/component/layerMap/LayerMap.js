@@ -10,9 +10,10 @@ import style from '/app/component/layerMap/_style.scss';
 import map from 'assets/icons/germany.svg';
 import layerClay from 'assets/icons/layer_clay.svg';
 import layerGranite from 'assets/icons/layer_granite.svg';
-import layerRocksalt from 'assets/icons/layer_rocksalt.svg';
-import layerRocksaltJurassic from 'assets/icons/layer_rocksalt_jurassic.svg';
-import layerRocksaltKeuper from 'assets/icons/layer_rocksalt_keuper.svg';
+import layerRocksaltAll from 'assets/icons/layer_rocksalt_all.svg';
+//import layerRocksalt from 'assets/icons/layer_rocksalt.svg';
+//import layerRocksaltJurassic from 'assets/icons/layer_rocksalt_jurassic.svg';
+//import layerRocksaltKeuper from 'assets/icons/layer_rocksalt_keuper.svg';
 
 const CLASS_SHOW_BORDERS = "borders";
 const ATTRIBUTE_OVERLAY = "data-overlay";
@@ -24,7 +25,7 @@ export default class LayerMap extends BaseComponent {
         data.icon = {
             map: map,
             layers: [
-                layerClay, layerGranite, layerRocksalt, layerRocksaltJurassic, layerRocksaltKeuper
+                layerClay, layerGranite, layerRocksaltAll
             ]
         };
         super(template, style, data);
