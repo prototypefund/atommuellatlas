@@ -14,20 +14,20 @@
   h1, h2, h3, h4, h5 {
     margin: 0;
   }
-  
+
   h1 {
     padding: 4rem 0;
   }
-  
+
   h2 {
     padding: 4rem 0 1rem;
   }
-  
+
   p, a {
     margin-top: 1rem;
     margin-bottom: 0;
   }
-  
+
   &-view {
     margin: 10% auto 20px;
     //max-height: 80%;
@@ -38,9 +38,35 @@
     border-radius: 10px;
 
     background-color: $white;
-    
+
     :last-child {
       margin-bottom: 40px;
+    }
+  }
+
+  .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    svg * {
+      fill: $grey-dark;
+      stroke: $grey-dark;
+
+    }
+
+    &:hover {
+      svg * {
+        fill: $black;
+        stroke: $black;
+      }
+    }
+
+    &:active {
+      svg * {
+        fill: $grey-dark;
+        stroke: $grey-dark;
+      }
     }
   }
 }
