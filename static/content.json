@@ -215,16 +215,14 @@
             "p1": "Dabei argumentierten die Demonstranten immer wieder, dass die damalige Standortsuche sich nur auf Niedersachsen und das Wirtsgestein Salz beschränkte und keine vergleichenden geologischen Untersuchungen unternommen wurden. Auch heute noch wird unter Wissenschaftlern die geologische Eignung Gorlebens als Standort diskutiert. Zahlreiche Berichte weisen darauf hin, dass die damalige Wahl des Standortes vorwiegend politisch motiviert war."
         },
         "gorleben-2": {
-            "p1": "Der Protest aus Sicht eines Journalisten",
-            "link": {
-                "label": "Der Protest aus Sicht eines Journalisten",
-                "href": "http://www.bpb.de/gesellschaft/medien/lokaljournalismus/151506/praxis-wenn-der-castor-kommt"
-            }
+            "overlay": "dark",
+            "label": "Der Protest aus Sicht eines Journalisten",
+            "link": "http://www.bpb.de/gesellschaft/medien/lokaljournalismus/151506/praxis-wenn-der-castor-kommt"
         },
         "tschernobyl-1": {
             "overlay": "dark",
             "p1": "Bis heute gilt dieses Ereignis als bisher schwerster Unfall in der Geschichte der Kernenergie.",
-            "p2": "Bei der Simulation eines vollständigen Stromausfalles in Block 4 des Kernkraftwerkes Tschernobyl kam es im April 1986 zu einem sogenannten Super-GAU [LINK → Exkurs Super-GAU].  Die bewusste Missachtung zahlreicher Sicherheitsvorschriften und auch der baulichen Beschaffenheit des Kernreaktors führten zu einer Kernschmelze und mehreren Explosionen. Bis der Brand vollständig unter Kontrolle gebracht werden konnte, vergingen insgesamt 10 Tage. Während dieser Zeit wurden große Mengen an radioaktivem Material in die Atmosphäre geschleudert. Dieses Material verseuchte weite Teile Russlands, Weißrusslands und der Ukraine. Auch Skandinavien und Mitteleuropa waren vom Fallout betroffen."
+            "p2": "Bei der Simulation eines vollständigen Stromausfalles in Block 4 des Kernkraftwerkes Tschernobyl kam es im April 1986 zu einem sogenannten Super-GAU.  Die bewusste Missachtung zahlreicher Sicherheitsvorschriften und auch der baulichen Beschaffenheit des Kernreaktors führten zu einer Kernschmelze und mehreren Explosionen. Bis der Brand vollständig unter Kontrolle gebracht werden konnte, vergingen insgesamt 10 Tage. Während dieser Zeit wurden große Mengen an radioaktivem Material in die Atmosphäre geschleudert. Dieses Material verseuchte weite Teile Russlands, Weißrusslands und der Ukraine. Auch Skandinavien und Mitteleuropa waren vom Fallout betroffen."
         },
         "tschernobyl-2": {
             "overlay": "dark",
@@ -235,6 +233,10 @@
             "p1": "Der Begriff GAU (Größter Anzunehmender Unfall) bezeichnet ursprünglich einen Auslegungsstörfall in einem Kernkraftwerk, für dessen Beherrschung die Sicherheitssysteme noch ausgelegt sein müssen. Ein Super-GAU ist gemäß seines lateinischen Wortursprunges ein übertroffener GAU: also ein auslegungsüberschreitender Störfall. Die Folgen können verheerend sein."
         },
         "fukushima-1": {
+            "overlay": "dark",
+            "p1": "Als Erneuerbare Energien werden Energieträger bezeichnet, die praktisch unerschöpflich zur Verfügung stehen. Demgegenüber stehen die endlichen fossilen Energiequellen wie z. B. Kohle oder Erdöl. Bei der Umwandlung in sekundäre Energieträger (Wärme, Elektrizität) erzeugen regenerative Energien kaum CO2. Beispiele für erneuerbare Energien sind Sonnenenergie, Windenergie oder Wasserkraft."
+        },
+        "fukushima-2": {
             "overlay": "dark",
             "image": {
                 "src": "assets/images/fukushima-atommuell-gp0strdek.jpg",
@@ -247,10 +249,6 @@
                 "label2": ""
             },
             "p1": "Fast 7 Jahre nach der Reaktorkatastrophe in Fukushima stapeln sich in der japanischen Region heute unzählige schwarze Plastiksäcke mit radioaktivem Abfall. Um das Gebiet zu dekontaminieren wurde massenweise Boden abgetragen, der irgendwo untergebracht werden musste. Insgesamt lagern 8,4 Millionen Kubikmeter (60 Millionen volle Badewannen) kontaminierter Müll in über 140.000 mehr als provisorischen Atomlagern: Im Wald, auf Wiesen, an Straßenrändern. Die japanische Regierung ist bestrebt der internationalen Staatengemeinschaft den Schein von Kontrolle und Normalität wiederzubeleben und will die Wiederbesiedlung vorantreiben. Die betroffenen Anwohner leiden; die UN prüft aktuell, ob es sich bei der Wiederansiedlung um ein Verbrechen gegen die UN-Menschenrechtsprinzipien handelt."
-        },
-        "fukushima-2": {
-            "overlay": "dark",
-            "p1": "Als Erneuerbare Energien werden Energieträger bezeichnet, die praktisch unerschöpflich zur Verfügung stehen. Demgegenüber stehen die endlichen fossilen Energiequellen wie z. B. Kohle oder Erdöl. Bei der Umwandlung in sekundäre Energieträger (Wärme, Elektrizität) erzeugen regenerative Energien kaum CO2. Beispiele für erneuerbare Energien sind Sonnenenergie, Windenergie oder Wasserkraft."
         },
         "castor": {
             "overlay": "basic",
@@ -465,7 +463,7 @@
                 "label": "Gorleben - eine politische Entscheidung"
             },
             "gorleben-2": {
-                "overlay": "gorleben-3",
+                "overlay": "gorleben-2",
                 "label": "Der Protest aus Sicht eines Journalisten"
             },
             "tschernobyl-1": {
@@ -514,7 +512,7 @@
             },
             "ocean": {
                 "overlay": "ocean",
-                "label": "Oceane"
+                "label": "Ozeane"
             },
             "tellerand": {
                 "overlay": "tellerand",
@@ -540,15 +538,15 @@
             "layers": [
                 {
                     "id": "clay",
-                    "label": "Clay"
+                    "label": "Tongestein"
                 },
                 {
                     "id": "granite",
-                    "label": "Granite"
+                    "label": "Granit"
                 },
                 {
                     "id": "rocksalt",
-                    "label": "Rocksalt"
+                    "label": "Steinsalz"
                 }
             ]
         }
@@ -711,7 +709,7 @@
                 "p1": "Ernest Rutherford unterschied Radioaktivität in verschiedene Strahlentypen. Zudem erkannte er, dass die Atome aus schweren Kernen bestehen und einer vergleichsweise großen, leichten Hülle - das Rutherfordsche Atommodell war geboren."
             },
             "chainreaction": {
-                "h1": "1930er - eine Kettenreaction",
+                "h1": "1930er - eine Kettenreaktion",
                 "p1": "Radioaktive Substanzen wurden auf Basis dieser Grundlagen zum beliebten Forschungsobjekt. Mit der Entdeckung der induzierten Kernspaltung von Uran gelang Otto Hahn und Fritz Straßmann 1938 ein Meilenstein in der Erforschung der Radioaktivität.",
                 "p2": "Marie Curies Tochter Irène und ihr Mann Frédéric haben daraufhin nachgewiesen, dass eine Kettenreaktion der Kernspaltung möglich ist. Dieser Nachweis der Kettenreaktion machte erstmals deutlich, wie Kernspaltung praktisch nutzbar ist."
             },
@@ -1396,8 +1394,8 @@
             "components": {
                 "viewButton": {
                     "target": "future",
-                    "label": "Zum Zukunft",
-                    "ariaLabel": "Zum Zukunft"
+                    "label": "In die Zukunft",
+                    "ariaLabel": "In die Zukunft"
                 }
             }
         },
@@ -1419,8 +1417,7 @@
                     "link2": "",
                     "href1": "",
                     "href2": ""
-                },
-                "p4": "Gesehen auf diese enorme Zeitspanne fällt der Anfang und das Ende der Atomenergie-Nutzung in Deutschland auf den selben Moment. Doch was wird in einer Million Jahren sein? Welche Lebewesen bevölkern dann die Erde?"
+                }
             },
             "warning": {
                 "h1": "Warnung an Lebewesen in 100.000 Jahren",
