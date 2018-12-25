@@ -331,6 +331,13 @@
             "overlay": "basic",
             "p1": "<p>Bereits seit den 1940er Jahren wurden radioaktive Abfälle in Meeren mit Verweis auf die Verdünnungswirkung großer Wassermassen entsorgt. Dabei wurde der radioaktive Abfall wahlweise nur im Meer versenkt oder auch auf dem Meeresboden vergraben. Die Kritik war vielfältig:</p><ul><li>Zweifel an der technischen Sicherheit.</li><li>Sollte sich die Entsorgung im Meer als falsch erweisen, wäre es nicht möglich, die versenkten Abfälle zu bergen (mangelnde Möglichkeiten zur Fehlerkorrektur).</li><li>Möglichkeit, dass radioaktive Stoffe in Nahrungsketten gelangen</li></ul><p>Im Jahr 1975 führte die London Dumping Convention schließlich zum internationalen Verbot für die Versenkung von radioaktivem Abfall auf oder in den Meeresgrund.</p>"
         },
+        "invalidRegions": {
+            "overlay": "basic",
+            "p2": "Regionen, in denen starke <b>Erhebungen des Gesteins</b> oder <b>Gesteinsverschiebungen</b> zu erwarten sind, werden ausgeschlossen. Wegen des langen Zeitraums von einer Million Jahren reichen dabei bereits geringe Bewegungen von wenigen Millimetern jährlich aus, um die Region langfristig stark zu verändern.",
+            "p3": "Regionen mit starken aktuellen oder vergangenen <b>Bergbauarbeiten</b> können aus dem Verfahren fallen. Die Entscheidung ist abhängig davon, ob die Bohrungen die Stabilität des zukünftigen Endlagers bedrohen.",
+            "p4": "Gebiete mit stärkeren <b>Erdbebenaktivitäten</b> oder <b>Vulkanismus</b> kommen für ein Endlager nicht infrage.",
+            "p5": "Auch größere <b>Siedlungsgebiete</b> wie Städte werden aus dem Verfahren ausgeschlossen."
+        },
         "tellerand": {
             "overlay": "basic",
             "p1": "Derzeit werden in rund 30 Staaten Atomkraftwerke betrieben. Dabei sind nach groben Schätzungen weltweit bisher mehr als 360.000 Tonnen hochradioaktiver Müll entstanden. Wie auch in Deutschland wird andernorts nach dem besten Ort für ein Endlager gesucht. Besonders die Endlagerung unter der Erde wird erforscht. Dennoch gibt es erhebliche Unterschiede. Dies zeigen die nachfolgenden Beispiele aus einigen europäischen Ländern. Es betrifft die Einschätzung hinsichtlich des geeigneten Wirtsgesteins, den Stand der Endlagersuche und auch den Einbezug der Bevölkerung. Die beiden skandinavischen Staaten Finnland und Schweden sind international Wegbereiter bei der Suche nach einem Endlager für hochradioaktiven Abfall. In Finnland soll bereits 2023 das weltweit erste Endlager für hochradioaktive Abfälle entstehen. Bei einer geplanten Laufzeit von 100.000 bis hin zu einer Million Jahren sollen im Tiefenlager „Onkalo“ (kleine Höhle) ca. 6.000 Tonnen hochradioaktiver Müll endgelagert werden. Die Endlagerung erfolgt in Kristallingestein. Auch im Nachbarland Schweden hat man sich auf das Wirtsgestein Kristallin festgelegt. In der kleinen Gemeinde Östhammer soll ab 2022 ein Endlager entstehen. Bemerkenswert ist, dass es in beiden Ländern gelang, eine breite Akzeptanz für die Endlagerung aufzubauen. In Schweden haben sich sogar einige Gemeinden aktiv in einem nationalen Verfahren als Standort beworben.",
@@ -514,6 +521,10 @@
                 "overlay": "ocean",
                 "label": "Ozeane"
             },
+            "invalidRegions": {
+                "overlay": "invalidRegions",
+                "label": "Ungeeignete Regionen"
+            },
             "tellerand": {
                 "overlay": "tellerand",
                 "label": "Der Blick über den nationalen Tellerrand"
@@ -685,8 +696,8 @@
             "components": {
                 "viewButton": {
                     "target": "history",
-                    "label": "Zum Zeitreise",
-                    "ariaLabel": "Zum Zeitreise"
+                    "label": "Zur Zeitreise",
+                    "ariaLabel": "Zur Zeitreise"
                 }
             }
         },
@@ -785,7 +796,7 @@
                 "viewButton": {
                     "target": "search",
                     "label": "Wie geht es weiter?",
-                    "ariaLabel": "Zum Die Suche"
+                    "ariaLabel": "Zur Suche"
                 },
                 "fullScreenImage": {
                     "gradient": "linear-gradient(to right, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 25%, rgba(0,0,0,0.2) 75%, rgba(0,0,0,0.6) 100%);",
@@ -1196,13 +1207,9 @@
                 "p5": "Etliche Schwierigkeiten müssen beim Bau und Betrieb eines Endlagers bewältigt werden. Um unerwartete Entwicklungen auch nachträglich noch berücksichtigen zu können, werden besondere Anforderungen an das Endlager gestellt: Der Atommüll soll noch bis zu 500 Jahre nach Verschluss wieder aus dem Bergwerk geholt werden können. Das könnte beispielsweise der Fall sein, wenn in Zukunft geeignetere Lagerstätten gefunden werden."
             },
             "whatIsWhere": {
-                "p1": "Am Anfang des Auswahlverfahrens steht eine <b>„weiße Landkarte“</b>. Das heißt, alle geographischen Regionen in Deutschland werden zunächst gleichermaßen als möglicher Endlagerstandort angesehen. Anhand vieler Kriterien werden nun schrittweise ungeeignete Regionen aus dem Verfahren genommen. Am Schluss verbleibt nur noch ein Standort mit der bestmöglichen Sicherheit. Einige der Kriterien sind in der Karte dargestellt.",
-                "p2": "Regionen, in denen starke <b>Erhebungen des Gesteins</b> oder <b>Gesteinsverschiebungen</b> zu erwarten sind, werden ausgeschlossen. Wegen des langen Zeitraums von einer Million Jahren reichen dabei bereits geringe Bewegungen von wenigen Millimetern jährlich aus, um die Region langfristig stark zu verändern.",
-                "p3": "Regionen mit starken aktuellen oder vergangenen <b>Bergbauarbeiten</b> können aus dem Verfahren fallen. Die Entscheidung ist abhängig davon, ob die Bohrungen die Stabilität des zukünftigen Endlagers bedrohen.",
-                "p4": "Gebiete mit stärkeren <b>Erdbebenaktivitäten</b> oder <b>Vulkanismus</b> kommen für ein Endlager nicht infrage.",
-                "p5": "Auch größere <b>Siedlungsgebiete</b> wie Städte werden aus dem Verfahren ausgeschlossen.",
-                "p6": "Aufgrund unpassender Beschaffenheit im Untergrund entfallen viele Gebiete Deutschlands für ein Endlager. Nur drei Gesteinsarten kommen in Frage…",
-                "p7": "<b>Tongestein</b> ist kaum wasserdurchlässig und nicht wasserlöslich. Dafür ist Ton weniger hitzebeständig als Salz bzw. Kristallin und könnte durch die Wärme der radioaktiven Abfälle beschädigt werden. Die Abfallbehälter müssten aus diesem Grund in einem größeren Abstand voneinander aufgestellt werden und das Endlager daher größer sein.",
+                "p1": "Am Anfang des Auswahlverfahrens steht eine <b>„weiße Landkarte“</b>. Das heißt, alle geographischen Regionen in Deutschland werden zunächst gleichermaßen als möglicher Endlagerstandort angesehen. Anhand vieler Kriterien werden nun schrittweise ungeeignete Regionen aus dem Verfahren genommen. Am Schluss verbleibt nur noch ein Standort mit der bestmöglichen Sicherheit.",
+                "p2": "Aufgrund unpassender Beschaffenheit im Untergrund entfallen viele Gebiete Deutschlands für ein Endlager. Nur drei Gesteinsarten kommen in Frage…",
+                "p3": "<b>Tongestein</b> ist kaum wasserdurchlässig und nicht wasserlöslich. Dafür ist Ton weniger hitzebeständig als Salz bzw. Kristallin und könnte durch die Wärme der radioaktiven Abfälle beschädigt werden. Die Abfallbehälter müssten aus diesem Grund in einem größeren Abstand voneinander aufgestellt werden und das Endlager daher größer sein.",
                 "tungsten": {
                     "src": "assets/images/Tongestein_ausschnitt.png",
                     "title": "Schwarzes Tongestein. Die Farbe des Tongesteins ist abhängig von seiner jeweiligen Zusammensetzung.",
@@ -1213,7 +1220,7 @@
                     "href1": "https://commons.wikimedia.org/wiki/File:Limestone_on_shale.jpg",
                     "href2": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                 },
-                "p8": "<b>Kristallin - z.B. Granit</b> - ist sehr fest, kaum wasserlöslich und äußerst hitzebeständig. Allerdings neigt es zu Rissen. Durch diese könnte Wasser in das Endlager eindringen und gefährliche Stoffe nach außen gelangen. <a target=\"_blank\" href=\"http://www.deutschlandfunkkultur.de/atommuell-schweden-auf-endlager-suche.2165.de.html?dram:article_id=340884\" title=\"http://www.deutschlandfunkkultur.de/atommuell-schweden-auf-endlager-suche.2165.de.html?dram:article_id=340884\">Kritiker bezweifeln</a> außerdem, dass die zum Einsatz kommenden Kupferbehälter langfristig sicher sind. Zusätzlich bräuchte es eine Schutzschicht aus Bentonit gegen eindringendes Wasser.",
+                "p4": "<b>Kristallin - z.B. Granit</b> - ist sehr fest, kaum wasserlöslich und äußerst hitzebeständig. Allerdings neigt es zu Rissen. Durch diese könnte Wasser in das Endlager eindringen und gefährliche Stoffe nach außen gelangen. <a target=\"_blank\" href=\"http://www.deutschlandfunkkultur.de/atommuell-schweden-auf-endlager-suche.2165.de.html?dram:article_id=340884\" title=\"http://www.deutschlandfunkkultur.de/atommuell-schweden-auf-endlager-suche.2165.de.html?dram:article_id=340884\">Kritiker bezweifeln</a> außerdem, dass die zum Einsatz kommenden Kupferbehälter langfristig sicher sind. Zusätzlich bräuchte es eine Schutzschicht aus Bentonit gegen eindringendes Wasser.",
                 "granit": {
                     "src": "assets/images/Granit.jpg",
                     "title": "Granit",
@@ -1224,7 +1231,7 @@
                     "href1": "https://www.flickr.com/photos/walkercarpenter/4698240864/in/photolist-8aaHjQ-WazdvG-5kJa8w-5FCVGw-oqZ9p3-bZYrTN-ape4x3-99At8x-7Nwmsy-4duYeY-4APCgB-psHMKv-9nLCVX-f6eK7-5Abnaw-4rPo4v-apdZ8w-53xZnC-4dqZkt-f6fj4-atAdcV-edHrYy-bZYqZY-WacaZ-4duZ1u-81L8JY-4y3H5q-qhHhe-6yVLXd-9ckXsx-5aLZu-qMTRU-aqGyPd-2BK19V-9ZUSk-a43WRT-bfvwze-7ZRNU2-i6ynMS-bZYcjA-diExN6-6v13SD-7gkS1z-ekTXLa-apdTgq-5QAY45-psGarN-BjmZ7t-psHLmZ-6rYd38",
                     "href2": "https://creativecommons.org/licenses/by/2.0/"
                 },
-                "p9": "<b>Steinsalz</b> zeichnet sich durch gute Wärmeleitfähigkeit aus. Es ist wie Ton beweglich, wodurch es die Abfallbehälter in einem Endlager sehr gut umschließen würde. Aufgrund seiner Wasserlöslichkeit muss die Gefahr von eindringendem Wasser ausgeschlossen werden.",
+                "p5": "<b>Steinsalz</b> zeichnet sich durch gute Wärmeleitfähigkeit aus. Es ist wie Ton beweglich, wodurch es die Abfallbehälter in einem Endlager sehr gut umschließen würde. Aufgrund seiner Wasserlöslichkeit muss die Gefahr von eindringendem Wasser ausgeschlossen werden.",
                 "salt": {
                     "src": "assets/images/Salzgestein.jpg",
                     "title": "Salzgestein",
@@ -1281,7 +1288,7 @@
             "description": "Du möchtest mitreden, wo der Müll (nicht) hin soll? Geht das?",
             "participate": {
                 "h1": "Die Endlagersuche mitgestalten",
-                "p1": "Atome sind eine kleine Einheit unserer Materie und gleichzeitig die Bausteine chemischer Elemente wie z.B. Kohlenstoff. Sie sind so klein, dass man sie mit dem menschlichen Auge nicht erfassen kann. Erst wenn man etwa 10 Millionen Atome nebeneinander aufreiht, ergibt sich 1 Millimeter. Jedes Atom besteht aus einem winzigen Atomkern und einer vergleichsweise riesigen Hülle.",
+                "p1": "Die Suche nach einem Standort zur Lagerung hochradioaktiver Abfälle wird langwierig und konfliktreich. Wohl niemand möchte, dass unweit seines Wohnortes gefährliche Abfälle gelagert werden. Groß ist die Angst um die eigene Gesundheit. Was passiert mir, wenn es zu einem Unfall bei der Einlagerung der strahlenden Abfälle oder beim Betrieb des Endlagers kommt? Hinzukommen weitere Befürchtungen - allen voran die Sorge, dass die eigenen Immobilien an Wert verlieren.",
                 "p2": "Allerdings gibt es auch Gegenbeispiele aus anderen Ländern. Mancherorts steht die örtliche Bevölkerung der Nutzung und Einlagerung radioaktiver Stoffe in ihrer Region weniger ablehnend gegenüber. In Anlehnung an die bekannte Serie Simpsons spricht man hier vom \"Springfield Syndrom\". Menschen in diesen Regionen haben über lange Zeit einen starken Bezug zur Atomenergie aufgebaut. Teilweise ist das örtliche Atomkraftwerk wichtigster Arbeitgeber. Durch den vertrauten Umgang mit der Atomenergie werden Gefahrenpotenziale geringer eingeschätzt und die Vorteile hervorgehoben.",
                 "p3": "Ein solches Beispiel stellt die Gemeinde Östhammar in Schweden dar, <a href=\"https://www.zdf.de/nachrichten/heute-in-europa/endlager-schweden-100.html\" title=\"https://www.zdf.de/nachrichten/heute-in-europa/endlager-schweden-100.html\" target=\"_blank\">wie dieses Video zeigt</a>. Dort befindet sich das stillgelegte Atomkraftwerk Forsmarsk. Es war der größte Arbeitgeber in der Region. Allerdings wurde es wegen Sicherheitsmängeln abgeschaltet. Durch den Bau des Endlagers ab 2022 erhoffen sich die Menschen vor Ort nun neue Arbeitsplätze und finanzielle Unterstützung durch den Staat.",
                 "simpsons": {
